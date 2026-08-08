@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+networkx>=3.2
+manim>=0.18  # optional: only needed to render the evolution videos
