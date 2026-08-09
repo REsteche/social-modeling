@@ -11,10 +11,13 @@ Outputs:
     results/exp6b_nscaling.json
 """
 
+import json
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from common import save_fig, save_json, run_parallel
+from common import save_fig, save_json, run_parallel, RESULTS_DIR
 from socialsim import ModelParams, run_simulation
 
 PLATFORMS = ["similarity", "neutral", "controversy"]
@@ -48,12 +51,18 @@ def run_one(job):
 
 
 def main():
-    jobs = [(eng, n, seed) for n in NS for eng in PLATFORMS
-            for seed in range(SEEDS_BY_N[n])]
-    rows = run_parallel(run_one, jobs, chunksize=1)
-    save_json(rows, "exp6b_nscaling")
+    data_file = RESULTS_DIR / "exp6b_nscaling.json"
+    if "--replot" in sys.argv and data_file.exists():
+        rows = json.loads(data_file.read_text())
+    else:
+        jobs = [(eng, n, seed) for n in NS for eng in PLATFORMS
+                for seed in range(SEEDS_BY_N[n])]
+        rows = run_parallel(run_one, jobs, chunksize=1)
+        save_json(rows, "exp6b_nscaling")
 
-    fig, axes = plt.subplots(1, 2, figsize=(7.4, 2.7), layout="constrained")
+    # single-column, vertically stacked (APS style)
+    fig, axes = plt.subplots(2, 1, figsize=(3.4, 4.6), sharex=True,
+                             layout="constrained")
     for ax, key, label in [(axes[0], "polarization", "polarization Var$(x)$"),
                            (axes[1], "extremism",
                             "extremism $\\langle|x|\\rangle$")]:
@@ -67,8 +76,8 @@ def main():
             ax.errorbar(NS, means, yerr=stds, fmt="o-", ms=3.5, lw=1,
                         capsize=2, color=COLORS[eng], label=LABELS[eng])
         ax.set_xscale("log")
-        ax.set_xlabel("system size $N$ (constant density)")
         ax.set_ylabel(label)
+    axes[1].set_xlabel("system size $N$ (constant density)")
     axes[0].legend(frameon=False, fontsize=7)
     save_fig(fig, "fig6b_nscaling")
 

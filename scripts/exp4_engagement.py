@@ -40,10 +40,10 @@ def make_params(engagement, seed):
 
 
 def main():
-    # --- schematic of the kernels
+    # --- schematic of the kernels (single-column, vertically stacked)
     p = make_params("controversy", 0)
     d = np.linspace(0, 2, 400)
-    fig, axes = plt.subplots(1, 2, figsize=(7.0, 2.4))
+    fig, axes = plt.subplots(2, 1, figsize=(3.3, 4.4))
     for eng, style in [("similarity", "-"), ("neutral", "--"),
                        ("controversy", "-.")]:
         pk = make_params(eng, 0)
@@ -63,6 +63,7 @@ def main():
     axes[1].text(p.eps1 / 2, 0.12, "assimilate", ha="center", fontsize=7)
     axes[1].text((p.eps1 + p.eps2) / 2, 0.12, "ignore", ha="center", fontsize=7)
     axes[1].text(1.45, -0.3, "repel", ha="center", fontsize=7)
+    fig.tight_layout()
     save_fig(fig, "fig4b_kernels")
 
     # --- simulations (with --replot, statistics are loaded from the saved

@@ -9,10 +9,14 @@ Outputs:
     results/exp1_mobility.json
 """
 
+import json
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from common import save_fig, save_json, plot_trajectories, plot_spatial
+from common import (save_fig, save_json, plot_trajectories, plot_spatial,
+                    RESULTS_DIR)
 from socialsim import ModelParams, run_simulation, metrics
 
 D_PANELS = [1e-5, 1e-3, 1e-2, 1e-1]
@@ -44,29 +48,35 @@ def main():
     save_fig(fig, "fig1_mobility")
 
     # --- quantitative sweep over D
-    rows = []
-    for D in D_SWEEP:
-        for seed in SEEDS:
-            traj = run_simulation(make_params(D, seed))
-            m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, ELL)
-            rows.append({"D": D, "seed": seed, **{k: m[k] for k in
-                        ("polarization", "n_clusters", "morans_I", "state")}})
-    save_json(rows, "exp1_mobility")
+    data_file = RESULTS_DIR / "exp1_mobility.json"
+    if "--replot" in sys.argv and data_file.exists():
+        rows = json.loads(data_file.read_text())
+    else:
+        rows = []
+        for D in D_SWEEP:
+            for seed in SEEDS:
+                traj = run_simulation(make_params(D, seed))
+                m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, ELL)
+                rows.append({"D": D, "seed": seed, **{k: m[k] for k in
+                            ("polarization", "n_clusters", "morans_I",
+                             "state")}})
+        save_json(rows, "exp1_mobility")
 
     Ds = np.array([r["D"] for r in rows])
     nc = np.array([r["n_clusters"] for r in rows], dtype=float)
     mi = np.array([r["morans_I"] for r in rows], dtype=float)
 
-    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.6))
-    for ax, vals, label in [(axes[0], nc, "number of opinion clusters $n_c$"),
-                            (axes[1], mi, "spatial correlation (Moran's $I$)")]:
+    # single-column, vertically stacked (APS style)
+    fig, axes = plt.subplots(2, 1, figsize=(3.4, 4.4), sharex=True)
+    for ax, vals, label in [(axes[0], nc, "opinion clusters $n_c$"),
+                            (axes[1], mi, "Moran's $I$")]:
         means = [vals[Ds == D].mean() for D in D_SWEEP]
         stds = [vals[Ds == D].std() for D in D_SWEEP]
         ax.errorbar(D_SWEEP, means, yerr=stds, fmt="o-", ms=3.5, lw=1,
                     capsize=2, color="#33507a")
         ax.set_xscale("log")
-        ax.set_xlabel("diffusion coefficient $D$")
         ax.set_ylabel(label)
+    axes[1].set_xlabel("diffusion coefficient $D$")
     save_fig(fig, "fig1b_mobility_sweep")
 
 
