@@ -78,7 +78,10 @@ def main():
         ax.set_xscale("log")
         ax.set_ylabel(label)
     axes[1].set_xlabel("system size $N$ (constant density)")
-    axes[0].legend(frameon=False, fontsize=7)
+    # single row above the top panel, outside the plot area
+    axes[0].legend(frameon=False, fontsize=6.5, loc="lower left",
+                   bbox_to_anchor=(-0.02, 1.03), ncols=3,
+                   columnspacing=0.8, handlelength=1.2, handletextpad=0.4)
     save_fig(fig, "fig6b_nscaling")
 
 
