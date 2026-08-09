@@ -183,7 +183,7 @@ inversion predictable rather than merely observable.
   the cluster count $n_c$ and Moran's $I$ of the single realisation shown;
   individual-run values of $I$ fluctuate around a zero ensemble mean
   (s.d.\ $\approx 0.13$ across seeds, single-run extremes up to
-  $|I| \approx 0.3$; Fig.~\ref{fig:mobilitysweep}). Low mobility freezes many coexisting
+  $|I| \approx 0.35$; Fig.~\ref{fig:mobilitysweep}). Low mobility freezes many coexisting
   clusters; high mobility recovers the mean-field bounded-confidence
   outcome. Note the absence of spatial colour domains at any $D$.}
   \label{fig:mobility}
@@ -260,7 +260,7 @@ The influence function has the assimilation--indifference--repulsion form
   \end{cases}
   \label{eq:influence}
 \end{equation}
-with the repulsive branch ($\eta > 0$) active at Levels 4--5; at Levels
+with the repulsive branch ($\eta > 0$) active at Level 4; at Levels
 2--3, $F$ reduces to bounded confidence with threshold
 $\epsilon_1 = \epsilon$. This three-zone form descends from
 social-judgment-theory models \citep{jager2005, kurmyshev2011}. The
@@ -332,7 +332,8 @@ The model is built in five nested levels: (1) Brownian motion + bounded
 confidence; (2) static opinion-neutral digital links; (3) adaptive
 similarity-driven rewiring; (4) general engagement kernels + repulsion +
 heavy-tailed influence strengths (optional stubborn agents
-\citep{tian2018}); (5) homophilic mobility $\chi > 0$. Influence
+\citep{tian2018}); (5) homophilic mobility $\chi > 0$ added to the purely
+physical model of Level 1. Influence
 strengths are drawn as $s_i = 1 + z_i$ with $z_i$
 Lomax-distributed---density tail $p(s) \sim s^{-\kappa}$, i.e.\ survival
 exponent $\kappa - 1$---and normalised to unit mean per realisation. At
@@ -514,8 +515,8 @@ times severalfold longer than $78.2/\lambda$, so the true kinetic
 protection is even stronger than the tabulated crossover suggests. For
 the controversy kernel, $p(y)$ collapses as $2y \to 2$
 (Sec.~\ref{sec:twobloc}), so $t_{\mathrm{rad}}$ measures the fast approach
-to the arrest plateau rather than to the boundary itself, which is never
-reached.
+to the arrest plateau rather than to the boundary itself, which is not
+reached on any accessible horizon.
 
 \begin{table}[!t]
   \caption{Two-bloc rate analysis, Eqs.~\eqref{eq:p} and
@@ -699,9 +700,10 @@ chambers---whereas both curated platforms end almost perfectly assortative
 Figure~\ref{fig:robustness} tests the ordering across the repulsion and
 curation parameters. Across the full $(\eta, \epsilon_2)$ grid the order
 neutral $\ge$ controversy $>$ similarity holds in the mean at every grid
-point---resolved by $3$--$10$ standard deviations everywhere except the
-weakest-repulsion corner ($\epsilon_2 = 1.3$), where the
-controversy--similarity gap lies within the seed spread; all platforms
+point---resolved by up to $\sim 8$ standard deviations at strong
+repulsion, with the gaps narrowing as $\epsilon_2$ grows until the
+controversy--similarity gap falls within the seed spread at
+$\epsilon_2 = 1.3$; all platforms
 polarize less as $\epsilon_2$ grows (repulsion becomes harder to trigger)
 and more as $\eta$ grows. The two curated platforms interpolate toward the
 neutral level in exactly the way the theory predicts. The similarity
@@ -743,7 +745,8 @@ particular. The neutral and controversy platforms jump to their saturated
 values already at $\lambda \approx 0.05$, consistent with
 $\lambda_c \approx 0.01$--$0.02$ and inconsistent with the naive uniform-state
 thresholds ($0.34$, $0.55$); their curves are essentially independent of
-system size (centre panel), as expected for a finite-horizon crossover
+system size (centre panel, shown for the neutral platform), as expected
+for a finite-horizon crossover
 rather than a phase transition. The similarity platform grows smoothly
 along $\lambda$ toward a partial radicalization, consistent with
 $t_{\mathrm{rad}} \approx 78/\lambda$ against the horizon $T = 80$; its
@@ -773,7 +776,7 @@ still owns.
 \subsection{Geography: a null result and its repair (Levels 1 and 5)}
 \label{sec:geography}
 
-The second panel of Fig.~\ref{fig:mobilitysweep} contains a null result
+The bottom panel of Fig.~\ref{fig:mobilitysweep} contains a null result
 that qualifies a common intuition. Moran's $I$---and the local agreement
 gap---never departs from noise level, \emph{even in the frozen regime
 where interactions are strictly local}. The first-order part of this
