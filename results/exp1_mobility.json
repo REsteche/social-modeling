@@ -2,529 +2,529 @@
   {
     "D": 1e-05,
     "seed": 0,
-    "polarization": 0.27517589474293674,
+    "polarization": 0.2751718525812209,
     "n_clusters": 5,
-    "morans_I": -0.01687312080925361,
+    "morans_I": -0.016852240420113213,
     "state": "fragmentation"
   },
   {
     "D": 1e-05,
     "seed": 1,
-    "polarization": 0.30895482039082467,
+    "polarization": 0.30861955813446346,
     "n_clusters": 9,
-    "morans_I": -0.2599927422208086,
+    "morans_I": -0.25892092345545503,
     "state": "fragmentation"
   },
   {
     "D": 1e-05,
     "seed": 2,
-    "polarization": 0.3421235640537424,
+    "polarization": 0.3421439695414011,
     "n_clusters": 9,
-    "morans_I": 0.12143248440882455,
+    "morans_I": 0.1215531502479224,
     "state": "fragmentation"
   },
   {
     "D": 1e-05,
     "seed": 3,
-    "polarization": 0.32708588266805677,
+    "polarization": 0.3270811873823975,
     "n_clusters": 5,
-    "morans_I": -0.07313919394903037,
+    "morans_I": -0.07314919039322965,
     "state": "fragmentation"
   },
   {
     "D": 1e-05,
     "seed": 4,
-    "polarization": 0.3219249797256677,
+    "polarization": 0.3222782696382126,
     "n_clusters": 3,
-    "morans_I": 0.08531846791896573,
+    "morans_I": 0.0859092076088394,
     "state": "fragmentation"
   },
   {
     "D": 1e-05,
     "seed": 5,
-    "polarization": 0.3062184406059826,
+    "polarization": 0.3061779023424048,
     "n_clusters": 9,
-    "morans_I": 0.3418230151640754,
+    "morans_I": 0.3417387158029059,
     "state": "fragmentation"
   },
   {
     "D": 3.1622776601683795e-05,
     "seed": 0,
-    "polarization": 0.271244819533874,
+    "polarization": 0.27122547399948577,
     "n_clusters": 8,
-    "morans_I": 0.3077617904092797,
+    "morans_I": 0.30783111692095555,
     "state": "fragmentation"
   },
   {
     "D": 3.1622776601683795e-05,
     "seed": 1,
-    "polarization": 0.2995949693377443,
+    "polarization": 0.2995819748830642,
     "n_clusters": 7,
-    "morans_I": -0.06553441468632629,
+    "morans_I": -0.0656069468805397,
     "state": "fragmentation"
   },
   {
     "D": 3.1622776601683795e-05,
     "seed": 2,
-    "polarization": 0.3355223380766599,
+    "polarization": 0.33549020890525383,
     "n_clusters": 7,
-    "morans_I": 0.12752967258514558,
+    "morans_I": 0.12761624688281203,
     "state": "fragmentation"
   },
   {
     "D": 3.1622776601683795e-05,
     "seed": 3,
-    "polarization": 0.32264456125299085,
+    "polarization": 0.3226146856329249,
     "n_clusters": 5,
-    "morans_I": -0.05602151769254152,
+    "morans_I": -0.05601913029894327,
     "state": "fragmentation"
   },
   {
     "D": 3.1622776601683795e-05,
     "seed": 4,
-    "polarization": 0.31839221485477975,
+    "polarization": 0.31913355837209617,
     "n_clusters": 8,
-    "morans_I": 0.15816929409688138,
+    "morans_I": 0.16299900856113805,
     "state": "fragmentation"
   },
   {
     "D": 3.1622776601683795e-05,
     "seed": 5,
-    "polarization": 0.3020662378082791,
+    "polarization": 0.3020379174519012,
     "n_clusters": 10,
-    "morans_I": 0.17858006076618055,
+    "morans_I": 0.17872502534045462,
     "state": "fragmentation"
   },
   {
     "D": 0.0001,
     "seed": 0,
-    "polarization": 0.24905576392784112,
+    "polarization": 0.2490256432408387,
     "n_clusters": 5,
-    "morans_I": -0.09485721617419082,
+    "morans_I": -0.09488117106133619,
     "state": "fragmentation"
   },
   {
     "D": 0.0001,
     "seed": 1,
-    "polarization": 0.28242588478894926,
+    "polarization": 0.28241750216739364,
     "n_clusters": 7,
-    "morans_I": -0.18676097551016496,
+    "morans_I": -0.1866909796736066,
     "state": "fragmentation"
   },
   {
     "D": 0.0001,
     "seed": 2,
-    "polarization": 0.3287997270293671,
+    "polarization": 0.32884878366062287,
     "n_clusters": 7,
-    "morans_I": 0.03998459630236939,
+    "morans_I": 0.040076396741862544,
     "state": "fragmentation"
   },
   {
     "D": 0.0001,
     "seed": 3,
-    "polarization": 0.3069860171352978,
+    "polarization": 0.3071400290599069,
     "n_clusters": 7,
-    "morans_I": -0.06102475221938157,
+    "morans_I": -0.05974549063894257,
     "state": "fragmentation"
   },
   {
     "D": 0.0001,
     "seed": 4,
-    "polarization": 0.3006647753618071,
+    "polarization": 0.3011155072235686,
     "n_clusters": 8,
-    "morans_I": 0.012557055298846227,
+    "morans_I": 0.012688940469584915,
     "state": "fragmentation"
   },
   {
     "D": 0.0001,
     "seed": 5,
-    "polarization": 0.2862214618278345,
+    "polarization": 0.28617242253934727,
     "n_clusters": 8,
-    "morans_I": 0.1496205466346052,
+    "morans_I": 0.14947407760557863,
     "state": "fragmentation"
   },
   {
     "D": 0.00031622776601683794,
     "seed": 0,
-    "polarization": 0.24067920040827892,
+    "polarization": 0.24065136348036695,
     "n_clusters": 4,
-    "morans_I": 0.07825654411874405,
+    "morans_I": 0.07872669150256102,
     "state": "fragmentation"
   },
   {
     "D": 0.00031622776601683794,
     "seed": 1,
-    "polarization": 0.276242786364736,
+    "polarization": 0.2761315823186263,
     "n_clusters": 7,
-    "morans_I": 0.01260782824599874,
+    "morans_I": 0.012522407054821025,
     "state": "fragmentation"
   },
   {
     "D": 0.00031622776601683794,
     "seed": 2,
-    "polarization": 0.2958899873031665,
+    "polarization": 0.29591110822192607,
     "n_clusters": 8,
-    "morans_I": 0.003965808485460487,
+    "morans_I": 0.003967786376221534,
     "state": "fragmentation"
   },
   {
     "D": 0.00031622776601683794,
     "seed": 3,
-    "polarization": 0.3023084018417682,
+    "polarization": 0.30241527892740977,
     "n_clusters": 4,
-    "morans_I": 0.0618166892840937,
+    "morans_I": 0.061709836173405155,
     "state": "fragmentation"
   },
   {
     "D": 0.00031622776601683794,
     "seed": 4,
-    "polarization": 0.2838168378651656,
+    "polarization": 0.28377672269891774,
     "n_clusters": 5,
-    "morans_I": -0.20382925585621012,
+    "morans_I": -0.20381842489493715,
     "state": "fragmentation"
   },
   {
     "D": 0.00031622776601683794,
     "seed": 5,
-    "polarization": 0.28430900532969083,
+    "polarization": 0.2845053937510294,
+    "n_clusters": 4,
+    "morans_I": 0.16487587240032786,
+    "state": "fragmentation"
+  },
+  {
+    "D": 0.001,
+    "seed": 0,
+    "polarization": 0.19772382740775696,
+    "n_clusters": 3,
+    "morans_I": -0.09793765772422575,
+    "state": "fragmentation"
+  },
+  {
+    "D": 0.001,
+    "seed": 1,
+    "polarization": 0.23571365628583751,
     "n_clusters": 5,
-    "morans_I": 0.1649270120270846,
-    "state": "fragmentation"
-  },
-  {
-    "D": 0.001,
-    "seed": 0,
-    "polarization": 0.1977588294793248,
-    "n_clusters": 3,
-    "morans_I": -0.09802794357681181,
-    "state": "fragmentation"
-  },
-  {
-    "D": 0.001,
-    "seed": 1,
-    "polarization": 0.25396384456210686,
-    "n_clusters": 3,
-    "morans_I": 0.23893340160918117,
+    "morans_I": 0.2797760682434876,
     "state": "fragmentation"
   },
   {
     "D": 0.001,
     "seed": 2,
-    "polarization": 0.28605645849844574,
+    "polarization": 0.2861317549445898,
     "n_clusters": 4,
-    "morans_I": 0.04894292875806321,
+    "morans_I": 0.0489137475397298,
     "state": "fragmentation"
   },
   {
     "D": 0.001,
     "seed": 3,
-    "polarization": 0.25561359712269854,
+    "polarization": 0.2355604000950712,
+    "n_clusters": 3,
+    "morans_I": 0.18362183990922273,
+    "state": "fragmentation"
+  },
+  {
+    "D": 0.001,
+    "seed": 4,
+    "polarization": 0.2655879779896997,
+    "n_clusters": 3,
+    "morans_I": 0.04315043752935964,
+    "state": "fragmentation"
+  },
+  {
+    "D": 0.001,
+    "seed": 5,
+    "polarization": 0.27720302684964737,
     "n_clusters": 4,
-    "morans_I": 0.2178578160087725,
+    "morans_I": 0.10302324017756992,
     "state": "fragmentation"
   },
   {
-    "D": 0.001,
-    "seed": 4,
-    "polarization": 0.23445053033644292,
-    "n_clusters": 2,
-    "morans_I": 0.10256569102952652,
-    "state": "polarization"
+    "D": 0.0031622776601683794,
+    "seed": 0,
+    "polarization": 0.1707807700824781,
+    "n_clusters": 3,
+    "morans_I": 0.07668603574766242,
+    "state": "fragmentation"
   },
   {
-    "D": 0.001,
-    "seed": 5,
-    "polarization": 0.2773531622365121,
+    "D": 0.0031622776601683794,
+    "seed": 1,
+    "polarization": 0.23371765065673003,
     "n_clusters": 4,
-    "morans_I": 0.10304874558029235,
-    "state": "fragmentation"
-  },
-  {
-    "D": 0.0031622776601683794,
-    "seed": 0,
-    "polarization": 0.17660635499364322,
-    "n_clusters": 3,
-    "morans_I": 0.0658023158399953,
-    "state": "fragmentation"
-  },
-  {
-    "D": 0.0031622776601683794,
-    "seed": 1,
-    "polarization": 0.2334021019560691,
-    "n_clusters": 3,
-    "morans_I": 0.05997347050539275,
+    "morans_I": 0.07600078628349814,
     "state": "fragmentation"
   },
   {
     "D": 0.0031622776601683794,
     "seed": 2,
-    "polarization": 0.2875887054728952,
+    "polarization": 0.28723688903830796,
     "n_clusters": 3,
-    "morans_I": -0.13815550495238452,
+    "morans_I": -0.13816715090546652,
     "state": "fragmentation"
   },
   {
     "D": 0.0031622776601683794,
     "seed": 3,
-    "polarization": 0.2573801010919394,
+    "polarization": 0.25739220630310977,
     "n_clusters": 3,
-    "morans_I": -0.15136807768837746,
+    "morans_I": -0.15149328420645305,
     "state": "fragmentation"
   },
   {
     "D": 0.0031622776601683794,
     "seed": 4,
-    "polarization": 0.2168438106202494,
+    "polarization": 0.21244811594652258,
     "n_clusters": 3,
-    "morans_I": 0.07899862570809142,
+    "morans_I": 0.12399298893435592,
     "state": "fragmentation"
   },
   {
     "D": 0.0031622776601683794,
     "seed": 5,
-    "polarization": 0.2673156697420746,
+    "polarization": 0.26712739786953227,
     "n_clusters": 3,
-    "morans_I": -0.024198584796353183,
+    "morans_I": -0.02419658248438682,
     "state": "fragmentation"
   },
   {
     "D": 0.01,
     "seed": 0,
-    "polarization": 0.21928314543036184,
+    "polarization": 0.21979975834705828,
     "n_clusters": 3,
-    "morans_I": 0.10849548975745311,
+    "morans_I": 0.10877554420529156,
     "state": "fragmentation"
   },
   {
     "D": 0.01,
     "seed": 1,
-    "polarization": 0.22042935178366652,
-    "n_clusters": 2,
-    "morans_I": -0.1200034618366781,
-    "state": "polarization"
+    "polarization": 0.22348703169989484,
+    "n_clusters": 3,
+    "morans_I": -0.09796014375783772,
+    "state": "fragmentation"
   },
   {
     "D": 0.01,
     "seed": 2,
-    "polarization": 0.2882442302900182,
+    "polarization": 0.28485194467616387,
     "n_clusters": 3,
-    "morans_I": -0.14370069767282811,
+    "morans_I": -0.12540709586228746,
     "state": "fragmentation"
   },
   {
     "D": 0.01,
     "seed": 3,
-    "polarization": 0.27114702482395076,
+    "polarization": 0.2707360854499756,
     "n_clusters": 3,
-    "morans_I": -0.14762984254784187,
+    "morans_I": -0.14710749415245242,
     "state": "fragmentation"
   },
   {
     "D": 0.01,
     "seed": 4,
-    "polarization": 0.2340134625206297,
+    "polarization": 0.23190551117333574,
     "n_clusters": 3,
-    "morans_I": 0.008318640454764752,
+    "morans_I": 0.040453050873235454,
     "state": "fragmentation"
   },
   {
     "D": 0.01,
     "seed": 5,
-    "polarization": 0.268436100916796,
+    "polarization": 0.2693934759686141,
     "n_clusters": 3,
-    "morans_I": 0.04493479875762687,
+    "morans_I": 0.05169374438948029,
     "state": "fragmentation"
   },
   {
     "D": 0.03162277660168379,
     "seed": 0,
-    "polarization": 0.23051712883028708,
+    "polarization": 0.22932196888417977,
     "n_clusters": 3,
-    "morans_I": -0.0572613261800846,
+    "morans_I": -0.03939335840967822,
     "state": "fragmentation"
   },
   {
     "D": 0.03162277660168379,
     "seed": 1,
-    "polarization": 0.22780341329080941,
+    "polarization": 0.22742384782276076,
     "n_clusters": 2,
-    "morans_I": -0.024043182176992386,
+    "morans_I": -0.010270183660061737,
     "state": "polarization"
   },
   {
     "D": 0.03162277660168379,
     "seed": 2,
-    "polarization": 0.291612425133041,
+    "polarization": 0.2903462470073833,
     "n_clusters": 3,
-    "morans_I": 0.015001825671105504,
+    "morans_I": 0.018200592993381753,
     "state": "fragmentation"
   },
   {
     "D": 0.03162277660168379,
     "seed": 3,
-    "polarization": 0.24372114833790712,
-    "n_clusters": 2,
-    "morans_I": -0.11672064553275421,
-    "state": "polarization"
+    "polarization": 0.24065323189068225,
+    "n_clusters": 3,
+    "morans_I": -0.11257690663227946,
+    "state": "fragmentation"
   },
   {
     "D": 0.03162277660168379,
     "seed": 4,
-    "polarization": 0.23532292749463837,
+    "polarization": 0.23143490403624348,
     "n_clusters": 3,
-    "morans_I": 0.013292301647901596,
+    "morans_I": -0.04554898488925648,
     "state": "fragmentation"
   },
   {
     "D": 0.03162277660168379,
     "seed": 5,
-    "polarization": 0.2696708310645943,
+    "polarization": 0.2699257186404094,
     "n_clusters": 3,
-    "morans_I": -0.034271823092635496,
+    "morans_I": -0.025123955567595755,
     "state": "fragmentation"
   },
   {
     "D": 0.1,
     "seed": 0,
-    "polarization": 0.22938591095485847,
+    "polarization": 0.22813894545838284,
     "n_clusters": 3,
-    "morans_I": -0.10964095103198865,
+    "morans_I": -0.10917455255167313,
     "state": "fragmentation"
   },
   {
     "D": 0.1,
     "seed": 1,
-    "polarization": 0.22528708629442332,
+    "polarization": 0.22578230157560594,
     "n_clusters": 2,
-    "morans_I": 0.013273288557284862,
+    "morans_I": 0.01509047418660012,
     "state": "polarization"
   },
   {
     "D": 0.1,
     "seed": 2,
-    "polarization": 0.2924241692168893,
+    "polarization": 0.2923555733793268,
     "n_clusters": 3,
-    "morans_I": -0.09280731037080651,
+    "morans_I": -0.09273405845652351,
     "state": "fragmentation"
   },
   {
     "D": 0.1,
     "seed": 3,
-    "polarization": 0.27421647036482655,
+    "polarization": 0.2718352437272395,
     "n_clusters": 3,
-    "morans_I": 0.12314884077589738,
+    "morans_I": 0.1414546964063921,
     "state": "fragmentation"
   },
   {
     "D": 0.1,
     "seed": 4,
-    "polarization": 0.22520469808789173,
+    "polarization": 0.22018705230565605,
     "n_clusters": 2,
-    "morans_I": -0.10687060832699227,
+    "morans_I": -0.11201541272127574,
     "state": "polarization"
   },
   {
     "D": 0.1,
     "seed": 5,
-    "polarization": 0.27282669555878314,
+    "polarization": 0.2715262695854694,
     "n_clusters": 3,
-    "morans_I": 0.08234316810272371,
+    "morans_I": 0.09595792351983601,
     "state": "fragmentation"
   },
   {
     "D": 0.31622776601683794,
     "seed": 0,
-    "polarization": 0.22952795497927533,
+    "polarization": 0.23044228038250858,
     "n_clusters": 3,
-    "morans_I": 0.12655510615899151,
+    "morans_I": 0.11402647487186153,
     "state": "fragmentation"
   },
   {
     "D": 0.31622776601683794,
     "seed": 1,
-    "polarization": 0.22658388425669862,
+    "polarization": 0.2265151727489971,
     "n_clusters": 3,
-    "morans_I": -0.1764094120929581,
+    "morans_I": -0.17606211555146076,
     "state": "fragmentation"
   },
   {
     "D": 0.31622776601683794,
     "seed": 2,
-    "polarization": 0.29649397126250576,
+    "polarization": 0.2950758077860133,
     "n_clusters": 3,
-    "morans_I": 0.028866157917742153,
+    "morans_I": 0.049767452330475775,
     "state": "fragmentation"
   },
   {
     "D": 0.31622776601683794,
     "seed": 3,
-    "polarization": 0.2766038626131077,
+    "polarization": 0.2764019175706711,
     "n_clusters": 3,
-    "morans_I": 0.01683591244215658,
+    "morans_I": 0.016835542488454952,
     "state": "fragmentation"
   },
   {
     "D": 0.31622776601683794,
     "seed": 4,
-    "polarization": 0.24343940848959303,
+    "polarization": 0.24095065384588565,
     "n_clusters": 3,
-    "morans_I": 0.07438410634601442,
+    "morans_I": 0.0802086693088131,
     "state": "fragmentation"
   },
   {
     "D": 0.31622776601683794,
     "seed": 5,
-    "polarization": 0.27368777415230405,
+    "polarization": 0.2733638004394587,
     "n_clusters": 3,
-    "morans_I": 0.09327270896493255,
+    "morans_I": 0.09323977211888956,
     "state": "fragmentation"
   },
   {
     "D": 1.0,
     "seed": 0,
-    "polarization": 0.2299099043885331,
+    "polarization": 0.22904633958849024,
     "n_clusters": 3,
-    "morans_I": 0.16611486148003324,
+    "morans_I": 0.16628845051499958,
     "state": "fragmentation"
   },
   {
     "D": 1.0,
     "seed": 1,
-    "polarization": 0.22633909054858503,
+    "polarization": 0.22697933157587977,
     "n_clusters": 3,
-    "morans_I": 0.029307108314364144,
+    "morans_I": 0.02737411838798536,
     "state": "fragmentation"
   },
   {
     "D": 1.0,
     "seed": 2,
-    "polarization": 0.291688809517593,
+    "polarization": 0.29062535195898137,
     "n_clusters": 3,
-    "morans_I": -0.1828261122216722,
+    "morans_I": -0.18076496353027433,
     "state": "fragmentation"
   },
   {
     "D": 1.0,
     "seed": 3,
-    "polarization": 0.2729502852807325,
+    "polarization": 0.27368569784940955,
     "n_clusters": 3,
-    "morans_I": 0.21829066074031087,
+    "morans_I": 0.2232667196125722,
     "state": "fragmentation"
   },
   {
     "D": 1.0,
     "seed": 4,
-    "polarization": 0.22220491684279772,
+    "polarization": 0.2245020473194392,
     "n_clusters": 2,
-    "morans_I": -0.0695422896669581,
+    "morans_I": -0.06781613333046232,
     "state": "polarization"
   },
   {
     "D": 1.0,
     "seed": 5,
-    "polarization": 0.27361154426677964,
+    "polarization": 0.273300710450467,
     "n_clusters": 3,
-    "morans_I": 0.06646255460910064,
+    "morans_I": 0.06646689975929095,
     "state": "fragmentation"
   }
 ]

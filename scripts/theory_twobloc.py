@@ -93,8 +93,10 @@ def meanfield_var(job):
         wsum = W.sum(axis=1)
         drift = (1 - lam) * np.where(
             wsum > 0, (W * dxm).sum(axis=1) / np.maximum(wsum, 1e-12), 0.0)
-        # digital layer in the fast-rewiring limit: engagement-weighted mean
-        Ew = engagement_kernel(adx, p) * s[None, :]
+        # digital layer in the fast-rewiring limit: slots are sampled AND
+        # weighted proportionally to s, giving s^2 weights (the s^2 factors
+        # cancel in expectation since strengths are independent of opinions)
+        Ew = engagement_kernel(adx, p) * s[None, :] ** 2
         np.fill_diagonal(Ew, 0.0)
         esum = Ew.sum(axis=1)
         F = influence_function(dxm, p)

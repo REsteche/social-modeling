@@ -33,241 +33,241 @@
       "platform": "similarity",
       "lambda": 0.05,
       "rep": 0,
-      "polarization": 0.2653692991010833
+      "polarization": 0.2656976641492562
     },
     {
       "platform": "similarity",
       "lambda": 0.05,
       "rep": 1,
-      "polarization": 0.23172623111228546
+      "polarization": 0.2815535799408773
     },
     {
       "platform": "similarity",
       "lambda": 0.1,
       "rep": 0,
-      "polarization": 0.27610838695725604
+      "polarization": 0.28356192434040317
     },
     {
       "platform": "similarity",
       "lambda": 0.1,
       "rep": 1,
-      "polarization": 0.2668160563480056
+      "polarization": 0.35092223873616674
     },
     {
       "platform": "similarity",
       "lambda": 0.15,
       "rep": 0,
-      "polarization": 0.2861139830835816
+      "polarization": 0.29732605667020606
     },
     {
       "platform": "similarity",
       "lambda": 0.15,
       "rep": 1,
-      "polarization": 0.2973476368394296
+      "polarization": 0.39836210783116066
     },
     {
       "platform": "similarity",
       "lambda": 0.2,
       "rep": 0,
-      "polarization": 0.2948433996813715
+      "polarization": 0.3102647971316516
     },
     {
       "platform": "similarity",
       "lambda": 0.2,
       "rep": 1,
-      "polarization": 0.3237800918419768
+      "polarization": 0.40388954306620595
     },
     {
       "platform": "similarity",
       "lambda": 0.25,
       "rep": 0,
-      "polarization": 0.3041158227575947
+      "polarization": 0.32530502360627905
     },
     {
       "platform": "similarity",
       "lambda": 0.25,
       "rep": 1,
-      "polarization": 0.3479353054216122
+      "polarization": 0.4048832093456381
     },
     {
       "platform": "similarity",
       "lambda": 0.3,
       "rep": 0,
-      "polarization": 0.31641811835204037
+      "polarization": 0.3400270865622577
     },
     {
       "platform": "similarity",
       "lambda": 0.3,
       "rep": 1,
-      "polarization": 0.3683271263998721
+      "polarization": 0.40504187669628794
     },
     {
       "platform": "similarity",
       "lambda": 0.35,
       "rep": 0,
-      "polarization": 0.32794106969206316
+      "polarization": 0.35211747363171164
     },
     {
       "platform": "similarity",
       "lambda": 0.35,
       "rep": 1,
-      "polarization": 0.3864779263740573
+      "polarization": 0.40527038440432844
     },
     {
       "platform": "similarity",
       "lambda": 0.4,
       "rep": 0,
-      "polarization": 0.3375382578843035
+      "polarization": 0.3661039527718712
     },
     {
       "platform": "similarity",
       "lambda": 0.4,
       "rep": 1,
-      "polarization": 0.40255172769268066
+      "polarization": 0.40523339511311907
     },
     {
       "platform": "similarity",
       "lambda": 0.45,
       "rep": 0,
-      "polarization": 0.3469359465107023
+      "polarization": 0.37924983178745153
     },
     {
       "platform": "similarity",
       "lambda": 0.45,
       "rep": 1,
-      "polarization": 0.41768104586783533
+      "polarization": 0.4051259180193147
     },
     {
       "platform": "similarity",
       "lambda": 0.5,
       "rep": 0,
-      "polarization": 0.35658389359763004
+      "polarization": 0.38991286879500736
     },
     {
       "platform": "similarity",
       "lambda": 0.5,
       "rep": 1,
-      "polarization": 0.4327595066901167
+      "polarization": 0.4058559096967327
     },
     {
       "platform": "similarity",
       "lambda": 0.55,
       "rep": 0,
-      "polarization": 0.3655425350587858
+      "polarization": 0.4012765254789126
     },
     {
       "platform": "similarity",
       "lambda": 0.55,
       "rep": 1,
-      "polarization": 0.44337271894020974
+      "polarization": 0.40658516012813684
     },
     {
       "platform": "similarity",
       "lambda": 0.6,
       "rep": 0,
-      "polarization": 0.37604184135872004
+      "polarization": 0.41144199205411125
     },
     {
       "platform": "similarity",
       "lambda": 0.6,
       "rep": 1,
-      "polarization": 0.45116344426611554
+      "polarization": 0.4057852844065861
     },
     {
       "platform": "similarity",
       "lambda": 0.65,
       "rep": 0,
-      "polarization": 0.38718764062557115
+      "polarization": 0.4200624660414394
     },
     {
       "platform": "similarity",
       "lambda": 0.65,
       "rep": 1,
-      "polarization": 0.4602395835158827
+      "polarization": 0.40497528471058547
     },
     {
       "platform": "similarity",
       "lambda": 0.7,
       "rep": 0,
-      "polarization": 0.3981509565728629
+      "polarization": 0.4219399348568821
     },
     {
       "platform": "similarity",
       "lambda": 0.7,
       "rep": 1,
-      "polarization": 0.48033466450738566
+      "polarization": 0.4040604055803893
     },
     {
       "platform": "similarity",
       "lambda": 0.75,
       "rep": 0,
-      "polarization": 0.4102999607154349
+      "polarization": 0.4230788839240006
     },
     {
       "platform": "similarity",
       "lambda": 0.75,
       "rep": 1,
-      "polarization": 0.5228440327777387
+      "polarization": 0.40313839181539923
     },
     {
       "platform": "similarity",
       "lambda": 0.8,
       "rep": 0,
-      "polarization": 0.4194944705372497
+      "polarization": 0.42248213694272035
     },
     {
       "platform": "similarity",
       "lambda": 0.8,
       "rep": 1,
-      "polarization": 0.5270952139605825
+      "polarization": 0.400190013565881
     },
     {
       "platform": "similarity",
       "lambda": 0.85,
       "rep": 0,
-      "polarization": 0.4311655241296067
+      "polarization": 0.5059947708264388
     },
     {
       "platform": "similarity",
       "lambda": 0.85,
       "rep": 1,
-      "polarization": 0.5338222108161933
+      "polarization": 0.3994855065293516
     },
     {
       "platform": "similarity",
       "lambda": 0.9,
       "rep": 0,
-      "polarization": 0.44053465370170386
+      "polarization": 0.5155671414818657
     },
     {
       "platform": "similarity",
       "lambda": 0.9,
       "rep": 1,
-      "polarization": 0.5379145298951423
+      "polarization": 0.39571514522796536
     },
     {
       "platform": "similarity",
       "lambda": 0.95,
       "rep": 0,
-      "polarization": 0.449911757397057
+      "polarization": 0.5192919875002482
     },
     {
       "platform": "similarity",
       "lambda": 0.95,
       "rep": 1,
-      "polarization": 0.5476705645545136
+      "polarization": 0.4062630055237875
     },
     {
       "platform": "similarity",
       "lambda": 1.0,
       "rep": 0,
-      "polarization": 0.4563243161673402
+      "polarization": 0.5240834582700814
     },
     {
       "platform": "similarity",
       "lambda": 1.0,
       "rep": 1,
-      "polarization": 0.5524280999976948
+      "polarization": 0.41671625817681085
     },
     {
       "platform": "neutral",
@@ -285,241 +285,241 @@
       "platform": "neutral",
       "lambda": 0.05,
       "rep": 0,
-      "polarization": 0.714733528273556
+      "polarization": 0.6788812224404002
     },
     {
       "platform": "neutral",
       "lambda": 0.05,
       "rep": 1,
-      "polarization": 0.7252182721106746
+      "polarization": 0.5433838887133073
     },
     {
       "platform": "neutral",
       "lambda": 0.1,
       "rep": 0,
-      "polarization": 0.901950529960591
+      "polarization": 0.8946721600199858
     },
     {
       "platform": "neutral",
       "lambda": 0.1,
       "rep": 1,
-      "polarization": 0.8905737890103839
+      "polarization": 0.7876935336206159
     },
     {
       "platform": "neutral",
       "lambda": 0.15,
       "rep": 0,
-      "polarization": 0.8980946693326556
+      "polarization": 0.8971043837622786
     },
     {
       "platform": "neutral",
       "lambda": 0.15,
       "rep": 1,
-      "polarization": 0.905747336021112
+      "polarization": 0.8892204303973053
     },
     {
       "platform": "neutral",
       "lambda": 0.2,
       "rep": 0,
-      "polarization": 0.8993677512769814
+      "polarization": 0.8899679308440831
     },
     {
       "platform": "neutral",
       "lambda": 0.2,
       "rep": 1,
-      "polarization": 0.9329489583672855
+      "polarization": 0.9112940994925259
     },
     {
       "platform": "neutral",
       "lambda": 0.25,
       "rep": 0,
-      "polarization": 0.9001408096882894
+      "polarization": 0.884179803756524
     },
     {
       "platform": "neutral",
       "lambda": 0.25,
       "rep": 1,
-      "polarization": 0.9370787139357937
+      "polarization": 0.9181555852387159
     },
     {
       "platform": "neutral",
       "lambda": 0.3,
       "rep": 0,
-      "polarization": 0.9701402933344613
+      "polarization": 0.9666925285189857
     },
     {
       "platform": "neutral",
       "lambda": 0.3,
       "rep": 1,
-      "polarization": 0.9408809691649989
+      "polarization": 0.9209177340346264
     },
     {
       "platform": "neutral",
       "lambda": 0.35,
       "rep": 0,
-      "polarization": 0.9832867939563189
+      "polarization": 0.9715993441805023
     },
     {
       "platform": "neutral",
       "lambda": 0.35,
       "rep": 1,
-      "polarization": 0.9489880887162297
+      "polarization": 0.9233705669728368
     },
     {
       "platform": "neutral",
       "lambda": 0.4,
       "rep": 0,
-      "polarization": 0.9908208473051086
+      "polarization": 0.9760200526626756
     },
     {
       "platform": "neutral",
       "lambda": 0.4,
       "rep": 1,
-      "polarization": 0.9550231176099107
+      "polarization": 0.9238836698529247
     },
     {
       "platform": "neutral",
       "lambda": 0.45,
       "rep": 0,
-      "polarization": 0.9937942585652138
+      "polarization": 0.9771660997170678
     },
     {
       "platform": "neutral",
       "lambda": 0.45,
       "rep": 1,
-      "polarization": 0.9657034659231188
+      "polarization": 0.9242607171382429
     },
     {
       "platform": "neutral",
       "lambda": 0.5,
       "rep": 0,
-      "polarization": 0.9961647942704543
+      "polarization": 0.9801637404457421
     },
     {
       "platform": "neutral",
       "lambda": 0.5,
       "rep": 1,
-      "polarization": 0.9716868711350121
+      "polarization": 0.9281003595767182
     },
     {
       "platform": "neutral",
       "lambda": 0.55,
       "rep": 0,
-      "polarization": 0.9985051962456133
+      "polarization": 0.9854416821649541
     },
     {
       "platform": "neutral",
       "lambda": 0.55,
       "rep": 1,
-      "polarization": 0.9760670618824326
+      "polarization": 0.9301023269362945
     },
     {
       "platform": "neutral",
       "lambda": 0.6,
       "rep": 0,
-      "polarization": 0.9991812738364314
+      "polarization": 0.9892090065065635
     },
     {
       "platform": "neutral",
       "lambda": 0.6,
       "rep": 1,
-      "polarization": 0.9761539955857256
+      "polarization": 0.932045860564761
     },
     {
       "platform": "neutral",
       "lambda": 0.65,
       "rep": 0,
-      "polarization": 0.9992121024993785
+      "polarization": 0.990574828761515
     },
     {
       "platform": "neutral",
       "lambda": 0.65,
       "rep": 1,
-      "polarization": 0.9772261387713567
+      "polarization": 0.9339408184829842
     },
     {
       "platform": "neutral",
       "lambda": 0.7,
       "rep": 0,
-      "polarization": 0.9995454010570803
+      "polarization": 0.9929941821676274
     },
     {
       "platform": "neutral",
       "lambda": 0.7,
       "rep": 1,
-      "polarization": 0.9782674890325116
+      "polarization": 0.9374540454433796
     },
     {
       "platform": "neutral",
       "lambda": 0.75,
       "rep": 0,
-      "polarization": 0.9996802301403185
+      "polarization": 0.99301374822685
     },
     {
       "platform": "neutral",
       "lambda": 0.75,
       "rep": 1,
-      "polarization": 0.9792793126940732
+      "polarization": 0.937613236577514
     },
     {
       "platform": "neutral",
       "lambda": 0.8,
       "rep": 0,
-      "polarization": 0.999869385434021
+      "polarization": 0.9940942271784489
     },
     {
       "platform": "neutral",
       "lambda": 0.8,
       "rep": 1,
-      "polarization": 0.9854715129461611
+      "polarization": 0.937754449742567
     },
     {
       "platform": "neutral",
       "lambda": 0.85,
       "rep": 0,
-      "polarization": 0.9999684147245534
+      "polarization": 0.9950837220428377
     },
     {
       "platform": "neutral",
       "lambda": 0.85,
       "rep": 1,
-      "polarization": 0.9878079980826093
+      "polarization": 0.9378799137901032
     },
     {
       "platform": "neutral",
       "lambda": 0.9,
       "rep": 0,
-      "polarization": 0.9999765504031491
+      "polarization": 0.9955476993968307
     },
     {
       "platform": "neutral",
       "lambda": 0.9,
       "rep": 1,
-      "polarization": 0.9892536475410748
+      "polarization": 0.9379939327044126
     },
     {
       "platform": "neutral",
       "lambda": 0.95,
       "rep": 0,
-      "polarization": 0.999994262112403
+      "polarization": 0.9967854437062427
     },
     {
       "platform": "neutral",
       "lambda": 0.95,
       "rep": 1,
-      "polarization": 0.9892693886264975
+      "polarization": 0.9397249422884663
     },
     {
       "platform": "neutral",
       "lambda": 1.0,
       "rep": 0,
-      "polarization": 0.9999980689528134
+      "polarization": 0.9971547287578725
     },
     {
       "platform": "neutral",
       "lambda": 1.0,
       "rep": 1,
-      "polarization": 0.9912610919449634
+      "polarization": 0.9414282036316066
     },
     {
       "platform": "controversy",
@@ -537,241 +537,241 @@
       "platform": "controversy",
       "lambda": 0.05,
       "rep": 0,
-      "polarization": 0.351304747809868
+      "polarization": 0.34477665975382893
     },
     {
       "platform": "controversy",
       "lambda": 0.05,
       "rep": 1,
-      "polarization": 0.6821344984948223
+      "polarization": 0.6300984343962956
     },
     {
       "platform": "controversy",
       "lambda": 0.1,
       "rep": 0,
-      "polarization": 0.3782227917139136
+      "polarization": 0.37133579789738264
     },
     {
       "platform": "controversy",
       "lambda": 0.1,
       "rep": 1,
-      "polarization": 0.7242551816350818
+      "polarization": 0.6547305872519494
     },
     {
       "platform": "controversy",
       "lambda": 0.15,
       "rep": 0,
-      "polarization": 0.4033176056205359
+      "polarization": 0.4023318210375436
     },
     {
       "platform": "controversy",
       "lambda": 0.15,
       "rep": 1,
-      "polarization": 0.7412643009750544
+      "polarization": 0.6765299773608959
     },
     {
       "platform": "controversy",
       "lambda": 0.2,
       "rep": 0,
-      "polarization": 0.4312005909308657
+      "polarization": 0.43370346350041433
     },
     {
       "platform": "controversy",
       "lambda": 0.2,
       "rep": 1,
-      "polarization": 0.7542675708651226
+      "polarization": 0.7031232866007345
     },
     {
       "platform": "controversy",
       "lambda": 0.25,
       "rep": 0,
-      "polarization": 0.46079860975613635
+      "polarization": 0.45391281709529835
     },
     {
       "platform": "controversy",
       "lambda": 0.25,
       "rep": 1,
-      "polarization": 0.7634308807217967
+      "polarization": 0.7126584737862782
     },
     {
       "platform": "controversy",
       "lambda": 0.3,
       "rep": 0,
-      "polarization": 0.8172403503795939
+      "polarization": 0.851119885473528
     },
     {
       "platform": "controversy",
       "lambda": 0.3,
       "rep": 1,
-      "polarization": 0.7762023827073513
+      "polarization": 0.7198105148883901
     },
     {
       "platform": "controversy",
       "lambda": 0.35,
       "rep": 0,
-      "polarization": 0.8396551365509883
+      "polarization": 0.8478702605144103
     },
     {
       "platform": "controversy",
       "lambda": 0.35,
       "rep": 1,
-      "polarization": 0.7845178828563732
+      "polarization": 0.7240839245853934
     },
     {
       "platform": "controversy",
       "lambda": 0.4,
       "rep": 0,
-      "polarization": 0.855997681650913
+      "polarization": 0.848432544797667
     },
     {
       "platform": "controversy",
       "lambda": 0.4,
       "rep": 1,
-      "polarization": 0.8035558333992935
+      "polarization": 0.728963714059705
     },
     {
       "platform": "controversy",
       "lambda": 0.45,
       "rep": 0,
-      "polarization": 0.8665025478445557
+      "polarization": 0.8492339810009537
     },
     {
       "platform": "controversy",
       "lambda": 0.45,
       "rep": 1,
-      "polarization": 0.814169189476843
+      "polarization": 0.7322042774525018
     },
     {
       "platform": "controversy",
       "lambda": 0.5,
       "rep": 0,
-      "polarization": 0.8790774324270865
+      "polarization": 0.8574349088378529
     },
     {
       "platform": "controversy",
       "lambda": 0.5,
       "rep": 1,
-      "polarization": 0.8187548083192798
+      "polarization": 0.7365038401901463
     },
     {
       "platform": "controversy",
       "lambda": 0.55,
       "rep": 0,
-      "polarization": 0.8827594975633781
+      "polarization": 0.8658173209267594
     },
     {
       "platform": "controversy",
       "lambda": 0.55,
       "rep": 1,
-      "polarization": 0.8221835004056322
+      "polarization": 0.743408499427142
     },
     {
       "platform": "controversy",
       "lambda": 0.6,
       "rep": 0,
-      "polarization": 0.8871720446851725
+      "polarization": 0.8748207906161904
     },
     {
       "platform": "controversy",
       "lambda": 0.6,
       "rep": 1,
-      "polarization": 0.8246590600279832
+      "polarization": 0.7492484010019325
     },
     {
       "platform": "controversy",
       "lambda": 0.65,
       "rep": 0,
-      "polarization": 0.8927009777310061
+      "polarization": 0.8900049935551018
     },
     {
       "platform": "controversy",
       "lambda": 0.65,
       "rep": 1,
-      "polarization": 0.826960122916288
+      "polarization": 0.751805753362839
     },
     {
       "platform": "controversy",
       "lambda": 0.7,
       "rep": 0,
-      "polarization": 0.8986635675313361
+      "polarization": 0.8959355974573711
     },
     {
       "platform": "controversy",
       "lambda": 0.7,
       "rep": 1,
-      "polarization": 0.8290629147547263
+      "polarization": 0.7541036302807903
     },
     {
       "platform": "controversy",
       "lambda": 0.75,
       "rep": 0,
-      "polarization": 0.9035708441647989
+      "polarization": 0.8932570684471276
     },
     {
       "platform": "controversy",
       "lambda": 0.75,
       "rep": 1,
-      "polarization": 0.8309405968522872
+      "polarization": 0.7535055603895161
     },
     {
       "platform": "controversy",
       "lambda": 0.8,
       "rep": 0,
-      "polarization": 0.9816087283046626
+      "polarization": 0.9123693593282238
     },
     {
       "platform": "controversy",
       "lambda": 0.8,
       "rep": 1,
-      "polarization": 0.8326096422848386
+      "polarization": 0.7649732692608028
     },
     {
       "platform": "controversy",
       "lambda": 0.85,
       "rep": 0,
-      "polarization": 0.9782429967659436
+      "polarization": 0.9245574328603338
     },
     {
       "platform": "controversy",
       "lambda": 0.85,
       "rep": 1,
-      "polarization": 0.8340710254716519
+      "polarization": 0.7685604922150274
     },
     {
       "platform": "controversy",
       "lambda": 0.9,
       "rep": 0,
-      "polarization": 0.9652538644195219
+      "polarization": 0.937181157258392
     },
     {
       "platform": "controversy",
       "lambda": 0.9,
       "rep": 1,
-      "polarization": 0.8351572442209152
+      "polarization": 0.7737922034126989
     },
     {
       "platform": "controversy",
       "lambda": 0.95,
       "rep": 0,
-      "polarization": 0.9545734282340577
+      "polarization": 0.928318669596099
     },
     {
       "platform": "controversy",
       "lambda": 0.95,
       "rep": 1,
-      "polarization": 0.8363187176055026
+      "polarization": 0.7937129636804324
     },
     {
       "platform": "controversy",
       "lambda": 1.0,
       "rep": 0,
-      "polarization": 0.9524965398832694
+      "polarization": 0.9028678383392416
     },
     {
       "platform": "controversy",
       "lambda": 1.0,
       "rep": 1,
-      "polarization": 0.8381703514637544
+      "polarization": 0.7876395034505669
     }
   ]
 }
