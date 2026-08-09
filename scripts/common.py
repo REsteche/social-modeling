@@ -32,6 +32,21 @@ plt.rcParams.update({
 OPINION_CMAP = "coolwarm"
 
 
+def run_parallel(worker, jobs, chunksize=2):
+    """Run `worker` over `jobs` with a process pool; preserves job order."""
+    import os
+    from concurrent.futures import ProcessPoolExecutor
+
+    workers = max(1, (os.cpu_count() or 2) - 1)
+    rows = []
+    with ProcessPoolExecutor(max_workers=workers) as pool:
+        for k, row in enumerate(pool.map(worker, jobs, chunksize=chunksize)):
+            rows.append(row)
+            if (k + 1) % 50 == 0:
+                print(f"{k + 1}/{len(jobs)} runs done", flush=True)
+    return rows
+
+
 def save_fig(fig, name: str):
     path = FIG_DIR / f"{name}.pdf"
     fig.savefig(path)

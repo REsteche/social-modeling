@@ -47,6 +47,8 @@ class ModelParams:
     ell: float = 0.02               # physical interaction range
     r_cut_factor: float = 3.0       # hard cutoff of the kernel at r_cut_factor * ell
     epsilon: float = 0.30           # bounded-confidence threshold
+    chi: float = 0.0                # homophilic mobility: drift toward compatible
+                                    # neighbours, away from incompatible ones (Level 5)
     alpha_total: float = 1.0        # total social attention rate
     attention_digital: float = 0.0  # lambda: fraction of attention on digital layer
     sigma_x: float = 0.0            # opinion noise amplitude
@@ -161,6 +163,13 @@ class Simulation:
         d -= L * np.round(d / L)
         return np.sqrt((d**2).sum(axis=-1))
 
+    def _pairwise_displacement(self):
+        """Minimum-image displacement vectors d[i, j] = r_j - r_i and distances."""
+        L = self.p.box_size
+        d = self.r[None, :, :] - self.r[:, None, :]
+        d -= L * np.round(d / L)
+        return d, np.sqrt((d**2).sum(axis=-1))
+
     def _rewire_digital(self):
         """Each agent independently replaces one attention slot with probability
         rewire_prob * dt, sampling the new source proportionally to
@@ -191,26 +200,39 @@ class Simulation:
         p = self.p
         n = p.n_agents
 
-        # --- physical motion: Brownian diffusion in a periodic box
-        self.r += np.sqrt(2.0 * p.D * p.dt) * self.rng.standard_normal((n, 2))
-        self.r %= p.box_size
-
         dxm = self.x[None, :] - self.x[:, None]   # dxm[i, j] = x_j - x_i
         adx = np.abs(dxm)
 
         alpha = p.alpha_total * (1.0 - p.attention_digital)
         beta = p.alpha_total * p.attention_digital
 
-        drift = np.zeros(n)
-
-        # --- physical layer: distance kernel x bounded confidence
-        if alpha > 0.0:
-            dist = self._pairwise_distance()
+        need_kernel = alpha > 0.0 or p.chi > 0.0
+        if need_kernel:
+            dvec, dist = self._pairwise_displacement()
             # hard cutoff: without it the normalised drift would let agents
             # with no nearby peers average with the whole box at O(1) rate
             K = np.exp(-(dist**2) / (2.0 * p.ell**2))
             K[dist > p.r_cut_factor * p.ell] = 0.0
             np.fill_diagonal(K, 0.0)
+
+        # --- physical motion: Brownian diffusion + optional homophilic drift
+        dr = np.sqrt(2.0 * p.D * p.dt) * self.rng.standard_normal((n, 2))
+        if p.chi > 0.0:
+            # move toward compatible neighbours, away from incompatible ones
+            unit = dvec / np.maximum(dist, 1e-12)[:, :, None]
+            g = np.where(adx < p.epsilon, 1.0, -1.0)
+            Kg = K * g
+            ksum = K.sum(axis=1)
+            force = (Kg[:, :, None] * unit).sum(axis=1)
+            force /= np.maximum(ksum, 1e-12)[:, None]
+            dr += p.chi * force * p.dt
+        self.r += dr
+        self.r %= p.box_size
+
+        drift = np.zeros(n)
+
+        # --- physical layer: distance kernel x bounded confidence
+        if alpha > 0.0:
             W = K * (adx < p.epsilon)
             wsum = W.sum(axis=1)
             drift += alpha * np.where(wsum > 0, (W * dxm).sum(axis=1) / np.maximum(wsum, 1e-12), 0.0)

@@ -1,0 +1,8642 @@
+[
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.2516536572082908,
+    "extremism": 0.4337694950314897
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.22000512716532725,
+    "extremism": 0.461757358012933
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.26579277076651975,
+    "extremism": 0.4919869652563631
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.26549493118640594,
+    "extremism": 0.47837759794134543
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.2693610004171015,
+    "extremism": 0.5115596958420925
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.24919060355274325,
+    "extremism": 0.421858045471914
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.23983115589304427,
+    "extremism": 0.4869054746220752
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.1916846883837489,
+    "extremism": 0.4241245144516907
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.21164551414837277,
+    "extremism": 0.3429252513630526
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.2598195692482407,
+    "extremism": 0.5041816850621806
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.28347158413822393,
+    "extremism": 0.5009504479274213
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.25157644201187374,
+    "extremism": 0.46640663989680065
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.3098611329817596,
+    "extremism": 0.5546256730515772
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.32138040793968686,
+    "extremism": 0.5482243250274033
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.34673211998592124,
+    "extremism": 0.5416566208744783
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.3032847875247961,
+    "extremism": 0.5152022193667755
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.3859022151320561,
+    "extremism": 0.6186834230066585
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.2857683601052601,
+    "extremism": 0.4607215913389485
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.36687446654093875,
+    "extremism": 0.5451944014785641
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.27725614395125936,
+    "extremism": 0.5016558989112128
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.23372434253137556,
+    "extremism": 0.35611546953924483
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.3270151287378733,
+    "extremism": 0.5645748082349222
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.33852738909200264,
+    "extremism": 0.5368206869977414
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.2944699379705897,
+    "extremism": 0.4390050687232298
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.4000301052609423,
+    "extremism": 0.6535999619494933
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.36215438902536773,
+    "extremism": 0.5854097063778296
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.3851192033188448,
+    "extremism": 0.5719332376388274
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.3602565308632398,
+    "extremism": 0.5727053885745699
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.505958914734945,
+    "extremism": 0.6338796482923168
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.3261774686523568,
+    "extremism": 0.48935447556671335
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.39230179617108957,
+    "extremism": 0.5623035129854831
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.38804345700256476,
+    "extremism": 0.604096597661216
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.2949330186353231,
+    "extremism": 0.40885592628468426
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.3925345973566081,
+    "extremism": 0.621067726842093
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.3796537334272441,
+    "extremism": 0.5870853599400523
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.3907851830320134,
+    "extremism": 0.4855254197178443
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.4775186666720451,
+    "extremism": 0.7337359635623676
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.40689303445047104,
+    "extremism": 0.6309548645826756
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.41095038712474574,
+    "extremism": 0.5906661741349515
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.3628867854774829,
+    "extremism": 0.5668816035630742
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.44493913540371677,
+    "extremism": 0.5708151119797301
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.3936315160691917,
+    "extremism": 0.5645571763458328
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.3936551388117019,
+    "extremism": 0.5513277311489149
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.45382497140476885,
+    "extremism": 0.6543743374375924
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.36202593089527946,
+    "extremism": 0.44541788476206806
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.45752494394853743,
+    "extremism": 0.6651087490249549
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.42776131894925357,
+    "extremism": 0.6410174280193549
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.41109691791017666,
+    "extremism": 0.4982985074155424
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.5274075183143768,
+    "extremism": 0.7977371154000378
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.4462532470650865,
+    "extremism": 0.6595866922321173
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.46009918578366393,
+    "extremism": 0.6306371589664586
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.37250559759352525,
+    "extremism": 0.5749748573132352
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.4488420427203444,
+    "extremism": 0.5670006370632693
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.4486434560688381,
+    "extremism": 0.6110934364509845
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.3985362331528997,
+    "extremism": 0.5586743469802004
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.5144136158178135,
+    "extremism": 0.7058817942560472
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.3660591816879098,
+    "extremism": 0.46648566627482135
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.4921209782320279,
+    "extremism": 0.6862941908639916
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.46313609975120357,
+    "extremism": 0.6616778291917954
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.40421854251245004,
+    "extremism": 0.48135035664232234
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.5712704617337278,
+    "extremism": 0.8342668323034781
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.4830442769331961,
+    "extremism": 0.6819702658179839
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.523724076359278,
+    "extremism": 0.6734429831487314
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.5407979216187101,
+    "extremism": 0.7313568345535186
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.4296702060979926,
+    "extremism": 0.5559237120129972
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.48168110399020664,
+    "extremism": 0.6630436691467818
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.41441400424420627,
+    "extremism": 0.5708182409869228
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.5801596623386012,
+    "extremism": 0.7543677154403181
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4254271537657816,
+    "extremism": 0.5511658940057681
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.547710328799361,
+    "extremism": 0.7431670645748335
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.5246030032578086,
+    "extremism": 0.702489794546685
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.5600779009637761,
+    "extremism": 0.5760258167602416
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6397940371042202,
+    "extremism": 0.8714080493219725
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.5111673370890437,
+    "extremism": 0.7127174805018224
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.5421469407672844,
+    "extremism": 0.7011370230961487
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.6189918824614055,
+    "extremism": 0.7880536663093145
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.4294146109340061,
+    "extremism": 0.5522756824814827
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.5251683772889457,
+    "extremism": 0.6978623840458005
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.40805998290455336,
+    "extremism": 0.5707328534009334
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.6045070438098533,
+    "extremism": 0.771740706789251
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4625422708571557,
+    "extremism": 0.6070166471475279
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.602048844007579,
+    "extremism": 0.7815690337253167
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.5347597582552595,
+    "extremism": 0.7097074688281388
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4226261941103702,
+    "extremism": 0.4936965837904816
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6071230657854791,
+    "extremism": 0.8583993601935882
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.5499082759507378,
+    "extremism": 0.7430627643038238
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.6142388832508212,
+    "extremism": 0.7821830243284603
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.6245133208795886,
+    "extremism": 0.7851469346925224
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.514172233047626,
+    "extremism": 0.6238844696788025
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.5836032478133775,
+    "extremism": 0.7370140139957624
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.4112311683106901,
+    "extremism": 0.5651972025272376
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7110880465551032,
+    "extremism": 0.8450706281697355
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4231817827304552,
+    "extremism": 0.5425831753988323
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.6211064054870159,
+    "extremism": 0.7957724850945528
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.5690924855999209,
+    "extremism": 0.7331711986261783
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4312462931614131,
+    "extremism": 0.4951583848170543
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.574962314687209,
+    "extremism": 0.7589041064234955
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.5470116453820623,
+    "extremism": 0.7435340226359218
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.6430422558412678,
+    "extremism": 0.8005452993115131
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7116350487192168,
+    "extremism": 0.8374718195246317
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.47682633626904375,
+    "extremism": 0.6071114777353358
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.6339537003416307,
+    "extremism": 0.7565031985457787
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.41761791857393293,
+    "extremism": 0.5717642968909236
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7683943206207047,
+    "extremism": 0.8783894354681843
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.44511939767844494,
+    "extremism": 0.5686887108595501
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.7130789411986288,
+    "extremism": 0.8483408935530465
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.5996516516878492,
+    "extremism": 0.7563512785120445
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4501244714243164,
+    "extremism": 0.5097822153432725
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6513160568896439,
+    "extremism": 0.8685629234716644
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.6244053599240273,
+    "extremism": 0.7933770337300464
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.6604383583617073,
+    "extremism": 0.8020221894261514
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7047311646825609,
+    "extremism": 0.8190316085351435
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.4562907829903207,
+    "extremism": 0.5892878151566543
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.6589627236092039,
+    "extremism": 0.7829643003994599
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.41647363206365506,
+    "extremism": 0.5696164691256103
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.6858261486137784,
+    "extremism": 0.8353745427877218
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.43692365029083396,
+    "extremism": 0.5432618301387131
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.6858552897958122,
+    "extremism": 0.8268031286657469
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.6264211310700198,
+    "extremism": 0.7750174083593524
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.5585079994529972,
+    "extremism": 0.5833863230660858
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6922496902179927,
+    "extremism": 0.8865846007059985
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.6257530076480786,
+    "extremism": 0.7962354264017582
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.6895438817650097,
+    "extremism": 0.8241721522537108
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7110887797580322,
+    "extremism": 0.8218747674996644
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.4739667710240299,
+    "extremism": 0.5915027411319992
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.6753985414316181,
+    "extremism": 0.8010790752211983
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.442416411056156,
+    "extremism": 0.5901069046948347
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8077715959305681,
+    "extremism": 0.9010746178239109
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4072370902979832,
+    "extremism": 0.5300543385030186
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.6824885427964942,
+    "extremism": 0.8246908287833299
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.6540551512768829,
+    "extremism": 0.7958167088221038
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4956062531192433,
+    "extremism": 0.5322930091996428
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6474832919378563,
+    "extremism": 0.863168397517459
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.6390417617424441,
+    "extremism": 0.8102546202582244
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.7176881021518406,
+    "extremism": 0.8411432822920372
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7437307891673864,
+    "extremism": 0.840857518354672
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.4925815212536011,
+    "extremism": 0.6110767553969308
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.6577035101100808,
+    "extremism": 0.813679517547954
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.457946484758604,
+    "extremism": 0.609762606095469
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7272147272539388,
+    "extremism": 0.862671129274313
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.41117511781608296,
+    "extremism": 0.5785991235415717
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.6885673448337247,
+    "extremism": 0.8288187594217896
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.6472296116522229,
+    "extremism": 0.7914867642340918
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4815380070849121,
+    "extremism": 0.5208378933806052
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.7182477811551092,
+    "extremism": 0.8765892778103122
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.6238977103256919,
+    "extremism": 0.7940452919663425
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.7470151731398046,
+    "extremism": 0.8584946462665636
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7174420043828487,
+    "extremism": 0.8429325832382255
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.5024163425205246,
+    "extremism": 0.6159524489841467
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7178970953493565,
+    "extremism": 0.8278377646656341
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.5021110881391345,
+    "extremism": 0.6398812449601485
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7331011409005401,
+    "extremism": 0.8673816853751473
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.5815997118770276,
+    "extremism": 0.7039455838918398
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.6844680205797394,
+    "extremism": 0.8258778742989964
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.6795629628640749,
+    "extremism": 0.8149192411342858
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.47574337921080173,
+    "extremism": 0.5146916733967448
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6839963798830502,
+    "extremism": 0.865100908892015
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.7039002019086689,
+    "extremism": 0.8456814688555236
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.7533293581425181,
+    "extremism": 0.8627181454170938
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7189508491411583,
+    "extremism": 0.8460392710993824
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.5229685153347288,
+    "extremism": 0.652567573715698
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7012770128487813,
+    "extremism": 0.8406031429386681
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.49970654635727085,
+    "extremism": 0.6220297334070263
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7039505342946077,
+    "extremism": 0.8509548110815188
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.429435991751809,
+    "extremism": 0.6183846742951027
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.7152636143022639,
+    "extremism": 0.8446383093087352
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7076758544893791,
+    "extremism": 0.8334109834347262
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4690057346308562,
+    "extremism": 0.5131971405408833
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6486790027194843,
+    "extremism": 0.8234017586044873
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.7845209729915414,
+    "extremism": 0.883012409108581
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.7508727836811835,
+    "extremism": 0.8614575200347704
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7725243399742457,
+    "extremism": 0.8628957829219885
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.5220602972714925,
+    "extremism": 0.6528113598240546
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7378920715693204,
+    "extremism": 0.8430752302289894
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.5012198779228767,
+    "extremism": 0.6302279482936095
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7976936418228701,
+    "extremism": 0.8926550331855165
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4501513040285413,
+    "extremism": 0.621114915600181
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.7477295422324941,
+    "extremism": 0.8645494169361783
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7077836152621393,
+    "extremism": 0.8338974730245409
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.47452792979238095,
+    "extremism": 0.5206118852685232
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.801719629946299,
+    "extremism": 0.9237595489611184
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.654945349733897,
+    "extremism": 0.8151555312044743
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.7855470036364189,
+    "extremism": 0.882790800894806
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7714676831812131,
+    "extremism": 0.8693314087153121
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.6239771369073028,
+    "extremism": 0.7355034745585078
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7430346363662176,
+    "extremism": 0.8668268607041131
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.5190526814573091,
+    "extremism": 0.6585103947352349
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8467795247074966,
+    "extremism": 0.9234795478668556
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4438268199020034,
+    "extremism": 0.6244032767713751
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.7188350541078375,
+    "extremism": 0.8476579359276761
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7426220542122485,
+    "extremism": 0.8564659284072524
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.47027180587828354,
+    "extremism": 0.5177981834664034
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.7664228380537733,
+    "extremism": 0.9061408310646186
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8562663101082064,
+    "extremism": 0.9290801134144864
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.7744647174481458,
+    "extremism": 0.8766947492786644
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8113118641485414,
+    "extremism": 0.9063947552696027
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.6942189311256388,
+    "extremism": 0.7978972333608091
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7330137404908114,
+    "extremism": 0.8608503436744738
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.6043263661663777,
+    "extremism": 0.7515881360266923
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8109676803714996,
+    "extremism": 0.9066417895417218
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.4802226095490555,
+    "extremism": 0.6808126504508158
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.8185774551707159,
+    "extremism": 0.9051832932422503
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8507114393133405,
+    "extremism": 0.9244897419703878
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4644369287101345,
+    "extremism": 0.5077572088826148
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.7560909030162758,
+    "extremism": 0.9099349867650716
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.7106859078218739,
+    "extremism": 0.8462273512067678
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8041294576792617,
+    "extremism": 0.8948368106466278
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7851345052588584,
+    "extremism": 0.888376264865734
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.710007641494042,
+    "extremism": 0.8154573932444313
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7366921773438319,
+    "extremism": 0.8655889648804496
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.6043402814476613,
+    "extremism": 0.7470532565482437
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8173611480390319,
+    "extremism": 0.910565893185295
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.5583508096284181,
+    "extremism": 0.6941194269617701
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.7827814461176692,
+    "extremism": 0.8853382282256499
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7168029351441834,
+    "extremism": 0.83993017881014
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4762563384792631,
+    "extremism": 0.5174440948050362
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6173103900943357,
+    "extremism": 0.7693319578381747
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.7643460494323766,
+    "extremism": 0.8744976096983578
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8112668596842088,
+    "extremism": 0.8987003494676646
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8159487410043408,
+    "extremism": 0.9057099066495766
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.6481937824392374,
+    "extremism": 0.7567606209557934
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7535864093947089,
+    "extremism": 0.8805214899436962
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.6434274847322216,
+    "extremism": 0.7830188773406067
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7964964331983506,
+    "extremism": 0.8995599149005394
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.6258481038624584,
+    "extremism": 0.7448347354328847
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.8221568637422103,
+    "extremism": 0.9077344671867033
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7656698871866141,
+    "extremism": 0.8723295811487368
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.478959403544965,
+    "extremism": 0.5144231956686182
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.6363707233946265,
+    "extremism": 0.7883225101159148
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.769193777448439,
+    "extremism": 0.8754722977927425
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8054522470684081,
+    "extremism": 0.89620129596508
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7749619505487176,
+    "extremism": 0.8649565185351605
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.6168312975607492,
+    "extremism": 0.7693434827586231
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7726367750302207,
+    "extremism": 0.871714750632665
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.7255969489876211,
+    "extremism": 0.8280091315298285
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8235401125421558,
+    "extremism": 0.9107150412687153
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.6487922874367458,
+    "extremism": 0.7669244192094034
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.8470116291722357,
+    "extremism": 0.9210597205808833
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7825384433692824,
+    "extremism": 0.88241131867877
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.45266359862140193,
+    "extremism": 0.5005093791453805
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.7176314184947742,
+    "extremism": 0.8799787775606811
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.684608675013456,
+    "extremism": 0.8233994744310589
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8096553827213734,
+    "extremism": 0.8970719986499858
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7912240601716249,
+    "extremism": 0.8901085076074119
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.6823028090856517,
+    "extremism": 0.7947211750550472
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.7729734464374406,
+    "extremism": 0.8744442754718105
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.6575622385515077,
+    "extremism": 0.7854087537832375
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.7473283426149995,
+    "extremism": 0.8720254912209785
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.6556559382801322,
+    "extremism": 0.7767899929494293
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.8701870068156353,
+    "extremism": 0.933328505643845
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7847139712096203,
+    "extremism": 0.8841827705564171
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4553310263748226,
+    "extremism": 0.5293824153219445
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.2516536572082908,
+    "extremism": 0.4337694950314897
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.22000512716532725,
+    "extremism": 0.461757358012933
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.26579277076651975,
+    "extremism": 0.4919869652563631
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.26549493118640594,
+    "extremism": 0.47837759794134543
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.2693610004171015,
+    "extremism": 0.5115596958420925
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.24919060355274325,
+    "extremism": 0.421858045471914
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.23983115589304427,
+    "extremism": 0.4869054746220752
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.1916846883837489,
+    "extremism": 0.4241245144516907
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.21164551414837277,
+    "extremism": 0.3429252513630526
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.2598195692482407,
+    "extremism": 0.5041816850621806
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.28347158413822393,
+    "extremism": 0.5009504479274213
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.25157644201187374,
+    "extremism": 0.46640663989680065
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8848969119499658,
+    "extremism": 0.9855362375344078
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9746015578164412,
+    "extremism": 0.987829395378651
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.978613645306607,
+    "extremism": 0.9893597004284197
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9547778175384017,
+    "extremism": 0.9795542781860798
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.5858889418219333,
+    "extremism": 0.7219651543412036
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8245846134609551,
+    "extremism": 0.9685873395308812
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.573795031822871,
+    "extremism": 0.7324872908990424
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9313275354700765,
+    "extremism": 0.9647492178864668
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.647019254555405,
+    "extremism": 0.6866338706261967
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9561201786597948,
+    "extremism": 0.9723397298348064
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9583218248895534,
+    "extremism": 0.985289552224501
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.48760970179072033,
+    "extremism": 0.5615271397779883
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9073533992556206,
+    "extremism": 0.9961934712099173
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.986174714370008,
+    "extremism": 0.9963522845877768
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9838199024138236,
+    "extremism": 0.9931325468607685
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9789547675139525,
+    "extremism": 0.9951694974812898
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9076230753327644,
+    "extremism": 0.9521389052073721
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9452840594263676,
+    "extremism": 0.9967365770386913
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.976590398044774,
+    "extremism": 0.9926061833013055
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.977714944281946,
+    "extremism": 0.9928511494727523
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9768255596306484,
+    "extremism": 0.9952836432341999
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9859599739683692,
+    "extremism": 0.9948363839951198
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.986695127080016,
+    "extremism": 0.9965194561520881
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.5635854007911902,
+    "extremism": 0.5852659747678486
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9210970908790452,
+    "extremism": 0.9973890762407004
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9829968659545705,
+    "extremism": 0.9976374971227665
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9873164382794528,
+    "extremism": 0.9967945983163636
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9857929109060826,
+    "extremism": 0.9967251518414674
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9584012206344886,
+    "extremism": 0.9924041418212397
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9389309507743073,
+    "extremism": 0.9981937561843841
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9801358237948758,
+    "extremism": 0.994525085210951
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9780325405860841,
+    "extremism": 0.996419758920608
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.99476234709436,
+    "extremism": 0.9974296236114519
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9883688779836323,
+    "extremism": 0.9967084807275881
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.985799927153898,
+    "extremism": 0.9978726244324096
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.5736418062815531,
+    "extremism": 0.623707644950231
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9225614044821026,
+    "extremism": 0.9980661337261921
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9820860930364279,
+    "extremism": 0.9983190860147753
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9892849223424146,
+    "extremism": 0.9977891960907468
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9939184290017877,
+    "extremism": 0.997682820147125
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9408963396406012,
+    "extremism": 0.9931684805497745
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9401061764639849,
+    "extremism": 0.9988073969017057
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9854069654708524,
+    "extremism": 0.9955367054409564
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9802036214338602,
+    "extremism": 0.9974746172629448
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9943428371719301,
+    "extremism": 0.9979063798377424
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9903102619374693,
+    "extremism": 0.9976734407309835
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9682262220857362,
+    "extremism": 0.9984869683545295
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.5900896033833583,
+    "extremism": 0.716589404236161
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9234127866437751,
+    "extremism": 0.9984407817450687
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9803867149344794,
+    "extremism": 0.9987131979851671
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9904544987512796,
+    "extremism": 0.9983847436790344
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9859474487853519,
+    "extremism": 0.9977837192473547
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9165637560735078,
+    "extremism": 0.9927887450815934
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9622439663072317,
+    "extremism": 0.9991739007261793
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9909548890849713,
+    "extremism": 0.9965434102483935
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9856023212415053,
+    "extremism": 0.9979445469823186
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9930321533262871,
+    "extremism": 0.9982336595462027
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9936074258649488,
+    "extremism": 0.998098663497118
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.978200228483494,
+    "extremism": 0.9988613014404762
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.6449054592951714,
+    "extremism": 0.8146497887161062
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9392547565251251,
+    "extremism": 0.9986558672273372
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9878600041846775,
+    "extremism": 0.998978055489186
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9911381378429263,
+    "extremism": 0.998735726720469
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9869492954721677,
+    "extremism": 0.9983272424733355
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9235382673700794,
+    "extremism": 0.9940051727417487
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9546872406582159,
+    "extremism": 0.9993907148000332
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9925471132034127,
+    "extremism": 0.9969389811739269
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9881804926939598,
+    "extremism": 0.9982596237319282
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9937837201142881,
+    "extremism": 0.9986234890589415
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.995894382701382,
+    "extremism": 0.9984193217241004
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9815701354022847,
+    "extremism": 0.9992108387102894
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.6719733674555717,
+    "extremism": 0.8619805401102955
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9397543033870308,
+    "extremism": 0.9988741924858583
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9861838813049385,
+    "extremism": 0.9991877830017796
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9931164622422329,
+    "extremism": 0.998983434535914
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9828793167386213,
+    "extremism": 0.998469697868782
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9242463895586664,
+    "extremism": 0.9944704479157629
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.959067339429885,
+    "extremism": 0.9995404631219655
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9922635594285137,
+    "extremism": 0.9972338680815404
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9868964556325408,
+    "extremism": 0.9985619040597732
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9965799732651058,
+    "extremism": 0.9990608980972274
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9948355380835896,
+    "extremism": 0.9987055490790556
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9868100051232597,
+    "extremism": 0.9994474780949241
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.817008573604586,
+    "extremism": 0.9942606585575559
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.940097831870903,
+    "extremism": 0.9990225978200223
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.988585935770966,
+    "extremism": 0.9993311763756195
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9947578792436466,
+    "extremism": 0.9991603340712402
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9807334449157946,
+    "extremism": 0.9986488962254092
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.919636624870879,
+    "extremism": 0.9948585090074566
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.955213004917523,
+    "extremism": 0.9996586204225372
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9935959310272756,
+    "extremism": 0.9974875327083162
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9851679662553443,
+    "extremism": 0.9987429027847256
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.997620933664743,
+    "extremism": 0.9992415426145999
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9974020002221776,
+    "extremism": 0.9989130368526237
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9870751753752672,
+    "extremism": 0.9995807060469828
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8425208454394358,
+    "extremism": 0.9955531240449473
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9450368869205957,
+    "extremism": 0.9991205286458438
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9888233758857214,
+    "extremism": 0.9994459149331442
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9950613596688851,
+    "extremism": 0.9993147434409932
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9860864644876834,
+    "extremism": 0.9989845288972368
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8825960597934964,
+    "extremism": 0.9936025645157787
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9594535670839471,
+    "extremism": 0.9997264907249627
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9948932840220072,
+    "extremism": 0.9978213911330444
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9832049175024418,
+    "extremism": 0.9989063283995426
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9987887223568805,
+    "extremism": 0.9994469193630525
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9980799791133618,
+    "extremism": 0.9990341483116826
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9872088567976591,
+    "extremism": 0.9996431740503625
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8506185626406633,
+    "extremism": 0.9959476876892943
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9452359338294413,
+    "extremism": 0.9992063104906634
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9890291115402325,
+    "extremism": 0.9995434579221214
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9940055771681758,
+    "extremism": 0.9994373003922314
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9863391147272529,
+    "extremism": 0.9991237577957598
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9024976317404978,
+    "extremism": 0.9946014916511051
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9671656166101564,
+    "extremism": 0.9997808896074659
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9935240144847913,
+    "extremism": 0.9978982454602635
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9858253501901166,
+    "extremism": 0.9990470989855647
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9990068698589536,
+    "extremism": 0.999555867558185
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9982822333744775,
+    "extremism": 0.999136482859991
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9873686149052131,
+    "extremism": 0.9997252079162564
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8432218992626085,
+    "extremism": 0.9961333518956618
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.945402796149947,
+    "extremism": 0.9992782375507099
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.992745704902741,
+    "extremism": 0.9995939803400458
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9941723046572127,
+    "extremism": 0.9995230072814507
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9922273260867172,
+    "extremism": 0.9992527294596992
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9441559855272024,
+    "extremism": 0.9980888507659655
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9672401762058044,
+    "extremism": 0.9998174945641068
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9939525998201765,
+    "extremism": 0.9981249513571151
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9881838416948453,
+    "extremism": 0.9991596353596673
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9992725173823211,
+    "extremism": 0.9996354477064102
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9984596924350074,
+    "extremism": 0.9992259060957086
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9874821990607378,
+    "extremism": 0.9997824967024067
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8512218318532999,
+    "extremism": 0.9964411976178802
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9541092349605086,
+    "extremism": 0.9992336574225056
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9943313870701891,
+    "extremism": 0.9996325950769804
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9956169991797994,
+    "extremism": 0.9995991504318053
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9906200354044339,
+    "extremism": 0.9992947868056845
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9488851638033209,
+    "extremism": 0.9982576463958446
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9673015455061338,
+    "extremism": 0.9998479555768672
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9929674035212535,
+    "extremism": 0.9981645390240809
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9903612929487945,
+    "extremism": 0.9992824663635083
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.999403091096045,
+    "extremism": 0.9997009349101117
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9986025642474496,
+    "extremism": 0.9992979493541765
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9875675701785771,
+    "extremism": 0.9998256645200039
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8663283451692283,
+    "extremism": 0.996793658657025
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9620572925596343,
+    "extremism": 0.9992035476070137
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9928945824149025,
+    "extremism": 0.9996648008272995
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9968615739897748,
+    "extremism": 0.9996749385349023
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9907533735920356,
+    "extremism": 0.9993676215219236
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9533606759375559,
+    "extremism": 0.9983884393644143
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9673453781412735,
+    "extremism": 0.9998697906713551
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9919142584826157,
+    "extremism": 0.9982783747276105
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9886841740531704,
+    "extremism": 0.9993913285362334
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9994046994166126,
+    "extremism": 0.9997497458327302
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.998684192112513,
+    "extremism": 0.9993952102021453
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9876343932956392,
+    "extremism": 0.9998595521472896
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8736292750470992,
+    "extremism": 0.9969990823144483
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9582898754272,
+    "extremism": 0.9992667313652739
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9944595117898324,
+    "extremism": 0.9996937954403673
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9978933386220871,
+    "extremism": 0.9997434352039118
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9926154112489394,
+    "extremism": 0.9994625224457799
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9535318379451803,
+    "extremism": 0.9984962138064587
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9708840881908387,
+    "extremism": 0.9998895380223882
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9921242330705401,
+    "extremism": 0.9983920744536507
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9906914871291798,
+    "extremism": 0.9994375704681314
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9994043639187222,
+    "extremism": 0.9997494263585831
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9989072943952363,
+    "extremism": 0.9994513631372177
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9876856456410608,
+    "extremism": 0.9998858490584217
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9249723613010634,
+    "extremism": 0.9985343189412821
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9623073326175503,
+    "extremism": 0.9993131103801702
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9945093931335701,
+    "extremism": 0.9997175970254594
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.997120712405967,
+    "extremism": 0.9998079966618758
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9941899812093551,
+    "extremism": 0.9995085310718061
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9536639093946317,
+    "extremism": 0.9985793695341559
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9709178558005087,
+    "extremism": 0.9999064196100028
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9923251715368184,
+    "extremism": 0.9985008287379165
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9907882473814164,
+    "extremism": 0.9994823927784153
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9994671499430561,
+    "extremism": 0.9997811433132884
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9990000996024453,
+    "extremism": 0.9994981227868789
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.987727007402531,
+    "extremism": 0.9999073956706758
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9196156643545226,
+    "extremism": 0.9986140636947237
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9624183773702408,
+    "extremism": 0.9993617836548239
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.994554045682214,
+    "extremism": 0.9997389487526956
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9961126437728401,
+    "extremism": 0.9998550681465731
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9942608963709806,
+    "extremism": 0.999546769991108
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9578410227633656,
+    "extremism": 0.9986449110890316
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9773117027749183,
+    "extremism": 0.9999057749032297
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9938226602289104,
+    "extremism": 0.9986224561002317
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9908710872747319,
+    "extremism": 0.9995207665779026
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9992167286627414,
+    "extremism": 0.9998043534004973
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9990686974982265,
+    "extremism": 0.9995327017361589
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9877505880184216,
+    "extremism": 0.999919573514858
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9251963833251731,
+    "extremism": 0.9986889076811352
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9625149139270419,
+    "extremism": 0.9994035964989035
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9945928883028767,
+    "extremism": 0.9997575798482776
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9961747506160568,
+    "extremism": 0.9998866691120867
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9943194621826416,
+    "extremism": 0.9995783541703411
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9579278449759042,
+    "extremism": 0.9986995972662485
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9773329142320946,
+    "extremism": 0.9999165370847287
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9950417820018147,
+    "extremism": 0.9987001927411677
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9909482296057184,
+    "extremism": 0.9995564858915974
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9992582675765093,
+    "extremism": 0.9998253573752904
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9991334857904641,
+    "extremism": 0.999565341845799
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9877631299926418,
+    "extremism": 0.9999260350500093
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9357632979118852,
+    "extremism": 0.9988361164582699
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9762050681230819,
+    "extremism": 0.9994272682652887
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9946276975935808,
+    "extremism": 0.9997743214460454
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9973077571154397,
+    "extremism": 0.9999031512014775
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.995679654030527,
+    "extremism": 0.9996149471255745
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9580096520191941,
+    "extremism": 0.9987511170003437
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9742795524243806,
+    "extremism": 0.9999380369920086
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9940579390843962,
+    "extremism": 0.9987486180386711
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9891178564044896,
+    "extremism": 0.9995918537125726
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9992898835244054,
+    "extremism": 0.9998415358169237
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9991957917480059,
+    "extremism": 0.9995967088736529
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9877741197718541,
+    "extremism": 0.9999316965693598
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9454385658991898,
+    "extremism": 0.9989154770534344
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9762921663232608,
+    "extremism": 0.9994658686360441
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9946613486550856,
+    "extremism": 0.9997905170859428
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9962380967224227,
+    "extremism": 0.9999181103786987
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9957241763094419,
+    "extremism": 0.9996387050679953
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.958090493618113,
+    "extremism": 0.9988020084410807
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.974294975813508,
+    "extremism": 0.9999458095558955
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9953275704507573,
+    "extremism": 0.9988516456488358
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.987069824737458,
+    "extremism": 0.9996186591338079
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9993214143062779,
+    "extremism": 0.9998576632573811
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9992549641319706,
+    "extremism": 0.9996264703682556
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.987782955034462,
+    "extremism": 0.9999363306867346
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9625568906936169,
+    "extremism": 0.9991668203660333
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9763747093007544,
+    "extremism": 0.9995024763640543
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9946875704542356,
+    "extremism": 0.9998031894995622
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9962681815758045,
+    "extremism": 0.9999330690123253
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9957622459267764,
+    "extremism": 0.9996590218206234
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9620488667247574,
+    "extremism": 0.9988531675145961
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9774083542574666,
+    "extremism": 0.9999527764919935
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9943437291593148,
+    "extremism": 0.998901608257325
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9871263570285188,
+    "extremism": 0.9996444548386996
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.999352863683288,
+    "extremism": 0.9998737417541613
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9989376754293217,
+    "extremism": 0.9996745345978745
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9877914131423151,
+    "extremism": 0.9999407943388522
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9663058494777584,
+    "extremism": 0.9992067439234128
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.2516536572082908,
+    "extremism": 0.4337694950314897
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.22000512716532725,
+    "extremism": 0.461757358012933
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.26579277076651975,
+    "extremism": 0.4919869652563631
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.26549493118640594,
+    "extremism": 0.47837759794134543
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.2693610004171015,
+    "extremism": 0.5115596958420925
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.24919060355274325,
+    "extremism": 0.421858045471914
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.23983115589304427,
+    "extremism": 0.4869054746220752
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.1916846883837489,
+    "extremism": 0.4241245144516907
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.21164551414837277,
+    "extremism": 0.3429252513630526
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.2598195692482407,
+    "extremism": 0.5041816850621806
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.28347158413822393,
+    "extremism": 0.5009504479274213
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.0,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.25157644201187374,
+    "extremism": 0.46640663989680065
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.7579005151042918,
+    "extremism": 0.9069496581941046
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.7791798774392942,
+    "extremism": 0.8606371460541644
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.6589258245351419,
+    "extremism": 0.7692712563823667
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7650881384294916,
+    "extremism": 0.8465589078802617
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.7766520957984829,
+    "extremism": 0.8812504503787448
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.6187323859429396,
+    "extremism": 0.8143907081789734
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.7134714599178292,
+    "extremism": 0.851489762982846
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.854065840778232,
+    "extremism": 0.9298496131270809
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.5984223257895076,
+    "extremism": 0.7256265899730389
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.8825883666713438,
+    "extremism": 0.9256061667760247
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.7697525022154952,
+    "extremism": 0.8610940400844548
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.05,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4170224917046661,
+    "extremism": 0.5777650500708761
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8231999109321784,
+    "extremism": 0.9585267055876863
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8703262484734451,
+    "extremism": 0.931210642610962
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8337541919263108,
+    "extremism": 0.9037429367394565
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.7779698782291465,
+    "extremism": 0.8618508840553446
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8305135000793175,
+    "extremism": 0.9050888243601488
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.761259867651299,
+    "extremism": 0.8863071334133744
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8439990943789561,
+    "extremism": 0.9217219035838218
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8045112524672416,
+    "extremism": 0.9240156839843704
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.736697590150582,
+    "extremism": 0.8492081798421469
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9055954379351995,
+    "extremism": 0.9492398090650824
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.776381292419382,
+    "extremism": 0.8785814171135721
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.1,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.43500392061490134,
+    "extremism": 0.588450790057966
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8456479776588233,
+    "extremism": 0.9609657128950145
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8881099349629205,
+    "extremism": 0.9472388736563281
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.91089173096098,
+    "extremism": 0.9528363711302754
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8306689980221975,
+    "extremism": 0.9028873393088442
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9193129006739232,
+    "extremism": 0.9550100746864502
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8815550415789492,
+    "extremism": 0.9508725567052394
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8722512023458784,
+    "extremism": 0.9345383858406854
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8121220899476645,
+    "extremism": 0.9184785895639402
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.7901682364509915,
+    "extremism": 0.8677639807118627
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9175979565544969,
+    "extremism": 0.9527740077976725
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8267696129507626,
+    "extremism": 0.9117766661877529
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.15,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.42431917616806075,
+    "extremism": 0.5833063883068492
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.7878891510856877,
+    "extremism": 0.9342237952597929
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9220222187975878,
+    "extremism": 0.9690048744664759
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.926830062403982,
+    "extremism": 0.9618974292465582
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8390717345419771,
+    "extremism": 0.9113215291567465
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9316725786920014,
+    "extremism": 0.9630103019243182
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8935299343114232,
+    "extremism": 0.9598687568944819
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9010409389502542,
+    "extremism": 0.9494118986055728
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8929411415737928,
+    "extremism": 0.9629624748844863
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8098295949991738,
+    "extremism": 0.8960935066709496
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9374411462072597,
+    "extremism": 0.9688596266679705
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8934650105870644,
+    "extremism": 0.9518325814713652
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.2,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.48499792871288305,
+    "extremism": 0.6292072439437597
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8134584418119496,
+    "extremism": 0.9431690769068903
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9255160231808915,
+    "extremism": 0.966385014792246
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9070383805708095,
+    "extremism": 0.9511480333413778
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8444075579911581,
+    "extremism": 0.9144285132081618
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9323166881529429,
+    "extremism": 0.9607904042021204
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9018890732583636,
+    "extremism": 0.9657152247067421
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9299907295108906,
+    "extremism": 0.964443709102881
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.824275566621272,
+    "extremism": 0.9291793625323198
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8030978320762509,
+    "extremism": 0.8938723704541051
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9227926610218917,
+    "extremism": 0.9564868290823089
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8471790983281435,
+    "extremism": 0.9229935680107118
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.25,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.4963711990885891,
+    "extremism": 0.6388145411716208
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.824945355600637,
+    "extremism": 0.9496194687872471
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9264849934490164,
+    "extremism": 0.9676880070765427
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8586627063383842,
+    "extremism": 0.9248061691234482
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9228133315262729,
+    "extremism": 0.9587150385191537
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9393060498969131,
+    "extremism": 0.9662675849685436
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8403005006203975,
+    "extremism": 0.9335578518115258
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8145917824795518,
+    "extremism": 0.89924068225328
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8371255549247922,
+    "extremism": 0.9351283848394334
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8400527557534666,
+    "extremism": 0.9166703366344361
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9384247544793156,
+    "extremism": 0.96609154188849
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8736810601845093,
+    "extremism": 0.9447370605548757
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.3,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8443255654671938,
+    "extremism": 0.9224141440039417
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8372139220058081,
+    "extremism": 0.949726371483372
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9029909663000045,
+    "extremism": 0.9589027925025235
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9243363172758344,
+    "extremism": 0.9630404779454972
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8929452578058775,
+    "extremism": 0.9413550443870042
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9116205439308311,
+    "extremism": 0.9533203493100791
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8936921634348767,
+    "extremism": 0.9657965906827559
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9018135797241078,
+    "extremism": 0.9395632152726995
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9104239774878519,
+    "extremism": 0.966687757130814
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8480761726330616,
+    "extremism": 0.9215319258922565
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9397229874191433,
+    "extremism": 0.9691113274102413
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8989661603386591,
+    "extremism": 0.9547649567807757
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.35,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9268153713327638,
+    "extremism": 0.9638784473867453
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8379687393950968,
+    "extremism": 0.95031394550482
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9147690673568823,
+    "extremism": 0.9640682300653515
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9315616537190843,
+    "extremism": 0.9647747621743977
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8816263068692959,
+    "extremism": 0.9377355166695321
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8715382080700631,
+    "extremism": 0.9365234344883892
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8956929239736524,
+    "extremism": 0.9597228524768887
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.9324326185619759,
+    "extremism": 0.9628413509694127
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8909464543817651,
+    "extremism": 0.9594535733720184
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8715657886981478,
+    "extremism": 0.9339358342881158
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9262040690209026,
+    "extremism": 0.9623056341003039
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9114720460389779,
+    "extremism": 0.9644427302299141
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.4,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.8833003992722414,
+    "extremism": 0.9400454529011404
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8510627954516299,
+    "extremism": 0.9465916324653315
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8837462491766288,
+    "extremism": 0.9440481013891273
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8644133417678057,
+    "extremism": 0.9324119172823271
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8903628188490401,
+    "extremism": 0.9406971683210094
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9126115095492406,
+    "extremism": 0.9541546041351665
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9148251330861037,
+    "extremism": 0.9730631591144445
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8488604988924711,
+    "extremism": 0.9073427848374321
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9200079438910856,
+    "extremism": 0.9699385750833592
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9287466995880798,
+    "extremism": 0.9627193721132007
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9477862036265416,
+    "extremism": 0.9731720650159567
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9086142473898198,
+    "extremism": 0.9569957650351381
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.45,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9156461790531557,
+    "extremism": 0.9568707107141305
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.856992058185644,
+    "extremism": 0.9500335076612564
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.881717878462872,
+    "extremism": 0.9456712731448834
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8519948583937,
+    "extremism": 0.9231368125041385
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9069696311568686,
+    "extremism": 0.9497997128801533
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9179370741153409,
+    "extremism": 0.9620295451349695
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8279538004614528,
+    "extremism": 0.9188757989505715
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8624352647969695,
+    "extremism": 0.9188190398717375
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.912075322985861,
+    "extremism": 0.9650697729886393
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8696999170265304,
+    "extremism": 0.9321483375141526
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.955415334953738,
+    "extremism": 0.9761799636661204
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8986009367629163,
+    "extremism": 0.9540652655405455
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.5,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9168599502658723,
+    "extremism": 0.9581262484381589
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8875184897263617,
+    "extremism": 0.9617121139495913
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8935708023815208,
+    "extremism": 0.9524932617407695
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9259847571114226,
+    "extremism": 0.9636529431258916
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9192305564469808,
+    "extremism": 0.9579585986406721
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.827063341738718,
+    "extremism": 0.9078988579259406
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8846363411430463,
+    "extremism": 0.9574069501674194
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8430750050498647,
+    "extremism": 0.9164896372686977
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9254703612770434,
+    "extremism": 0.9702626860138989
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8555161962709213,
+    "extremism": 0.9241245830863957
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9268564534231225,
+    "extremism": 0.9628277366691149
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8968555068644628,
+    "extremism": 0.952993246667726
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.55,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9332065485888159,
+    "extremism": 0.9665781867360274
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8581335884608476,
+    "extremism": 0.9471782764488431
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9029220758041803,
+    "extremism": 0.9589661904836007
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9165580080133054,
+    "extremism": 0.9596261750693327
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9474608672752237,
+    "extremism": 0.9735094902352793
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8567888501490912,
+    "extremism": 0.9243972720113689
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9167233361446082,
+    "extremism": 0.9794565076360117
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.882101707918346,
+    "extremism": 0.9334590611141778
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9047320441665662,
+    "extremism": 0.9591292157848537
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8606629024224354,
+    "extremism": 0.9269440189411603
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9276902355362654,
+    "extremism": 0.9630010286145488
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9219490502925232,
+    "extremism": 0.9667626408606051
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.6,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9239949364427216,
+    "extremism": 0.9614215427876178
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8305977063829951,
+    "extremism": 0.9355214532258439
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8836729295947182,
+    "extremism": 0.944572729331838
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8994734010370945,
+    "extremism": 0.9499073395013042
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9216113433704501,
+    "extremism": 0.9601086323407274
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8922608009488271,
+    "extremism": 0.9488364943144357
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8983134547036198,
+    "extremism": 0.9636042656799756
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8992958164621667,
+    "extremism": 0.9434948416905496
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9033223861233196,
+    "extremism": 0.9573752475561457
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8529655296714219,
+    "extremism": 0.9225853579129506
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9246242965195074,
+    "extremism": 0.9613886379672277
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8731498077846648,
+    "extremism": 0.9386782871166534
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.65,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.937780267618479,
+    "extremism": 0.9669747670569698
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.839928533753092,
+    "extremism": 0.9418919489829379
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8950606028705289,
+    "extremism": 0.9528731264575092
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9022008079588698,
+    "extremism": 0.9514448095077139
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.8860342645784962,
+    "extremism": 0.941296817846417
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8912180749216424,
+    "extremism": 0.9482811191511722
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8929467599885698,
+    "extremism": 0.9601591081303144
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.7934969123064731,
+    "extremism": 0.8863003257442652
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9096236486530188,
+    "extremism": 0.9622474624656934
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8514398243017931,
+    "extremism": 0.9226310237972019
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9368153707069016,
+    "extremism": 0.967905272569437
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9294797011625496,
+    "extremism": 0.971484577787495
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.7,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9289055973466023,
+    "extremism": 0.9637994380050244
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8805959867696005,
+    "extremism": 0.9557346915150228
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8924865848455735,
+    "extremism": 0.9484918169402466
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.8663290039879302,
+    "extremism": 0.9301224804396577
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9325196725633909,
+    "extremism": 0.9670295607308741
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.9191870309026552,
+    "extremism": 0.958226989273906
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8902827066293842,
+    "extremism": 0.9605522451115973
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.7881470484076395,
+    "extremism": 0.88515648058836
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.9181920007540265,
+    "extremism": 0.9655278506623881
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8827366006102679,
+    "extremism": 0.9394471778433118
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9395932863817421,
+    "extremism": 0.9690998177565396
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8930334337528003,
+    "extremism": 0.948687806301993
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.75,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9161406641081226,
+    "extremism": 0.9571948601473046
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8427573748801263,
+    "extremism": 0.9341292019884406
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9104328933497743,
+    "extremism": 0.9566812140867159
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9208507914354049,
+    "extremism": 0.9612460543540042
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9535507120739384,
+    "extremism": 0.9761440722679471
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8165502585466716,
+    "extremism": 0.9008266253389183
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9192402085150162,
+    "extremism": 0.9728149641550431
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8259489486764514,
+    "extremism": 0.9039475082128604
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8330871538867103,
+    "extremism": 0.9251562317466877
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9049834337749978,
+    "extremism": 0.9512231335788419
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.955598777044458,
+    "extremism": 0.9778968012539784
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8899634811023721,
+    "extremism": 0.9460785777065129
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.8,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9254418018549978,
+    "extremism": 0.9622297089219465
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8743770360053467,
+    "extremism": 0.9529732269782772
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.8851316047527246,
+    "extremism": 0.9419836489611474
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9235237906694165,
+    "extremism": 0.9610742679254585
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9109995800782289,
+    "extremism": 0.9553440521600902
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8997820995215697,
+    "extremism": 0.9467454527020546
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8987529533958132,
+    "extremism": 0.9598811278313621
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8092758275373325,
+    "extremism": 0.8928716051075282
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8721958527671825,
+    "extremism": 0.9451409534696132
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8838139585562097,
+    "extremism": 0.9394693482383929
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9577245765840336,
+    "extremism": 0.9785857747745144
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8697639641117055,
+    "extremism": 0.9361154761433251
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.85,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9286965980109211,
+    "extremism": 0.9637072711228821
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.9137172238253518,
+    "extremism": 0.9704161422156475
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9012086474616899,
+    "extremism": 0.9541528247504705
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9536898763219555,
+    "extremism": 0.9772307399167376
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9199483847473141,
+    "extremism": 0.9608477325163187
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8801549582967916,
+    "extremism": 0.9373311779679483
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8902614545612212,
+    "extremism": 0.9559438339128079
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8383821379233196,
+    "extremism": 0.9116401364986195
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8881957720053498,
+    "extremism": 0.9541873040766514
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8956987944209162,
+    "extremism": 0.9461049096728336
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9512498869591022,
+    "extremism": 0.9763403556429701
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9005845928325797,
+    "extremism": 0.9543684353818626
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.9,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9283346673978236,
+    "extremism": 0.9639631421855077
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8451146542631385,
+    "extremism": 0.9402489387733277
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9113948398608658,
+    "extremism": 0.9590024769750752
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9358828450869433,
+    "extremism": 0.9679503692003237
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.95457407650301,
+    "extremism": 0.9769347231743839
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8984228444077027,
+    "extremism": 0.9462689105116247
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.8981945430197428,
+    "extremism": 0.9591046113132538
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.8819345188862289,
+    "extremism": 0.9328848370635009
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8511164871590853,
+    "extremism": 0.9349328873233276
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.9086943792803567,
+    "extremism": 0.9529749266513372
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9599106759734197,
+    "extremism": 0.9800629959881888
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.8862628565229913,
+    "extremism": 0.9455732099412677
+  },
+  {
+    "platform": "controversy",
+    "lambda": 0.95,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9343184089392466,
+    "extremism": 0.9666476462687947
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 0,
+    "polarization": 0.8433315000653236,
+    "extremism": 0.9408557945800234
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 1,
+    "polarization": 0.9217658103895916,
+    "extremism": 0.9646639001494955
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 2,
+    "polarization": 0.9541110783412927,
+    "extremism": 0.9770637172927498
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 3,
+    "polarization": 0.9441785061223491,
+    "extremism": 0.9723214632551855
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 4,
+    "polarization": 0.8754138741761411,
+    "extremism": 0.9337788248854804
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 5,
+    "polarization": 0.9077422911622616,
+    "extremism": 0.9650344172016093
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 6,
+    "polarization": 0.893420208616978,
+    "extremism": 0.942610856690535
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 7,
+    "polarization": 0.8570742701129868,
+    "extremism": 0.9358296797397753
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 8,
+    "polarization": 0.8883650013832534,
+    "extremism": 0.942442268955812
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 9,
+    "polarization": 0.9299137098289095,
+    "extremism": 0.9644555983443991
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 10,
+    "polarization": 0.9047852441978452,
+    "extremism": 0.9569160907906619
+  },
+  {
+    "platform": "controversy",
+    "lambda": 1.0,
+    "N": 200,
+    "seed": 11,
+    "polarization": 0.9369984153608674,
+    "extremism": 0.9679776155320181
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.27070857624278644,
+    "extremism": 0.46014328216999073
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.3287526001880169,
+    "extremism": 0.5331641344236286
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.24177998024993028,
+    "extremism": 0.4943491025161816
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.2050613671054598,
+    "extremism": 0.37029138184863675
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.27267013946798796,
+    "extremism": 0.521464773938832
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.3374022001514516,
+    "extremism": 0.4982030320660308
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.9719447586088924,
+    "extremism": 0.992305606127447
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9893141525170422,
+    "extremism": 0.9963651883919331
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9031335963610748,
+    "extremism": 0.9957971549420076
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.9546072915326562,
+    "extremism": 0.9971067049897564
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9788542090130002,
+    "extremism": 0.9962913205905366
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9147312780377571,
+    "extremism": 0.9955207825456636
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.9509953944180647,
+    "extremism": 0.994364123799444
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.996903908881703,
+    "extremism": 0.9984470025268345
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9068913946456432,
+    "extremism": 0.9980439935891399
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.9787202290443419,
+    "extremism": 0.999126664520631
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9772445729058981,
+    "extremism": 0.9982009176946838
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9067680940987245,
+    "extremism": 0.9977589983486232
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.9532005746860963,
+    "extremism": 0.9957301869037508
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9944505637968329,
+    "extremism": 0.9989850184872637
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9082422535151982,
+    "extremism": 0.9988474731967127
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.989042665933538,
+    "extremism": 0.9995265359831609
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9882374957602883,
+    "extremism": 0.999024077298866
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9195880752711503,
+    "extremism": 0.9986141386005084
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.9269347609056448,
+    "extremism": 0.9962811544020918
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9971015107060217,
+    "extremism": 0.9993308339191121
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9088942674648745,
+    "extremism": 0.9992490810951145
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.9930134465016508,
+    "extremism": 0.9997134444191397
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9953649640342661,
+    "extremism": 0.9994487734702271
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9202604914044545,
+    "extremism": 0.999067924790559
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.8504771089131558,
+    "extremism": 0.9958377103956535
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9974386850918606,
+    "extremism": 0.9995032545401841
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9208752979528444,
+    "extremism": 0.9995190362027432
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.9933412257865905,
+    "extremism": 0.999874660661479
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9956583699655026,
+    "extremism": 0.9996047248034986
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9507248170115973,
+    "extremism": 0.9994373372241547
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.8657667016812948,
+    "extremism": 0.9963542879487512
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9976713342445334,
+    "extremism": 0.9996222010576997
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9210900753999153,
+    "extremism": 0.9996574169203615
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.9962240469728115,
+    "extremism": 0.9999153223104423
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9958548859555979,
+    "extremism": 0.9997095225219554
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9669761032652308,
+    "extremism": 0.9996188088573084
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.8662220680714816,
+    "extremism": 0.996713338497779
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9977803307875988,
+    "extremism": 0.9996780086915011
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9422301643770598,
+    "extremism": 0.9998913975170295
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.9934525153298054,
+    "extremism": 0.999929003866524
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.9891936607433199,
+    "extremism": 0.9995499002095393
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9740764363928137,
+    "extremism": 0.9998070912862929
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.8665498833616353,
+    "extremism": 0.9969717453440571
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.9958613626168131,
+    "extremism": 0.9997140447034386
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.9322678624844184,
+    "extremism": 0.9999103776475264
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.993495226485167,
+    "extremism": 0.999950225580163
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.989313715370106,
+    "extremism": 0.9996167607142239
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.9741592826911174,
+    "extremism": 0.9998565398397693
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.23890642939581305,
+    "extremism": 0.4687578845658038
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.2344694840958605,
+    "extremism": 0.42428232738161353
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.2546595191367558,
+    "extremism": 0.4651277322376196
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.21672380134045585,
+    "extremism": 0.3940575388345456
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.22137120247332234,
+    "extremism": 0.4453763436958525
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.2897565987264488,
+    "extremism": 0.5026337998082204
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9909203539034115,
+    "extremism": 0.9962853036435229
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9855575934207726,
+    "extremism": 0.9967311263019252
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.9691600108171127,
+    "extremism": 0.9963674936500285
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9922462222821505,
+    "extremism": 0.9966668073641023
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.9931477977508617,
+    "extremism": 0.9965387798701931
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9836862009564925,
+    "extremism": 0.9967241324218147
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9917967489317495,
+    "extremism": 0.9983775833895794
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9925352970694793,
+    "extremism": 0.9986863348388004
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.9915467044719005,
+    "extremism": 0.9985615328577296
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9953879800654175,
+    "extremism": 0.9984561734401245
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.9939163229837417,
+    "extremism": 0.9987371414842723
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9913944182528078,
+    "extremism": 0.9984739136583941
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9952972393901358,
+    "extremism": 0.9989205276655433
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9915267748321688,
+    "extremism": 0.9993565794591013
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.990270735737409,
+    "extremism": 0.9991617620595059
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9969745466059592,
+    "extremism": 0.9990794609582301
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.997491288085723,
+    "extremism": 0.9993519217238108
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.995746457781244,
+    "extremism": 0.999111556371447
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.997983133632799,
+    "extremism": 0.9991980756966492
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9955737012093473,
+    "extremism": 0.9995783257003523
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.9959578956677061,
+    "extremism": 0.999490691658504
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9972274470893328,
+    "extremism": 0.9993976802703304
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.9943973634488212,
+    "extremism": 0.9996431164411197
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9977606308361975,
+    "extremism": 0.9994886633251977
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9987485806156114,
+    "extremism": 0.9993825388051698
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9969378481610133,
+    "extremism": 0.9997133265213967
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.9943222790896564,
+    "extremism": 0.9996022945894056
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.998214619802986,
+    "extremism": 0.9995478232158709
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.996594330102522,
+    "extremism": 0.9998088988006422
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9977810889788844,
+    "extremism": 0.999687490843022
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9989701467741676,
+    "extremism": 0.9994936639200191
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9965715098381861,
+    "extremism": 0.9997926961803271
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.9951807242608723,
+    "extremism": 0.9996944156740634
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9983418148969416,
+    "extremism": 0.9996117261463024
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.9955427802151613,
+    "extremism": 0.9998818689090001
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9992264165787212,
+    "extremism": 0.9998119962914994
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9989394916482752,
+    "extremism": 0.9995755881694987
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9960775640858536,
+    "extremism": 0.9998319944640772
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.9970389868442529,
+    "extremism": 0.9997630349521649
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9984637262566711,
+    "extremism": 0.999674010340145
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.9949461312398321,
+    "extremism": 0.9999217010530961
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9995267737407485,
+    "extremism": 0.9998754287360737
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9990699329682431,
+    "extremism": 0.9996416460627023
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.9977507505891814,
+    "extremism": 0.9998841043214671
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.995408869060466,
+    "extremism": 0.9998096852559233
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.9985822879407331,
+    "extremism": 0.99973474043447
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.995666017604024,
+    "extremism": 0.9999445893862771
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.9998027532924015,
+    "extremism": 0.9999012321540925
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.2236770528679493,
+    "extremism": 0.45545317180372863
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.2123511485306086,
+    "extremism": 0.4302170524274001
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.22592458947526253,
+    "extremism": 0.44342704076460693
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.2836655911660049,
+    "extremism": 0.5030104885303964
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.23267110669206212,
+    "extremism": 0.43651834454404387
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.2432298003292072,
+    "extremism": 0.4622995897162221
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.9663641249016831,
+    "extremism": 0.9949563053567765
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9933211444089978,
+    "extremism": 0.9966589224914199
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.991169303040874,
+    "extremism": 0.9962915873306636
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.9741405601975619,
+    "extremism": 0.9945335448192841
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.99244701246244,
+    "extremism": 0.9962004459391423
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9841734071986912,
+    "extremism": 0.9970528666486448
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.9660587200197491,
+    "extremism": 0.9970182513947727
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9960089788968023,
+    "extremism": 0.9982831901990398
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9964122159539676,
+    "extremism": 0.998212220790532
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.9857441160073002,
+    "extremism": 0.9971284619212547
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9961464543407184,
+    "extremism": 0.9981706542730016
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9961671285585473,
+    "extremism": 0.9987856287264287
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.9733410706662039,
+    "extremism": 0.9980109923671145
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9974119352077047,
+    "extremism": 0.9989372801602479
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9977272355098854,
+    "extremism": 0.9988892997165223
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.99238130750353,
+    "extremism": 0.9985622045012879
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9968077320923407,
+    "extremism": 0.998917016012809
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9981761617245255,
+    "extremism": 0.9992417880699608
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.9787013886319493,
+    "extremism": 0.9986213216295106
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9980414113945733,
+    "extremism": 0.9993175898937188
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9973165983446399,
+    "extremism": 0.9991909881017415
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.9974108888028218,
+    "extremism": 0.9989963306923002
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9980712749275537,
+    "extremism": 0.9992825221999544
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9987857690024535,
+    "extremism": 0.9995059317672293
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.983151400337725,
+    "extremism": 0.9989546903751303
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9987444647769016,
+    "extremism": 0.9995168466550504
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9983069561640775,
+    "extremism": 0.9994087150071581
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.9968388397033023,
+    "extremism": 0.9991907434803656
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9989121889153922,
+    "extremism": 0.9994663196312444
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9992102900651925,
+    "extremism": 0.9996072400110404
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.98286721924585,
+    "extremism": 0.9991424044119409
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9994722627288793,
+    "extremism": 0.999747209871517
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9988704559092122,
+    "extremism": 0.9995138813230318
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.9976759629257664,
+    "extremism": 0.999347358691235
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9989174052689158,
+    "extremism": 0.999532800595203
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9993676003009223,
+    "extremism": 0.9997341432302211
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.9854892089621063,
+    "extremism": 0.9992765139421022
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9995228298233656,
+    "extremism": 0.9998095747558622
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9989726385162829,
+    "extremism": 0.9995147145149106
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.997554776671326,
+    "extremism": 0.9994620144468805
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9991651470357845,
+    "extremism": 0.9996316901611434
+  },
+  {
+    "platform": "neutral",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9995856434770283,
+    "extremism": 0.9997955819487737
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.9884163664696101,
+    "extremism": 0.9994016420594621
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.9991904594027332,
+    "extremism": 0.9998453460830956
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.9990137302396501,
+    "extremism": 0.9995867089501477
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.9982538869068344,
+    "extremism": 0.9995644155525961
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.9992452473140091,
+    "extremism": 0.9997000723572268
+  },
+  {
+    "platform": "neutral",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.9995000456650693,
+    "extremism": 0.9998264589673833
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.27070857624278644,
+    "extremism": 0.46014328216999073
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.3287526001880169,
+    "extremism": 0.5331641344236286
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.24177998024993028,
+    "extremism": 0.4943491025161816
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.2050613671054598,
+    "extremism": 0.37029138184863675
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.27267013946798796,
+    "extremism": 0.521464773938832
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.3374022001514516,
+    "extremism": 0.4982030320660308
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.541922236374187,
+    "extremism": 0.6670981787483174
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.46071231272792196,
+    "extremism": 0.5944880935832938
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.38361304793713685,
+    "extremism": 0.6159758769459444
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.2597601051793814,
+    "extremism": 0.4390620257978817
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.5025614881399983,
+    "extremism": 0.6641988062824984
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.46542911216469984,
+    "extremism": 0.6043820934206584
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.604076529552101,
+    "extremism": 0.6908801787069873
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.6233008685265303,
+    "extremism": 0.7695045833883088
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.44201070215010263,
+    "extremism": 0.668440679759101
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.44361216608552495,
+    "extremism": 0.5824052516908347
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.5569398473228876,
+    "extremism": 0.6798073555345198
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.5194990212319428,
+    "extremism": 0.6483045672057652
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.5870216127577278,
+    "extremism": 0.6923628616684815
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.6968490727385614,
+    "extremism": 0.8178267299721247
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.5582163844391963,
+    "extremism": 0.7402069346180368
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.4469440617615033,
+    "extremism": 0.5894985528295394
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.5780214646457541,
+    "extremism": 0.7075211957758875
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.5589148313349317,
+    "extremism": 0.6852223064896377
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.6218594469309274,
+    "extremism": 0.7261179015049829
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.8160137443781781,
+    "extremism": 0.9062713478621452
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.5738282598492701,
+    "extremism": 0.7515008714063337
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.4898473862056991,
+    "extremism": 0.6421742228177975
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.5863205266028786,
+    "extremism": 0.7254331711363605
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.5925175022714895,
+    "extremism": 0.7066488829309177
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.6011639119763327,
+    "extremism": 0.7509065439665094
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.8326339303071281,
+    "extremism": 0.9062104966775425
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.6449758539641741,
+    "extremism": 0.8148664840551747
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.6351172589406846,
+    "extremism": 0.8001435484113564
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.6015880773040205,
+    "extremism": 0.7415053602978552
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.6131541107144569,
+    "extremism": 0.7342746277245954
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.5896233412207785,
+    "extremism": 0.6936515459254867
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.8512900028992726,
+    "extremism": 0.9264174591271274
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.6843331788814305,
+    "extremism": 0.8569986110318878
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.7967199095745989,
+    "extremism": 0.8942367092457902
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.6076440495144148,
+    "extremism": 0.7477180655078911
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.6191785856043169,
+    "extremism": 0.743100346986828
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.6181895771209471,
+    "extremism": 0.7632705745054348
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.8432783340280627,
+    "extremism": 0.9227288926798554
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.6667490843377084,
+    "extremism": 0.8328209469932278
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.7193515048837585,
+    "extremism": 0.8473744419735267
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.6991474028396399,
+    "extremism": 0.8187486099969677
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.6066603912199361,
+    "extremism": 0.7608128667934903
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 0,
+    "polarization": 0.6498547850847558,
+    "extremism": 0.7693466784831281
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 1,
+    "polarization": 0.8832070376607295,
+    "extremism": 0.942127840554231
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 2,
+    "polarization": 0.6788007809346864,
+    "extremism": 0.842709267511419
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 3,
+    "polarization": 0.7806420111105443,
+    "extremism": 0.8998750032840036
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 4,
+    "polarization": 0.8462891969020123,
+    "extremism": 0.921959215919686
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 100,
+    "seed": 5,
+    "polarization": 0.7199149049532232,
+    "extremism": 0.8442162873494696
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.23890642939581305,
+    "extremism": 0.4687578845658038
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.2344694840958605,
+    "extremism": 0.42428232738161353
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.2546595191367558,
+    "extremism": 0.4651277322376196
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.21672380134045585,
+    "extremism": 0.3940575388345456
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.22137120247332234,
+    "extremism": 0.4453763436958525
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.2897565987264488,
+    "extremism": 0.5026337998082204
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.4085388915369494,
+    "extremism": 0.6231917336741019
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.34794851245840924,
+    "extremism": 0.5711426282650899
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.4404380119145411,
+    "extremism": 0.6154695214718133
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.40944781260402996,
+    "extremism": 0.5613684151475734
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.33688358278835884,
+    "extremism": 0.4714947332840793
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.36231430004909654,
+    "extremism": 0.552291338516886
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.46849911323690935,
+    "extremism": 0.6342694194655081
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.47474692349028247,
+    "extremism": 0.6832987847240674
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.576936437475408,
+    "extremism": 0.7152270320894705
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.4765002340087676,
+    "extremism": 0.6481587744630065
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.43020942422732944,
+    "extremism": 0.5314685650415152
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.49497610884377174,
+    "extremism": 0.6920401584727301
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.6224419718523881,
+    "extremism": 0.7766044810402687
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.5350343216626104,
+    "extremism": 0.7265985965422527
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.6559833221267355,
+    "extremism": 0.7786537537279972
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.5862828654719144,
+    "extremism": 0.7338508748189497
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.5097510123878903,
+    "extremism": 0.6110363182588877
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.6003437625764041,
+    "extremism": 0.7483825585879473
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.6588748714147948,
+    "extremism": 0.8151302507053511
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.5528737523563663,
+    "extremism": 0.7364282079741574
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.5729150690782607,
+    "extremism": 0.7337209052491697
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.6533501863982084,
+    "extremism": 0.7699704889507702
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.5321153770665128,
+    "extremism": 0.637071906471748
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.7837483321634903,
+    "extremism": 0.9034040374226836
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.8503775665829686,
+    "extremism": 0.9255277883742283
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.6535932976991282,
+    "extremism": 0.8018875624432036
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.733624533853618,
+    "extremism": 0.8531753635492347
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.6112904688825924,
+    "extremism": 0.7664797466231589
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.5988895509947906,
+    "extremism": 0.6230128956731585
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.8660586424443087,
+    "extremism": 0.9373934948264943
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.843642108908276,
+    "extremism": 0.9180661920581329
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.7090545997005677,
+    "extremism": 0.8373604309930281
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.8159950161541826,
+    "extremism": 0.9075118406509409
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.687400394665948,
+    "extremism": 0.8241056734439367
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.7437956402302954,
+    "extremism": 0.8372946663266407
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.7531685070265627,
+    "extremism": 0.8835273572968202
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.9277209979644744,
+    "extremism": 0.9635513125872595
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.7207927826307475,
+    "extremism": 0.8448799013524176
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.6409586127137087,
+    "extremism": 0.786546669974436
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.7098275428844677,
+    "extremism": 0.823989300586253
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.7587303146156086,
+    "extremism": 0.8670466606312803
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.8237495588162485,
+    "extremism": 0.9329958427440614
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 0,
+    "polarization": 0.7701631106567028,
+    "extremism": 0.8732298394419044
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 1,
+    "polarization": 0.7146820914387783,
+    "extremism": 0.8421619307893411
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 2,
+    "polarization": 0.7633567841062942,
+    "extremism": 0.8812786289058226
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 3,
+    "polarization": 0.6802426201322512,
+    "extremism": 0.8163407776910921
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 4,
+    "polarization": 0.7898873107944948,
+    "extremism": 0.8726634289210005
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 400,
+    "seed": 5,
+    "polarization": 0.6153780958967835,
+    "extremism": 0.7675425416963795
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.2236770528679493,
+    "extremism": 0.45545317180372863
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.2123511485306086,
+    "extremism": 0.4302170524274001
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.22592458947526253,
+    "extremism": 0.44342704076460693
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.2836655911660049,
+    "extremism": 0.5030104885303964
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.23267110669206212,
+    "extremism": 0.43651834454404387
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.0,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.2432298003292072,
+    "extremism": 0.4622995897162221
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.3247471829978423,
+    "extremism": 0.5487362897771924
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.32046701726187676,
+    "extremism": 0.48741266894562185
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.34292001695396507,
+    "extremism": 0.5278526316890428
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.36984542987428354,
+    "extremism": 0.5287902160436623
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.3037431681772859,
+    "extremism": 0.48257436318920477
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.125,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.27170249439329447,
+    "extremism": 0.43379955653851754
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.47630605942676607,
+    "extremism": 0.6556464714882252
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.4608119531443063,
+    "extremism": 0.5911650287634714
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.5219072147139304,
+    "extremism": 0.6732873270490143
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.5505147554397288,
+    "extremism": 0.6668556031833377
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.3654184357190179,
+    "extremism": 0.5258164868561309
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.25,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.3440031542070286,
+    "extremism": 0.483123883774111
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.5191564404249828,
+    "extremism": 0.6909567784926736
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.5107772813491235,
+    "extremism": 0.6537987799926972
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.6063233153521108,
+    "extremism": 0.7275053336250966
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.5809110850464496,
+    "extremism": 0.6917251938734598
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.4016225383386866,
+    "extremism": 0.5594656068550202
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.375,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.43543970439328805,
+    "extremism": 0.5647850192368081
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.5410560779062438,
+    "extremism": 0.7091559994437797
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.5403401538432776,
+    "extremism": 0.6694839218689225
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.6222796203735975,
+    "extremism": 0.7476765187487671
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.6300043616086011,
+    "extremism": 0.7282466306221335
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.42879905121833434,
+    "extremism": 0.5780084039369952
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.5,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.5937542911419772,
+    "extremism": 0.6980970059922865
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.6896296364226024,
+    "extremism": 0.7940745782978776
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.597871672326819,
+    "extremism": 0.7252788431755073
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.5626663993856211,
+    "extremism": 0.7176620974387592
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.638940323446184,
+    "extremism": 0.7474769015253864
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.46628720120751493,
+    "extremism": 0.6249899605982944
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.625,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.5743222072424288,
+    "extremism": 0.6793782268169116
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.680386548012639,
+    "extremism": 0.7922574998086063
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.6208667028157754,
+    "extremism": 0.7459052030604297
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.6128719578749788,
+    "extremism": 0.7793389557506323
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.6262572111857306,
+    "extremism": 0.7737924063689576
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.45521225077248034,
+    "extremism": 0.6063710313502259
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.75,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.5727532416445716,
+    "extremism": 0.6774186611739315
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.7164638489289714,
+    "extremism": 0.8272180678048386
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.6322318144786084,
+    "extremism": 0.7659263019692142
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.6344362833007816,
+    "extremism": 0.7750187506689309
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.7321360253533489,
+    "extremism": 0.8082593687136678
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.6533771070275094,
+    "extremism": 0.7683356306748347
+  },
+  {
+    "platform": "similarity",
+    "lambda": 0.875,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.6413921688587392,
+    "extremism": 0.7688806986329639
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 0,
+    "polarization": 0.7388080324809208,
+    "extremism": 0.8573719899331218
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 1,
+    "polarization": 0.6572596702607726,
+    "extremism": 0.8128058276506601
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 2,
+    "polarization": 0.741886115195455,
+    "extremism": 0.8576306046384232
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 3,
+    "polarization": 0.757153023151833,
+    "extremism": 0.8536944899028707
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 4,
+    "polarization": 0.5098622735596888,
+    "extremism": 0.6584308730154672
+  },
+  {
+    "platform": "similarity",
+    "lambda": 1.0,
+    "N": 800,
+    "seed": 5,
+    "polarization": 0.7016472936836331,
+    "extremism": 0.8168358529490213
+  }
+]

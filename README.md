@@ -12,13 +12,20 @@ interact through two layers at once:
   shown).
 
 A finite attention budget forces digital interaction to displace physical
-interaction. The model is built in four nested levels — Brownian motion +
+interaction. The model is built in five nested levels — Brownian motion +
 bounded confidence, static long-range links, adaptive homophilic
-recommendation, and engagement-maximising platforms with repulsive influence
-and heavy-tailed influencers — so each mechanism's marginal effect can be
-isolated. The accompanying paper reports the resulting phase diagram in the
-mobility / digital-attention plane, and a null result: without
-opinion-dependent motion, geography never becomes a predictor of opinion.
+recommendation, engagement-maximising platforms with repulsive influence and
+heavy-tailed influencers, and opinion-dependent (Schelling-type) mobility —
+so each mechanism's marginal effect can be isolated.
+
+Headline result: once influence includes a repulsive response to strongly
+opposed views, the ranking of platform designs inverts — the *neutral*,
+uncurated platform radicalizes the population the most, and algorithmic
+homophily paradoxically shields it. A two-bloc reduction and a McKean–Vlasov
+mean-field limit make the inversion analytical, including a parameter-free
+radicalization threshold in the digital attention share. The paper also
+reports a geography null result (without opinion-dependent motion, geography
+never predicts opinion) and its repair above a Péclet-number threshold.
 
 ## Repository layout
 
@@ -32,7 +39,12 @@ opinion-dependent motion, geography never becomes a predictor of opinion.
 │   ├── exp3_adaptive.py         Level 3: algorithmic homophily
 │   ├── exp4_engagement.py       Level 4: platform designs + repulsion
 │   ├── exp5_phase_diagram.py    (D, lambda) phase diagram
-│   └── run_all.py               run everything
+│   ├── exp6_robustness.py       inversion robustness: (eta, eps2), gamma, delta
+│   ├── exp6b_nscaling.py        system-size scan at constant density (N <= 1600)
+│   ├── exp7_threshold.py        radicalization threshold in lambda + finite size
+│   ├── exp8_level5.py           Level 5: homophilic mobility, Peclet collapse
+│   ├── theory_twobloc.py        two-bloc reduction + McKean-Vlasov mean field
+│   └── run_all.py               run the original five experiments
 ├── visualizations/         Manim animations of the coupled dynamics
 ├── paper/                  LaTeX source, references, figures, compiled PDF
 └── results/                raw sweep data (JSON) produced by the scripts

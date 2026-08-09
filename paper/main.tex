@@ -15,9 +15,9 @@
 \newcommand{\rr}{\mathbf{r}}
 \newcommand{\dd}{\mathrm{d}}
 
-\title{Mobility, Algorithms, and Attention:\\
-A Stochastic Adaptive Multiplex Model of Opinion Dynamics\\
-with Brownian Agents}
+\title{Cross-Cutting Exposure as an Engine of Radicalization:\\
+Platform Design, Attention, and Geography in a\\
+Stochastic Multiplex Model of Opinion Dynamics}
 
 \author{Ruben Araujo}
 \date{August 2026}
@@ -27,117 +27,132 @@ with Brownian Agents}
 \maketitle
 
 \begin{abstract}
-We introduce a continuous-time model of opinion dynamics in which agents
-diffuse through physical space by Brownian motion while simultaneously
-interacting through an adaptive, algorithmically curated digital network.
-Opinions evolve under bounded-confidence attraction in the physical layer and
-under an engagement-weighted influence term in the digital layer, whose
-topology coevolves with the opinions through a platform recommendation
-kernel. The model incorporates a finite attention budget that forces digital
-interaction to displace physical interaction, an
-assimilation--indifference--repulsion influence function, and heavy-tailed
-influence heterogeneity. Numerical simulations across the four nested levels
-of the model yield four main results. (i) Physical mobility controls how many
-opinion clusters survive: the number of coexisting clusters decays with the
-diffusion coefficient $D$, with the crossover set by the competition between
-the local convergence time and the diffusive neighbourhood-renewal time.
-(ii) Under opinion-independent (Brownian) mobility, geography never becomes a
-predictor of opinion: spatial--opinion correlations remain at noise level for
-all $D$, because opposite-minded agents interleave in space instead of
-segregating. Ideological structure therefore lives in the network of
-interactions, not on the map. (iii) A modest amount of opinion-neutral
-long-range digital exposure is enough to melt the locally frozen state and
-recover the well-mixed mean-field cluster structure, but an adaptive
-similarity-driven recommendation algorithm reverses this effect: as
-algorithmic homophily increases, the digital layer reorganises into
-ideologically homogeneous, spatially delocalised echo chambers with
-near-perfect opinion assortativity and vanishing visible disagreement.
-(iv) Once influence includes a repulsive response to strongly opposed views,
-every platform design radicalises the population, and the ranking inverts:
-the opinion-neutral platform---the consensus machine of the pure
-bounded-confidence world---produces the fastest and most extreme
-polarization, because uncurated exposure maximises contact with
-repulsion-triggering content, while algorithmic homophily, by hiding
-disagreement, paradoxically dampens extremism. A phase diagram in the
-mobility--digital-attention plane $(D,\lambda)$ locates the consensus,
-fragmentation, and polarization regimes.
+Do social-media platforms polarize because they hide disagreement, or
+because they expose people to it? We study this question in a
+continuous-time model in which agents diffuse through physical space by
+Brownian motion while interacting through an adaptive, algorithmically
+curated digital network, under a finite attention budget that forces
+digital exposure to displace physical interaction. When social influence is
+purely assimilative (bounded confidence), the conventional picture holds:
+opinion-blind long-range exposure heals geographic fragmentation, and
+algorithmic homophily builds echo chambers. But once influence includes an
+empirically supported repulsive response to strongly opposed views, the
+ranking of platform designs inverts: the \emph{neutral}, uncurated platform
+drives the population to maximal polarization with opinions pinned at the
+extremes, a controversy-seeking engagement algorithm is nearly as
+radicalizing, and strong algorithmic homophily---the standard culprit in
+the echo-chamber narrative---paradoxically shields the population from
+extremism. We derive this inversion analytically from a two-bloc reduction
+of the dynamics: the stationary fraction of attention slots pointing across
+blocs, set by the platform's engagement kernel, determines the
+radicalization rate, its arrest, and a parameter-free finite-horizon
+crossover $\lambda_c(T)$ in the digital attention share that reproduces the
+simulated onset for all three platforms---radicalization is rate-limited,
+not threshold-limited. Simulations across repulsion parameters, engagement
+kernels, and system sizes up to $N = 1600$ show that uncurated exposure is
+the upper envelope of radicalization, with curated platforms approaching
+that envelope exactly as their curation stops withholding repulsive-zone
+content. Two further results complete the picture. First, a phase diagram
+in the mobility--attention plane shows that once the platform owns most of
+an agent's attention, physical mobility becomes irrelevant to the outcome.
+Second, under opinion-independent mobility geography never becomes a
+predictor of opinion---a null result we explain by symmetry---and a
+Schelling-type homophilic drift of strength $\chi$ restores geographic
+opinion structure only above a P\'eclet-number threshold
+$\chi\ell/D \sim 1$. The model offers a mechanistic account of field
+experiments in which cross-cutting exposure increased polarization, and
+implies that interventions promoting exposure diversity can backfire
+precisely when negative influence dominates.
 \end{abstract}
 
 \section{Introduction}
 \label{sec:intro}
 
-Continuous-opinion models with bounded confidence, introduced by
-\citet{deffuant2000} and \citet{hegselmann2002}, describe populations of
-agents who average their opinions only with peers whose views are already
-sufficiently close. Despite their simplicity, these models produce the three
-canonical outcomes of social influence---consensus, polarization, and
-fragmentation---and have become a standard laboratory for studying collective
-opinion formation \citep{lorenz2007, castellano2009, bernardo2024}.
+The most common mechanistic story about platforms and polarization runs
+through similarity: recommendation algorithms feed users content they
+already agree with, creating echo chambers whose members drift apart from
+the rest of society \citep{sirbu2019, santos2021, baumann2020}. The story
+suggests an obvious remedy---expose people to the other side. Yet the
+best-known field experiment on this intervention found the opposite of the
+intended effect: Republicans exposed for a month to a stream of liberal
+content became substantially \emph{more} conservative \citep{bail2018}.
+Social psychology offers a mechanism for such backfire: influence is not
+always assimilative, and views far beyond an agent's latitude of acceptance
+can repel rather than attract \citep{kurmyshev2011, tang2025}. What is
+missing is a quantitative understanding of how this repulsive channel
+interacts with the \emph{design} of the exposure algorithm: which platforms
+radicalize, how fast, and above which level of digital attention.
 
-Two ingredients of real societies are, however, usually absent from this
-laboratory. First, people move. Physical encounters are structured by
-geography, and geography changes as individuals commute, migrate, and mix;
-the consequences of mobility for bounded-confidence dynamics have only
-recently begun to be explored systematically \citep{alraddadi2024}. Second,
-people increasingly interact through platforms whose connection topology is
-not given but \emph{manufactured}: recommendation algorithms decide who sees
-whom, they do so as a function of the very opinions they help shape, and the
-resulting feedback between opinions and network structure is a coevolutionary
-dynamic in its own right \citep{holme2006, sirbu2019, santos2021,
-dearruda2022}. Empirically motivated modelling of echo chambers points to the
-same loop of homophilic exposure and reinforcing influence
-\citep{baumann2020}, while multiplex formulations show that the coexistence
-of several interaction layers can qualitatively change consensus thresholds
-\citep{antonopoulos2018}.
+This paper builds a minimal model in which that question has a sharp
+answer. Agents carry continuous opinions and interact through two layers
+simultaneously: a physical layer, where encounters are structured by
+geography---agents diffuse through a two-dimensional world by Brownian
+motion and influence each other through a short-range bounded-confidence
+kernel \citep{deffuant2000, hegselmann2002, alraddadi2024}---and a digital
+layer, a directed attention graph whose links are continuously rewired by a
+platform according to an \emph{engagement kernel} $E(\Delta)$: the
+probability that content at opinion distance $\Delta$ is shown. A finite
+attention budget couples the layers: the digital attention share $\lambda$
+displaces physical interaction rather than adding to it. On top of this
+multiplex substrate \citep{antonopoulos2018, holme2006} we add the two
+empirically motivated ingredients: an
+assimilation--indifference--repulsion influence function
+\citep{kurmyshev2011, tang2025} and heavy-tailed influence strengths.
 
-This paper combines these ingredients in a single stochastic model, built in
-four nested levels so that each mechanism can be switched on and its marginal
-effect isolated:
+Our headline result is an inversion. With purely assimilative influence,
+the model reproduces the standard picture---an opinion-blind platform acts
+like infinite-range mobility and heals fragmentation, while algorithmic
+homophily freezes fragmentation into spatially delocalized echo chambers.
+With the repulsive channel active, every platform radicalizes the
+population, but the ordering reverses: the neutral platform is the
+\emph{most} polarizing, the controversy-seeking platform nearly as much,
+and strong algorithmic homophily the \emph{least}, because hiding
+disagreement starves the repulsive channel. Uncurated exposure turns out to
+be the upper envelope of radicalization: curated platforms approach it
+exactly as their curation stops withholding repulsive-zone content.
 
-\begin{enumerate}
-  \item \textbf{Level 1.} Agents perform Brownian motion in a
-  two-dimensional periodic domain and interact through a short-range spatial
-  kernel with bounded confidence.
-  \item \textbf{Level 2.} A static, opinion-neutral digital layer of
-  long-range links is added, sharing a finite attention budget with the
-  physical layer.
-  \item \textbf{Level 3.} The digital layer becomes adaptive: a
-  recommendation kernel rewires attention slots towards ideologically
-  similar sources, with an algorithmic-homophily parameter $\gamma$.
-  \item \textbf{Level 4.} The platform is generalised to an arbitrary
-  engagement function (similarity-driven, neutral, or controversy-driven),
-  the influence function acquires an
-  assimilation--indifference--repulsion structure
-  \citep{kurmyshev2011, tang2025}, and influence strengths become
-  heavy-tailed, allowing influencer-like agents; stubborn ``zealot'' agents
-  \citep{tian2018} are supported as special nodes.
-\end{enumerate}
+The inversion is not a simulation curiosity; it follows from the structure
+of the model, and we derive it in three steps. A two-bloc reduction shows
+that the stationary fraction of attention slots pointing across blocs,
+$p(y) = E(2y) / [E(0) + E(2y)]$ for blocs at $\pm y$, controls the
+radicalization rate $\dot y = 2\lambda\eta\, p(y)\, y$; the shapes of
+$p(y)$ for the three kernels immediately give the ordering, the pinning of
+the neutral platform at the boundary, and the kinetic arrest of the
+controversy platform just short of it. The same equation shows that
+radicalization has \emph{no} threshold in the attention share---any
+$\lambda > 0$ radicalizes eventually---and yields a parameter-free
+finite-horizon crossover $\lambda_c(T)$ that reproduces the simulated
+onset of all three platforms, spanning two orders of magnitude. And the
+fast-rewiring, well-mixed limit of the model is a McKean--Vlasov particle
+system whose integration reproduces the full $\mathrm{Var}(x)$-versus-$\lambda$
+curves of the spatial agent-based model.
 
-The Brownian formulation makes the physical layer a genuine
-statistical-physics object: the box size $L$ and the diffusion coefficient
-$D$ define a spatial mixing time $\tau_{\mathrm{mix}} \sim L^2/D$, which
-competes with the opinion convergence time $\tau_{\mathrm{op}} \sim
-\alpha^{-1}$. Our central question is how this competition interacts with
-the digital layer: \emph{can strong digital connectivity destroy the
-geographical structure of opinion while simultaneously increasing
-ideological polarization?}
+Two secondary results delimit the role of geography. First, in a phase
+diagram spanning four decades of mobility $D$ and the full attention range
+$\lambda$, the radicalized region at high $\lambda$ is independent of $D$:
+geography sets the social outcome only for populations whose attention it
+still owns. Second, under opinion-independent Brownian mobility, geography
+never becomes a predictor of opinion at \emph{any} mobility---a null result
+that follows from translation invariance and that qualifies a common
+intuition about local echo chambers. Geographic opinion structure requires
+opinion--position coupling: adding a Schelling-type homophilic drift of
+strength $\chi$ \citep{pasimeni2025, djurdjevac2024}, we find that spatial
+opinion domains emerge only above a P\'eclet-number threshold
+$\chi \ell / D \sim 1$, where the homophilic drift beats diffusion over the
+interaction range $\ell$.
 
-Our simulations answer with a refinement that we did not anticipate when
-formulating the model. Mobility does control the surviving number of opinion
-clusters, as expected. But under opinion-independent mobility the
-geographical structure of opinion that digital media could ``destroy'' never
-forms in the first place: spatially close agents converge with their
-compatible neighbours, yet incompatible agents remain interleaved at the
-same locations, so position and opinion stay uncorrelated at every mobility.
-Geographic opinion structure, in this model class, requires
-opinion--position coupling (homophilic migration or segregation), not mere
-locality of interaction. What the digital layer does control---strongly---is
-the \emph{network} structure of opinion: adaptive recommendation produces
-near-perfectly assortative, spatially delocalised ideological communities.
-A second surprise appears when influence can be repulsive: cross-cutting
-exposure of any kind then becomes the engine of radicalisation, and the
-platform designs reorder, with the neutral, uncurated platform driving the
-population to the extremes faster than either curated design.
+The ingredients of the model each have a literature: bounded confidence
+\citep{deffuant2000, hegselmann2002, lorenz2007, castellano2009,
+bernardo2024}, mobile agents \citep{alraddadi2024}, coevolving networks
+\citep{holme2006}, multiplex opinion formation \citep{antonopoulos2018},
+algorithmic bias and link recommendation \citep{sirbu2019, santos2021,
+dearruda2022}, activity-driven echo chambers \citep{baumann2020},
+stubborn agents \citep{tian2018}, adaptive confidence \citep{li2025}, and
+coupled opinion--position dynamics \citep{djurdjevac2024, pasimeni2025}.
+The contribution here is the combination that isolates the interaction
+between platform design and influence psychology under an attention
+constraint, and the analytical reduction that makes the resulting
+inversion predictable rather than merely observable.
 
 \section{Model}
 \label{sec:model}
@@ -146,21 +161,25 @@ population to the extremes faster than either curated design.
 
 Each of $N$ agents carries a position $\rr_i(t) \in [0,L)^2$ with periodic
 boundary conditions and an opinion $x_i(t) \in [-1,1]$. Agent $i$ may also
-carry an influence strength $s_i$ and a stubbornness flag. The digital layer
-is a directed graph $A_{ij}(t) \in \{0,1\}$, where $A_{ij}=1$ means that the
-platform currently shows content by agent $j$ to agent $i$. Each agent has a
-fixed number $k$ of \emph{attention slots}, so that $\sum_j A_{ij} = k$ for
-all $i$ and all $t$: attention is conserved, and new digital connections can
-only be acquired by dropping old ones.
+carry an influence strength $s_i$ and a stubbornness flag. The digital
+layer is a directed graph $A_{ij}(t) \in \{0,1\}$, where $A_{ij}=1$ means
+that the platform currently shows content by agent $j$ to agent $i$. Each
+agent has a fixed number $k$ of \emph{attention slots}, $\sum_j A_{ij} = k$
+for all $i$ and $t$: attention is conserved, and new digital connections
+can only be acquired by dropping old ones.
 
 \subsection{Dynamics}
 
-Positions follow independent Brownian motions,
+Positions follow
 \begin{equation}
-  \dd\rr_i = \sqrt{2D}\,\dd\mathbf{W}_i(t),
+  \dd\rr_i = \chi\, \mathbf{f}_i\,\dd t + \sqrt{2D}\,\dd\mathbf{W}_i(t),
   \label{eq:motion}
 \end{equation}
-with diffusion coefficient $D$. Opinions obey the It\^o equation
+where $D$ is the diffusion coefficient and $\mathbf{f}_i$ is an optional
+homophilic drift (Level 5 below; $\chi = 0$ elsewhere): the
+kernel-weighted mean of unit vectors pointing toward compatible neighbours
+($|x_j - x_i| < \epsilon$) and away from incompatible ones. Opinions obey
+the It\^o equation
 \begin{equation}
   \dd x_i =
   \alpha_i \,
@@ -174,21 +193,20 @@ with diffusion coefficient $D$. Opinions obey the It\^o equation
   \sigma_x\, \dd B_i(t),
   \label{eq:opinion}
 \end{equation}
-clipped to $[-1,1]$, where $r_{ij}$ is the minimum-image distance between
-agents $i$ and $j$. The physical interaction kernel is a truncated Gaussian,
+clipped to $[-1,1]$, where $r_{ij}$ is the minimum-image distance. The
+physical kernel is a truncated Gaussian,
 \begin{equation}
   K(r) = e^{-r^2 / 2\ell^2}\, \mathbf{1}(r < 3\ell),
   \label{eq:kernel}
 \end{equation}
-and $B_\epsilon(\Delta) = \mathbf{1}(|\Delta| < \epsilon)$ implements bounded
-confidence. The truncation in Eq.~\eqref{eq:kernel} is not cosmetic: because
-the drift is normalised, an untruncated Gaussian would let an agent with no
-nearby compatible peers average with the entire population at $O(1)$ rate
-through the exponential tail, making spatial isolation impossible and
-silently removing the mobility scale from the problem.
+and $B_\epsilon(\Delta) = \mathbf{1}(|\Delta| < \epsilon)$ implements
+bounded confidence. The truncation is not cosmetic: because the drift is
+normalised, an untruncated Gaussian would let an agent with no nearby
+compatible peers average with the entire population at $O(1)$ rate through
+the exponential tail, silently removing the mobility scale from the
+problem.
 
-The influence function in the digital term has the
-assimilation--indifference--repulsion form
+The influence function has the assimilation--indifference--repulsion form
 \begin{equation}
   F(x_i, x_j) =
   \begin{cases}
@@ -198,10 +216,10 @@ assimilation--indifference--repulsion form
   \end{cases}
   \label{eq:influence}
 \end{equation}
-with the repulsive branch ($\eta > 0$) active only at Level~4; at Levels
-2--3, $F$ reduces to plain bounded confidence with threshold
-$\epsilon_1 = \epsilon$. Empirical support for repulsive (``negative'')
-influence is discussed by \citet{tang2025}.
+with the repulsive branch ($\eta > 0$) active at Levels 4--5; at Levels
+2--3, $F$ reduces to bounded confidence with threshold
+$\epsilon_1 = \epsilon$. Empirical support for repulsive influence is
+discussed by \citet{tang2025}.
 
 \subsection{Attention budget}
 
@@ -215,21 +233,20 @@ The rates in Eq.~\eqref{eq:opinion} satisfy
 \end{equation}
 so the digital attention share $\lambda$ measures how much of a finite
 information-processing capacity is devoted to the platform. Increasing
-digital exposure therefore \emph{displaces} physical influence rather than
-adding to it, together with the hard slot constraint $\sum_j A_{ij} = k$.
+digital exposure \emph{displaces} physical influence rather than adding to
+it, alongside the hard slot constraint $\sum_j A_{ij} = k$.
 
 \subsection{The platform: engagement-driven rewiring}
 
-The digital graph coevolves with the opinions. In each interval $\dd t$,
-agent $i$ replaces one uniformly chosen attention slot with probability
-$\rho\,\dd t$; the platform selects the replacement source $j$ with
-probability
+In each interval $\dd t$, agent $i$ replaces one uniformly chosen attention
+slot with probability $\rho\,\dd t$; the platform selects the replacement
+source $j$ with probability
 \begin{equation}
   P(i \to j) \;\propto\; E\!\left(|x_i - x_j|\right)\, s_j,
   \label{eq:rewire}
 \end{equation}
 where $E$ is the platform's \emph{engagement kernel}. We compare three
-platform designs:
+designs:
 \begin{equation}
   E_{\mathrm{sim}}(\Delta) = e^{-\gamma \Delta},
   \qquad
@@ -238,67 +255,213 @@ platform designs:
   E_{\mathrm{con}}(\Delta) = e^{-(\Delta - \delta)^2 / 2 s^2}.
   \label{eq:engagement}
 \end{equation}
-The similarity-driven kernel models algorithmic homophily with strength
-$\gamma$ \citep{sirbu2019, santos2021}; the neutral kernel is an
-opinion-blind baseline; the controversy-driven kernel encodes a platform
-that maximises engagement by showing users content at a preferred
-ideological distance $\delta$---content different enough to provoke a
-reaction, a mechanism conceptually close to the post-distribution algorithms
-of \citet{dearruda2022}.
+The similarity kernel models algorithmic homophily with strength $\gamma$
+\citep{sirbu2019, santos2021}; the neutral kernel is an opinion-blind
+baseline; the controversy kernel encodes a platform that maximises
+engagement by promoting content at a preferred ideological distance
+$\delta$, close in spirit to the post-distribution algorithms of
+\citet{dearruda2022}.
 
-\subsection{Influence heterogeneity and zealots}
+\subsection{Model levels, heterogeneity, and observables}
 
-At Level 4, influence strengths are drawn from a shifted Pareto distribution
-with tail exponent $\kappa$, normalised to unit mean, so a small number of
-agents ("influencers") dominate the recommendation distribution in
-Eq.~\eqref{eq:rewire} and the digital drift in Eq.~\eqref{eq:opinion}.
-Optionally, a subset of agents can be declared stubborn ($\dd x_i = 0$),
-representing institutional actors or media sources \citep{tian2018}.
+The model is built in five nested levels: (1) Brownian motion + bounded
+confidence; (2) static opinion-neutral digital links; (3) adaptive
+similarity-driven rewiring; (4) general engagement kernels + repulsion +
+heavy-tailed influence strengths ($s_i$ Pareto with exponent $\kappa$,
+unit mean; optional stubborn agents \citep{tian2018}); (5) homophilic
+mobility $\chi > 0$.
 
-\subsection{Observables}
-
-We measure: the polarization $P = \operatorname{Var}(x)$; the number of
-opinion clusters $n_c$ (groups of at least two agents separated by gaps
-larger than $0.05$ in sorted opinion space); a categorical state
-(consensus: $n_c \le 1$ or $P < 10^{-2}$; polarization: $n_c = 2$;
-fragmentation: $n_c \ge 3$); the spatial--opinion correlation, quantified
-both by Moran's~$I$ with Gaussian weights and by the \emph{local agreement
-gap} $\Pr(|x_i - x_j| < \epsilon \mid r_{ij} < 3\ell) - \Pr(|x_i - x_j| <
-\epsilon)$; the opinion assortativity $\rho$ of the digital graph (Pearson
-correlation of endpoint opinions across directed edges); the modularity $Q$
-of the digital graph with respect to the partition induced by opinion
-clusters; and the mean local disagreement $\langle |x_i - \bar{x}_{\partial
-i}| \rangle$ between an agent and the average opinion it is shown.
+We measure: polarization $P = \operatorname{Var}(x)$; extremism
+$\langle |x| \rangle$; the number of opinion clusters $n_c$ (gaps larger
+than $0.05$ in sorted opinion space, groups of at least two agents); a
+categorical state (consensus / polarization / fragmentation for
+$n_c \le 1$ / $= 2$ / $\ge 3$); the spatial--opinion correlation via
+Moran's $I$ and via the \emph{local agreement gap}
+$\Pr(|x_i - x_j| < \epsilon \mid r_{ij} < 3\ell) - \Pr(|x_i - x_j| <
+\epsilon)$; opinion assortativity $\rho$ of the digital graph; modularity
+$Q$ of the digital graph with respect to opinion clusters; and mean local
+disagreement $\langle |x_i - \bar{x}_{\partial i}| \rangle$ between an
+agent and the average opinion it is shown.
 
 \subsection{Numerical integration}
 
-Equations \eqref{eq:motion}--\eqref{eq:opinion} are integrated by the
-Euler--Maruyama scheme. Unless stated otherwise, $N = 200$, $L = 1$,
-$\dd t = 0.02$, $\alpha_{\mathrm{tot}} = 1$, $\epsilon = 0.3$,
-$\ell = 0.02$, $k = 10$, $\rho = 5$, and runs last $T = 60$ time units
-($T = 80$ at Level 4); statistics are averaged over $6$--$8$ independent
-realisations ($3$ for the phase diagram). With $\ell = 0.02$ the mean
-physical contact degree is $N\pi(3\ell)^2 \approx 2.3$, below the
+Equations \eqref{eq:motion}--\eqref{eq:opinion} are integrated by
+Euler--Maruyama. Unless stated otherwise, $N = 200$, $L = 1$,
+$\dd t = 0.02$, $\alpha_{\mathrm{tot}} = 1$, $\epsilon = \epsilon_1 = 0.3$,
+$\epsilon_2 = 0.9$, $\eta = 0.4$, $\ell = 0.02$, $k = 10$, $\rho = 5$,
+$\gamma = 4$, $\delta = 0.8$, $s = 0.2$, $\kappa = 2.5$,
+$\sigma_x = 0.02$, and runs last $T = 60$--$80$ time units. In system-size
+scans the box is rescaled as $L = \sqrt{N/200}$ so that density, kernel
+range and digital degree stay constant. With $\ell = 0.02$ the mean
+physical contact degree is $N\pi(3\ell)^2/L^2 \approx 2.3$, below the
 percolation threshold of the random geometric graph, so the instantaneous
-physical contact network is spatially fragmented and locality is meaningful.
-The complete implementation is available in the accompanying repository.
+contact network is spatially fragmented and locality is meaningful.
+Statistics use $6$--$12$ realisations per point ($3$ for the phase
+diagram).
+
+\section{Theory: two-bloc reduction and mean-field limit}
+\label{sec:theory}
+
+\subsection{Late stage: cross-bloc attention controls radicalization}
+\label{sec:twobloc}
+
+Consider the late-stage configuration observed at Level 4: two equal blocs
+at opinions $\pm y$. Under fast rewiring ($\rho \gg \alpha_{\mathrm{tot}}$),
+the stationary probability that an attention slot of a $+$-bloc agent
+points into the $-$ bloc follows from Eq.~\eqref{eq:rewire}:
+\begin{equation}
+  p(y) \;=\; \frac{E(2y)}{E(0) + E(2y)}.
+  \label{eq:p}
+\end{equation}
+Within-bloc content exerts no drift ($F = 0$ at $\Delta = 0$), and
+cross-bloc content is repulsive once $2y \ge \epsilon_2$, so the bloc
+positions obey
+\begin{equation}
+  \frac{\dd y}{\dd t} \;=\; 2\,\lambda\,\eta\; p(y)\; y,
+  \qquad 2y \ge \epsilon_2,
+  \label{eq:bloc}
+\end{equation}
+with no physical restoring force: once the blocs are separated beyond the
+confidence bound, the physical layer only pulls agents toward their own
+bloc's mean. Equation~\eqref{eq:bloc} makes the platform ordering a
+statement about the shape of $p(y)$:
+
+\begin{itemize}
+  \item \textbf{Neutral:} $p \equiv 1/2$. The drift $\lambda \eta y$ never
+  shuts off; opinions are driven to the boundary and pinned at $\pm 1$.
+  \item \textbf{Controversy-driven:} $p(y) \approx 1$ while
+  $2y \approx \delta$ (cross-bloc content is exactly what engages), so
+  separation is fast; but as $2y \to 2$ both $E(2y)$ and $E(0)$ are far
+  from the engagement peak and $p \to E(2)/E(0) = e^{-(2-\delta)^2/2s^2 +
+  \delta^2/2s^2}$, which for $\delta < 1$ is exponentially small. The
+  dynamics is \emph{kinetically arrested} just short of the boundary---the
+  platform stops pushing once the blocs are so far apart that neither
+  identical nor opposed content engages.
+  \item \textbf{Similarity-driven:} $p(y) = e^{-2\gamma y}/(1 +
+  e^{-2\gamma y})$ is small for $\gamma y \gtrsim 1$. Radicalization
+  proceeds, but at a rate suppressed by $e^{-2\gamma y}$: a slow outward
+  creep fed by the few cross-cutting links that stochastic rewiring keeps
+  producing.
+\end{itemize}
+
+These three behaviours are exactly what the simulations show
+(Sec.~\ref{sec:level4}): pinning at $\pm 1$ for neutral
+($\langle|x|\rangle \approx 1.00$), arrest slightly short of the boundary
+for controversy ($\approx 0.95$), and slow partial radicalization for
+similarity ($\approx 0.81$ at $T = 80$). Note also that
+Eq.~\eqref{eq:bloc} has no threshold in $\lambda$: any nonzero digital
+attention radicalizes eventually. What varies across designs---by orders
+of magnitude---is the rate, which we quantify next.
+
+\subsection{Onset: radicalization is rate-limited, not threshold-limited}
+\label{sec:threshold}
+
+One might expect a critical attention share below which the physical
+layer's assimilative pull protects the population. A linear stability
+analysis of the \emph{uniform} state indeed predicts such thresholds
+(balancing the inward pull $(1-\lambda)\epsilon/2$ on edge agents against
+the engagement-weighted outward push, one obtains
+$\lambda^* \approx 0.34$ for the neutral and $0.55$ for the controversy
+kernel). The simulations falsify this prediction: radicalization onsets
+already at $\lambda \approx 0.05$ (Sec.~\ref{sec:results-threshold}). The
+reason is that the uniform state never gets to apply the analysis.
+Bounded-confidence fragmentation forms first, on the fast timescale
+$\sim (1-\lambda)^{-1}$, producing blocs near $\pm y_0$ with
+$y_0 \approx 0.6$---and since $2y_0 > \epsilon_2$, the fragmented state is
+unstable to repulsion for \emph{any} $\lambda > 0$: once separated beyond
+the confidence bound, the physical layer exerts no restoring force between
+blocs (Sec.~\ref{sec:twobloc}).
+
+What remains is a rate. Integrating Eq.~\eqref{eq:bloc} with
+$p(y) \approx p_0 = p(y_0)$ gives the radicalization time
+\begin{equation}
+  t_{\mathrm{rad}}(\lambda)
+  \;=\;
+  \frac{\ln (y_f / y_0)}{2\,\lambda\,\eta\, p_0},
+  \label{eq:trad}
+\end{equation}
+and the apparent onset in any finite observation window $T$ is the
+crossover $t_{\mathrm{rad}} = T$:
+\begin{equation}
+  \lambda_c(T)
+  \;=\;
+  \frac{\ln (y_f / y_0)}{2\,\eta\, p_0\, T}.
+  \label{eq:lambdac}
+\end{equation}
+Table~\ref{tab:rates} evaluates Eqs.~\eqref{eq:trad}--\eqref{eq:lambdac}
+at the reference parameters with no fitting. The cross-bloc slot fraction
+$p_0$ spans two orders of magnitude across the designs, and with it the
+crossover: for the neutral and controversy platforms
+$\lambda_c \approx 0.01$--$0.02$---any noticeable digital attention
+radicalizes within the horizon---while for the similarity platform
+$\lambda_c \approx 1$: even full digital attention only partially
+radicalizes the population in the same window, which is exactly the smooth
+sub-envelope growth observed in the simulations. ``Protection'' by
+homophilic curation is therefore kinetic, not thermodynamic: it multiplies
+the time to reach the extremes by $p_0^{-1} \sim e^{2\gamma y_0}$, without
+changing the destination.
+
+\begin{table}[t]
+  \centering
+  \caption{Two-bloc rate analysis, Eqs.~\eqref{eq:p} and
+  \eqref{eq:trad}--\eqref{eq:lambdac}, at the reference parameters
+  ($y_0 = 0.6$, $y_f = 1$, $\eta = 0.4$, $\gamma = 4$, $\delta = 0.8$,
+  $s = 0.2$, $T = 80$). No parameters are fitted.}
+  \label{tab:rates}
+  \begin{tabular}{lccc}
+    \toprule
+    Platform & $p_0$ & $t_{\mathrm{rad}}(\lambda)$ & $\lambda_c(T{=}80)$ \\
+    \midrule
+    Similarity-driven & $0.008$ & $78.2/\lambda$ & $0.98$ \\
+    Neutral & $0.500$ & $1.28/\lambda$ & $0.016$ \\
+    Controversy-driven & $0.998$ & $0.64/\lambda$ & $0.008$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Mean-field limit}
+\label{sec:meanfield}
+
+In the fast-rewiring, well-mixed, $N \to \infty$ limit, the opinion
+marginal obeys a McKean--Vlasov dynamics: each agent feels the global
+bounded-confidence mean with weight $1 - \lambda$ and an
+engagement-weighted influence average with weight $\lambda$,
+\begin{equation}
+  \dd x =
+  (1-\lambda)\,
+  \frac{\mathbb{E}\big[(x' - x)\,\mathbf 1(|x'-x|<\epsilon)\big]}
+       {\mathbb{P}\big(|x'-x|<\epsilon\big)}\, \dd t
+  + \lambda\,
+  \frac{\mathbb{E}\big[s'\,E(|x'-x|)\, F(x, x')\big]}
+       {\mathbb{E}\big[s'\,E(|x'-x|)\big]}\, \dd t
+  + \sigma_x\, \dd B,
+  \label{eq:mkv}
+\end{equation}
+where $(x', s')$ is an independent draw from the population law. We
+integrate Eq.~\eqref{eq:mkv} as a spaceless interacting-particle system
+and compare it with the spatial agent-based model in
+Sec.~\ref{sec:results-threshold}: it reproduces the full
+$\operatorname{Var}(x)$--$\lambda$ curves of all three platforms with no
+fitted parameters, confirming that the inversion is a bulk property of the
+opinion dynamics, not an artefact of space, finite degree, or slow
+rewiring.
 
 \section{Results}
 \label{sec:results}
 
-\subsection{Level 1: mobility sets the number of surviving clusters}
-\label{sec:level1}
+\subsection{Baselines: mobility and neutral connectivity (Levels 1--2)}
+\label{sec:baselines}
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{fig1_mobility.pdf}
   \caption{Purely physical dynamics (Level 1). Top: opinion trajectories
   $x_i(t)$ for increasing diffusion coefficient $D$; colours encode final
-  opinions. Bottom: final spatial configurations; markers are agents
-  coloured by opinion. Panel captions report the cluster count $n_c$ and
-  Moran's $I$. Low mobility freezes many coexisting clusters; high mobility
-  approaches the mean-field bounded-confidence outcome. Note the absence of
-  spatial colour domains at any $D$.}
+  opinions. Bottom: final spatial configurations. Panel captions report
+  the cluster count $n_c$ and Moran's $I$. Low mobility freezes many
+  coexisting clusters; high mobility recovers the mean-field
+  bounded-confidence outcome. Note the absence of spatial colour domains
+  at any $D$.}
   \label{fig:mobility}
 \end{figure}
 
@@ -308,41 +471,10 @@ The complete implementation is available in the accompanying repository.
   \caption{Level-1 sweep over the diffusion coefficient. Left: mean number
   of surviving opinion clusters. Right: Moran's $I$ between opinion and
   position (mean $\pm$ s.d.\ over 6 realisations). Mobility interpolates
-  between local fragmentation and mean-field behaviour, while the
+  between local fragmentation and mean-field behaviour while the
   spatial--opinion correlation stays at noise level throughout.}
   \label{fig:mobilitysweep}
 \end{figure}
-
-Figures \ref{fig:mobility} and \ref{fig:mobilitysweep} summarise the purely
-physical model. The relevant comparison is between the local convergence
-time $\tau_{\mathrm{op}} \sim \alpha_{\mathrm{tot}}^{-1}$ and the time
-$\tau_\ell \sim \ell^2/D$ over which diffusion renews an agent's
-neighbourhood. For $D \lesssim 10^{-4}$ ($\tau_\ell \gg \tau_{\mathrm{op}}$),
-compatible agents converge within their frozen local components and the
-population fragments into many coexisting clusters ($n_c \approx 5$--$9$).
-As $D$ grows, neighbourhood renewal lets clusters within the confidence
-bound find each other and merge, and for $D \gtrsim 10^{-2}$ the system
-reproduces the well-mixed bounded-confidence outcome ($n_c \approx 2$--$3$
-for $\epsilon = 0.3$) \citep{deffuant2000, lorenz2007}. This mobility-driven
-fragmentation-to-consensus crossover is consistent with the mobile-agent
-simulations of \citet{alraddadi2024}.
-
-The second panel of Fig.~\ref{fig:mobilitysweep} contains the negative
-result announced in the Introduction. Moran's $I$---and, equivalently, the
-local agreement gap (not shown; it remains below $0.05$ at all
-mobilities)---never departs from noise level, \emph{even in the frozen
-regime where interactions are strictly local}. The reason is structural:
-Brownian positions are opinion-independent, so agents that disagree simply
-coexist at the same locations, interacting with disjoint compatible subsets.
-Locality controls \emph{how many} opinions survive, but without
-opinion-dependent motion (homophilic relocation, avoidance, segregation) it
-cannot make geography informative about \emph{which} opinion an agent holds.
-Claims that low mobility alone produces geographic echo chambers therefore
-need qualification: some coupling between opinion and position is a
-necessary ingredient, not a redundant detail.
-
-\subsection{Level 2: opinion-neutral long-range links melt the frozen state}
-\label{sec:level2}
 
 \begin{figure}[t]
   \centering
@@ -354,24 +486,25 @@ necessary ingredient, not a redundant detail.
   \label{fig:static}
 \end{figure}
 
-Level 2 adds a static, uniformly random directed digital graph ($k = 10$
-sources per agent) at low mobility, where the purely physical dynamics
-fragments into $n_c \approx 7$ clusters. Figure~\ref{fig:static} shows the
-effect of shifting attention to this opinion-neutral layer. Because digital
-sources are sampled uniformly, each agent is exposed to the full global
-opinion distribution; digital neighbourhoods overlap globally, and a modest
-attention share ($\lambda \approx 0.2$) already suffices to merge the
-locally frozen clusters into the mean-field cluster set of the well-mixed
-bounded-confidence dynamics ($n_c \approx 3$ at $\epsilon = 0.3$), beyond
-which additional digital attention changes nothing. Opinion-blind long-range
-exposure thus acts exactly like infinite-range mobility: it removes the
-excess fragmentation caused by locality---though full consensus would
-require a larger confidence bound, as in the classical model
-\citep{deffuant2000, antonopoulos2018}. This makes the contrast with the
-next level sharp: the consequences of connectivity depend entirely on how
-it is curated.
+Figures \ref{fig:mobility}--\ref{fig:static} establish the assimilative
+baselines. In the purely physical model, the competition between the local
+convergence time $\tau_{\mathrm{op}} \sim \alpha_{\mathrm{tot}}^{-1}$ and
+the neighbourhood-renewal time $\tau_\ell \sim \ell^2/D$ controls how many
+opinion clusters survive: $n_c \approx 5$--$9$ frozen local clusters for
+$D \lesssim 10^{-4}$, merging into the mean-field cluster set
+($n_c \approx 2$--$3$ at $\epsilon = 0.3$) for $D \gtrsim 10^{-2}$,
+consistent with mobile-agent bounded-confidence simulations
+\citep{alraddadi2024, deffuant2000}. Adding a \emph{static, opinion-blind}
+digital layer at low mobility heals this excess fragmentation: a modest
+attention share ($\lambda \approx 0.2$) already merges the frozen local
+clusters into the mean-field set, beyond which more digital attention
+changes nothing (Fig.~\ref{fig:static}). Opinion-blind long-range exposure
+acts like infinite-range mobility \citep{antonopoulos2018}. In the
+assimilative world, connectivity is benign; everything that follows is
+about what curation and repulsion do to this baseline.
 
-\subsection{Level 3: algorithmic homophily builds delocalised echo chambers}
+\subsection{Algorithmic homophily builds delocalised echo chambers
+(Level 3)}
 \label{sec:level3}
 
 \begin{figure}[t]
@@ -380,31 +513,26 @@ it is curated.
   \caption{Level 3: adaptive digital layer with similarity-driven
   recommendation, $\lambda = 0.5$, $D = 10^{-3}$. From left to right:
   opinion assortativity of the digital graph, modularity with respect to
-  opinion clusters, mean local disagreement, and cluster count as functions
-  of the algorithmic homophily $\gamma$ (mean $\pm$ s.d.\ over 6 runs).}
+  opinion clusters, mean local disagreement, and cluster count as
+  functions of the algorithmic homophily $\gamma$ (mean $\pm$ s.d.\ over 6
+  runs).}
   \label{fig:adaptive}
 \end{figure}
 
-At Level 3 the platform rewires attention slots with the similarity kernel
-$E_{\mathrm{sim}}$. Figure~\ref{fig:adaptive} traces the closing of the
-feedback loop opinion $\to$ topology $\to$ exposure $\to$ opinion as
-$\gamma$ increases. For $\gamma \approx 0$ the layer behaves like the
-neutral platform of Level 2. As $\gamma$ grows, the digital graph
-reorganises around the emerging opinion clusters: assortativity climbs
-towards one, the modularity of the digital graph with respect to opinion
-communities rises, and the average disagreement an agent experiences in its
-feed collapses even though the population as a whole remains fragmented.
-This is an echo chamber in the precise sense of \citet{baumann2020}: high
-global variance, near-zero locally visible disagreement. The mechanism
-mirrors the algorithmic-bias model of \citet{sirbu2019}---biased exposure
-freezes fragmentation that neutral exposure would have healed---and the
-link-recommendation feedback of \citet{santos2021}, transplanted into a
-coevolving multiplex \citep{holme2006}. Crucially, these ideological
-communities are \emph{spatially delocalised}: their members are scattered
-uniformly across the box, so the polarised society shows no geographic
-signature whatsoever.
+With similarity-driven rewiring (still purely assimilative influence), the
+feedback loop opinion $\to$ topology $\to$ exposure $\to$ opinion closes as
+$\gamma$ grows (Fig.~\ref{fig:adaptive}): opinion assortativity climbs to
+one, digital modularity rises, and the disagreement visible in an agent's
+feed collapses while global fragmentation persists. This is an echo
+chamber in the precise sense of \citet{baumann2020}---high global
+variance, near-zero visible disagreement---via the mechanism of
+\citet{sirbu2019} and \citet{santos2021} transplanted into a coevolving
+multiplex \citep{holme2006}. The communities are spatially delocalised:
+geography carries no trace of them. In the assimilative world this is the
+worst a platform can do in our model: freeze moderate fragmentation and
+hide it from its participants.
 
-\subsection{Level 4: engagement-maximising platforms and repulsion}
+\subsection{The inversion: uncurated exposure radicalizes (Level 4)}
 \label{sec:level4}
 
 \begin{figure}[t]
@@ -421,56 +549,116 @@ signature whatsoever.
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{fig4_engagement.pdf}
-  \caption{Level 4: platform designs compared under repulsive influence and
-  heavy-tailed influence strengths ($\lambda = 0.6$). Left three panels:
-  representative opinion trajectories under similarity-driven, neutral, and
-  controversy-driven engagement. Right: polarization $\operatorname{Var}(x)$
-  and extremism $\langle |x| \rangle$ (mean $\pm$ s.d.\ over 8 runs).}
+  \caption{Level 4: platform designs compared under repulsive influence
+  and heavy-tailed influence strengths ($\lambda = 0.6$). Left three
+  panels: representative opinion trajectories. Right: polarization
+  $\operatorname{Var}(x)$ and extremism $\langle |x| \rangle$ (mean $\pm$
+  s.d.\ over 8 runs).}
   \label{fig:engagement}
 \end{figure}
 
-Level 4 activates the repulsive branch of Eq.~\eqref{eq:influence} and
-heavy-tailed influence strengths, and compares the three platform designs
-of Eq.~\eqref{eq:engagement} (Fig.~\ref{fig:kernels}). The outcome
-(Fig.~\ref{fig:engagement}) is unambiguous on one point: once influence can
-be repulsive, \emph{every} platform design radicalises the population. All
-three designs end with two antagonistic blocs near the boundaries of
-opinion space. But the designs differ sharply in degree and speed, and the
-ordering is the opposite of what the pure bounded-confidence levels would
-suggest. The neutral platform is the most polarizing
-($\operatorname{Var}(x) \approx 0.98$, opinions pinned at $\pm 1$ within a
-few time units): uncurated exposure samples the full opinion distribution,
-which at the start is dominated by pairs beyond the repulsion threshold
-$\epsilon_2$, so almost every recommendation triggers mutual repulsion. The
-controversy-driven platform is nearly as extreme
-($\operatorname{Var}(x) \approx 0.89$) but slower, because its engagement
-peak at $\delta = 0.8 < \epsilon_2$ places a substantial fraction of
-exposures inside the indifference band where they do nothing. The
-similarity-driven platform is the \emph{least} polarizing
-($\operatorname{Var}(x) \approx 0.68$): by hiding strongly opposed content
-it starves the repulsive channel, and the drift to the extremes---driven by
-the residual cross-cutting links that stochastic rewiring keeps
-producing---is slow and incomplete. The network signatures also decouple
-from the opinion signatures: the neutral platform reaches maximal
-polarization with \emph{zero} opinion assortativity ($\rho \approx 0$),
-i.e.\ polarization without echo chambers, whereas both curated platforms end
-almost perfectly assortative ($\rho \approx 0.9$--$1.0$).
+Activating the repulsive branch and heavy-tailed influence strengths
+(Fig.~\ref{fig:kernels}) produces the inversion
+(Fig.~\ref{fig:engagement}). All three designs end with two antagonistic
+blocs, but with sharply different degree and speed, in the order predicted
+by the two-bloc reduction of Sec.~\ref{sec:twobloc}. The neutral platform
+is the most polarizing ($\operatorname{Var}(x) = 0.98 \pm 0.02$, opinions
+pinned at $\pm 1$ within a few time units): with $p = 1/2$, half of every
+feed is repulsion-triggering at all times. The controversy platform is
+nearly as extreme ($0.88 \pm 0.02$) but arrests just short of the boundary
+($\langle|x|\rangle \approx 0.95$), as predicted by the collapse of
+$p(y)$ when $2y \to 2$. The similarity platform is the least polarizing
+($0.68 \pm 0.09$): hiding opposed content starves the repulsive channel,
+leaving only the slow creep fed by residual cross-cutting links. The
+network signatures decouple from the opinion signatures: the neutral
+platform reaches maximal polarization with \emph{zero} opinion
+assortativity ($\rho \approx 0$)---polarization without echo
+chambers---whereas both curated platforms end almost perfectly assortative
+($\rho \approx 0.9$--$1.0$).
 
-Two lessons follow. First, exposure to disagreement, often proposed as the
-remedy for echo chambers, here \emph{is} the engine of radicalisation, as
-anticipated by models of partial antagonism \citep{kurmyshev2011,
-dearruda2022} and consistent with the empirical evidence that negative
-influence is the better-supported micro-mechanism \citep{tang2025}. Second,
-whether a given platform design polarises is not a property of the design
-alone but of its interaction with the psychology of influence: the neutral
-platform is the consensus machine of the assimilation-only world
-(Sec.~\ref{sec:level2}) and the radicalisation machine of the repulsive
-world, while homophilic curation switches roles in the opposite direction.
-In every case the society is simultaneously highly connected (every feed
-remains full) and deeply divided: connectivity and polarization are not
-opposites.
+\subsection{Robustness: uncurated exposure is the envelope}
+\label{sec:robustness}
 
-\subsection{Phase diagram: mobility versus digital attention}
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig6_robustness.pdf}
+  \caption{Robustness of the inversion. Left: final polarization versus
+  the repulsion threshold $\epsilon_2$ for $\eta = 0.2/0.4/0.8$
+  (dotted/solid/dashed); colours denote platforms (blue similarity, red
+  neutral, green controversy). Centre: similarity platform versus
+  algorithmic homophily $\gamma$, with the neutral platform as reference.
+  Right: controversy platform versus engagement peak $\delta$; the dotted
+  line marks $\delta = \epsilon_2$. Mean $\pm$ s.d.\ over 6 runs.}
+  \label{fig:robustness}
+\end{figure}
+
+Figure~\ref{fig:robustness} tests the ordering across the repulsion and
+curation parameters. Across the full $(\eta, \epsilon_2)$ grid the order
+neutral $\ge$ controversy $>$ similarity holds uniformly; all platforms
+polarize less as $\epsilon_2$ grows (repulsion becomes harder to trigger)
+and more as $\eta$ grows. The two curated platforms interpolate toward the
+neutral level in exactly the way the theory predicts. The similarity
+platform approaches the neutral bound as $\gamma \to 1$ (curation too weak
+to withhold repulsive content) and its protective effect saturates for
+$\gamma \gtrsim 8$. The controversy platform sits below the neutral bound
+while its engagement peak $\delta < \epsilon_2$ (much of its exposure
+lands in the indifference band) and reaches the bound once
+$\delta \ge \epsilon_2$, when engagement maximisation and repulsion
+maximisation coincide. Uncurated exposure is thus the \emph{upper
+envelope} of radicalization: a platform is exactly as dangerous as the
+amount of repulsive-zone exposure it fails to withhold.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\linewidth]{fig6b_nscaling.pdf}
+  \caption{System-size dependence of the inversion at constant density
+  ($L = \sqrt{N/200}$), $\lambda = 0.6$. Polarization (left) and extremism
+  (right) for the three platforms, $N = 100$--$1600$.}
+  \label{fig:nscaling}
+\end{figure}
+
+Figure~\ref{fig:nscaling} scans the system size at constant density up to
+$N = 1600$. The three platforms' polarization and extremism are
+essentially flat in $N$: the inversion is a bulk property, not a
+finite-size artefact.
+
+\subsection{The radicalization threshold and the mean-field limit}
+\label{sec:results-threshold}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig7_threshold.pdf}
+  \caption{Radicalization onset in the digital attention share. Left:
+  final polarization versus $\lambda$ for the three platforms; points are
+  the spatial ABM ($N = 200$, 12 seeds), solid lines the McKean--Vlasov
+  mean-field limit of Eq.~\eqref{eq:mkv}, dotted verticals the
+  parameter-free finite-horizon crossovers $\lambda_c(T)$ of
+  Table~\ref{tab:rates}. Centre and right: system-size dependence of the
+  $\operatorname{Var}(x)$--$\lambda$ curves for the neutral and similarity
+  platforms.}
+  \label{fig:threshold}
+\end{figure}
+
+Figure~\ref{fig:threshold} compares the simulated
+$\operatorname{Var}(x)$--$\lambda$ curves with the theory of
+Sec.~\ref{sec:theory}. The observations match the rate picture in every
+particular. The neutral and controversy platforms jump to their saturated
+values already at $\lambda \approx 0.05$, consistent with
+$\lambda_c \approx 0.01$--$0.02$ and inconsistent with the naive uniform-state
+thresholds ($0.34$, $0.55$); their curves are essentially independent of
+system size (centre panel), as expected for a finite-horizon crossover
+rather than a phase transition. The similarity platform grows smoothly
+along $\lambda$ toward a partial radicalization, consistent with
+$t_{\mathrm{rad}} \approx 78/\lambda$ against the horizon $T = 80$; its
+weak downward drift with $N$ (right panel) reflects the averaging-out of
+finite-attention fluctuations---with only $k = 10$ slots, occasional
+high-influence cross-bloc sources produce bursts of repulsion that the
+$N \to \infty$, fast-rewiring limit smooths away, which is also why the
+mean-field curve (solid blue) sits below the ABM points while tracking
+their shape. The mean-field integration reproduces the neutral and
+controversy curves nearly quantitatively with no fitted parameters.
+
+\subsection{Phase diagram: attention neutralises geography}
 \label{sec:phase}
 
 \begin{figure}[t]
@@ -486,82 +674,137 @@ opposites.
 \end{figure}
 
 Figure~\ref{fig:phase} assembles the global picture in the $(D, \lambda)$
-plane for the full Level-4 model. The horizontal axis interpolates between
-a purely geographical society and a purely platform-mediated one; the
-vertical axis spans four decades of mobility. At $\lambda \approx 0$ the
-physical layer decides the outcome and the Level-1 crossover is recovered:
-frozen local fragmentation at low $D$, the mean-field cluster set at high
-$D$. As $\lambda$ grows, the platform captures the attention budget, the
-repulsive channel activates through the residual cross-cutting exposure,
-and both polarization and extremism rise across \emph{all} mobilities: the
-high-$\lambda$ region is a bimodal, radicalised state essentially
-independent of $D$. Digital attention thus neutralises the moderating
-effect of physical mixing---once the platform curates most of an agent's
-exposure, it no longer matters how fast people move. Geography sets the
-outcome only for societies whose attention it still owns.
+plane. At $\lambda \approx 0$ the physical layer decides the outcome and
+the Level-1 crossover is recovered: frozen local fragmentation at low $D$,
+the mean-field cluster set at high $D$. As $\lambda$ grows the platform
+captures the attention budget, the repulsive channel activates through the
+residual cross-cutting exposure, and both polarization and extremism rise
+across \emph{all} mobilities: the high-$\lambda$ region is a bimodal,
+radicalised state essentially independent of $D$. Once the platform
+curates most of an agent's exposure, it no longer matters how fast people
+move: geography sets the outcome only for societies whose attention it
+still owns.
+
+\subsection{Geography: a null result and its repair (Levels 1 and 5)}
+\label{sec:geography}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig8_level5.pdf}
+  \caption{Level 5: homophilic mobility restores geographic opinion
+  structure. Left: local agreement gap versus the homophilic drift
+  strength $\chi$ for three mobilities. Centre-left: the same data
+  against the P\'eclet number $\chi\ell/D$; the curves approximately
+  collapse, with onset at $\mathrm{Pe} \sim 1$ (dotted). Right: final
+  spatial configurations at $D = 10^{-3}$ without ($\chi = 0$) and with
+  ($\chi = 0.1$) homophilic mobility.}
+  \label{fig:level5}
+\end{figure}
+
+The second panel of Fig.~\ref{fig:mobilitysweep} contains a null result
+that qualifies a common intuition. Moran's $I$---and the local agreement
+gap---never departs from noise level, \emph{even in the frozen regime
+where interactions are strictly local}. The first-order part of this
+statement is a symmetry: on the torus, the initial law and the dynamics
+with $\chi = 0$ are translation invariant, so
+$\mathbb{E}[x_i \mid \rr_i = \rr]$ is independent of $\rr$ at all
+times---no deterministic opinion map can exist. Symmetry does not forbid
+\emph{pair}-level structure (nearby agents interacted more), but the
+measured pair correlations also stay at noise level: disagreeing agents
+interleave at the same locations, interacting with disjoint compatible
+subsets, because nothing couples opinion to position. Locality controls
+\emph{how many} opinions survive but not \emph{where} they live. Claims
+that low mobility alone produces geographic echo chambers therefore
+require an opinion--position coupling, however weak.
+
+Level 5 quantifies how much coupling is needed. With the homophilic drift
+of Eq.~\eqref{eq:motion} ($\chi > 0$: approach compatible neighbours,
+avoid incompatible ones \citep{pasimeni2025, djurdjevac2024}), spatial
+opinion domains appear (Fig.~\ref{fig:level5}). The control parameter is
+the P\'eclet number comparing drift and diffusion over the interaction
+range,
+\begin{equation}
+  \mathrm{Pe} = \frac{\chi\,\ell}{D},
+  \label{eq:peclet}
+\end{equation}
+and the local agreement gap for different mobilities approximately
+collapses onto a single curve in $\mathrm{Pe}$, rising from noise level at
+$\mathrm{Pe} \lesssim 0.3$ to strong spatial segregation for
+$\mathrm{Pe} \gtrsim 3$. Geographic opinion structure is thus a
+threshold phenomenon in the strength of opinion-dependent mobility---and
+the Brownian model of Levels 1--4 sits below the threshold by
+construction, making it the correct null baseline.
 
 \section{Discussion}
 \label{sec:discussion}
 
-\paragraph{Summary.} We built a stochastic adaptive multiplex model coupling
-Brownian spatial motion, bounded-confidence social influence, and an
-algorithmically curated digital layer under a finite attention budget. The
-model reproduces, within one framework, the mobility-controlled
-fragmentation crossover of mobile-agent models \citep{alraddadi2024}, the
-defragmenting effect of opinion-neutral long-range coupling
-\citep{antonopoulos2018}, the echo-chamber feedback of algorithmic homophily
-\citep{sirbu2019, santos2021, baumann2020}, and repulsion-driven
-radicalisation \citep{kurmyshev2011}, and it locates these outcomes in a
-single $(D, \lambda)$ phase diagram.
+\paragraph{Summary.} We combined bounded-confidence opinion dynamics,
+Brownian and homophilic mobility, and an algorithmically curated digital
+layer under a finite attention budget, and found that the interaction
+between platform design and influence psychology---not either
+alone---decides the collective outcome. With assimilative influence, the
+neutral platform is a defragmenting force and homophilic curation builds
+echo chambers; with a repulsive channel, every design radicalizes, the
+neutral platform is the upper envelope, and homophilic curation is a
+buffer. The two-bloc reduction, the parameter-free finite-horizon
+crossover $\lambda_c(T)$, and the McKean--Vlasov limit make these
+statements analytical rather than merely observational, and the
+robustness and finite-size scans show they are bulk properties of the
+model. A cautionary methodological note falls out for free: the na\"ive
+linear-stability analysis of the uniform state predicts thresholds an
+order of magnitude too large, because fragmentation preempts it---in
+coupled opinion--network systems, the state that matters for stability is
+the one the fast dynamics builds first.
 
-\paragraph{The geography null result.} The most instructive finding is the
-one we did not design for. In the hypothesis motivating this work, strong
-digital connectivity would \emph{destroy} geographical opinion structure
-while increasing ideological polarization. The simulations show that under
-opinion-independent mobility there is no geographical opinion structure to
-destroy: locality shapes how many opinions survive but leaves position and
-opinion uncorrelated, because disagreeing agents interleave rather than
-segregate. The empirically observed geographic clustering of opinion must
-then arise from mechanisms outside this model class---homophilic migration,
-socially structured mobility, or spatially correlated exogenous influence.
-This sharpens the modelling agenda: adding opinion-dependent drift to
-Eq.~\eqref{eq:motion} (a Schelling-type term) is the natural Level 5, and
-the present model provides the null baseline against which its effect can
-be measured cleanly.
+\paragraph{Relation to experiments.} The inversion offers a mechanistic,
+population-scale account of the field experiment of \citet{bail2018}, in
+which a month of curated exposure to opposing views made Republican
+participants substantially more conservative: in our terms, an
+intervention that raises cross-cutting exposure moves a similarity-curated
+population toward the neutral envelope, and when the repulsive channel
+dominates---the micro-mechanism with the stronger empirical support in
+longitudinal network data \citep{tang2025}---that movement increases
+polarization. The model also predicts the conditions under which the same
+intervention helps: when influence is assimilative (weak prior
+commitments, moderate opinion distances), added exposure diversity heals
+fragmentation (Sec.~\ref{sec:baselines}). Interventions on recommendation
+algorithms that ignore which influence regime the population is in can
+therefore backfire in either direction.
 
-\paragraph{No platform design is uniformly safe.} Levels 2--4 give a graded
-answer to the public debate on whether platforms polarise, and the answer
-is conditional on the micro-psychology of influence. If influence is purely
-assimilative (bounded confidence), the neutral platform is actively
-beneficial---it supplies the long-range mixing that geography denies to
-immobile populations---and the harm comes from similarity curation, which
-freezes fragmentation and hides it from its participants behind feeds with
-vanishing visible disagreement. If influence has a repulsive component, the
-roles invert: uncurated and controversy-seeking exposure manufacture
-extremism, and homophilic curation, whatever its epistemic vices, acts as a
-buffer against radicalisation. Interventions on recommendation algorithms
-that ignore which influence regime the population is in can therefore
-backfire in either direction---increasing cross-cutting exposure is
-precisely the wrong medicine when negative influence dominates, which is
-the mechanism with the stronger empirical support \citep{tang2025}.
+\paragraph{The geography null result.} Under opinion-independent mobility
+there is no geographic opinion structure to destroy: position and opinion
+stay uncorrelated at every mobility, by symmetry at first order and
+empirically at pair level. The geographic clustering of opinion observed
+in real societies must then be produced by opinion--position coupling---%
+homophilic migration, socially structured mobility, or spatially
+correlated exogenous influence---and Level 5 shows the coupling need only
+exceed a modest P\'eclet threshold $\chi\ell/D \sim 1$. This sharpens,
+rather than contradicts, the mobile-agent literature
+\citep{alraddadi2024, pasimeni2025}: what matters is not whether agents
+move, but whether their movement knows about opinions.
 
-\paragraph{Limitations and outlook.} Opinions here are one-dimensional and
+\paragraph{Limitations and outlook.} Opinions are one-dimensional and
 confidence bounds static; adaptive-confidence extensions are natural
-\citep{li2025}. The attention budget is a fixed split rather than a dynamic
-allocation, engagement is a function of opinion distance only, and stubborn
-agents were implemented but not systematically explored---sweeping their
-number and placement against the platform designs is an obvious next step
-\citep{tian2018}. Analytically, the Brownian formulation invites a
-continuum (McKean--Vlasov) limit in which the physical term becomes a
-nonlocal interaction on a density field and the mixing-time competition can
-be made precise; the phase boundaries of Fig.~\ref{fig:phase} are the
-natural target of such a calculation \citep{castellano2009, bernardo2024}.
+\citep{li2025}. The two-bloc reduction is heuristic---it assumes
+symmetric blocs and fast rewiring---and its quantitative success invites
+a rigorous analysis of the McKean--Vlasov equation \eqref{eq:mkv},
+including the metastability structure behind the finite-horizon crossover
+\citep{castellano2009, bernardo2024}. The attention budget is a fixed
+split rather than a dynamic allocation; letting $\lambda$ itself be
+optimised by an engagement-maximising platform closes an obvious loop.
+Stubborn agents are implemented but unexplored; sweeping their number and
+placement against platform designs connects to opinion control
+\citep{tian2018}. Finally, the model's sharpest empirical claim---that
+exposure diversity helps or harms depending on the prevalence of negative
+influence---is testable in principle by conditioning field-experiment
+outcomes on measured latitudes of acceptance.
 
 \section*{Reproducibility}
 
-All code, figures, and animation scripts are contained in the accompanying
-repository. Each figure is produced by a single script under
-\texttt{scripts/}; the model implementation lives in
+All code, figures, and animation scripts are contained in the
+accompanying repository. Each figure is produced by a single script under
+\texttt{scripts/} (the theory curves by
+\texttt{scripts/theory\_twobloc.py}); the model implementation lives in
 \texttt{src/socialsim/}; Manim animations of the coupled dynamics are in
 \texttt{visualizations/}.
 

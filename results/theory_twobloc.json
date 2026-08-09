@@ -1,0 +1,777 @@
+{
+  "rates": {
+    "similarity": {
+      "p0": 0.008162571153159897,
+      "t_rad_coeff": 78.2268255585496,
+      "lambda_c": 0.9778353194818701
+    },
+    "neutral": {
+      "p0": 0.5,
+      "t_rad_coeff": 1.2770640594149767,
+      "lambda_c": 0.01596330074268721
+    },
+    "controversy": {
+      "p0": 0.9975273768433652,
+      "t_rad_coeff": 0.640114792365997,
+      "lambda_c": 0.008001434904574962
+    }
+  },
+  "meanfield": [
+    {
+      "platform": "similarity",
+      "lambda": 0.0,
+      "rep": 0,
+      "polarization": 0.2545075834486175
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.0,
+      "rep": 1,
+      "polarization": 0.19365176037367837
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.05,
+      "rep": 0,
+      "polarization": 0.2653692991010833
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.05,
+      "rep": 1,
+      "polarization": 0.23172623111228546
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.1,
+      "rep": 0,
+      "polarization": 0.27610838695725604
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.1,
+      "rep": 1,
+      "polarization": 0.2668160563480056
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.15,
+      "rep": 0,
+      "polarization": 0.2861139830835816
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.15,
+      "rep": 1,
+      "polarization": 0.2973476368394296
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.2,
+      "rep": 0,
+      "polarization": 0.2948433996813715
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.2,
+      "rep": 1,
+      "polarization": 0.3237800918419768
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.25,
+      "rep": 0,
+      "polarization": 0.3041158227575947
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.25,
+      "rep": 1,
+      "polarization": 0.3479353054216122
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.3,
+      "rep": 0,
+      "polarization": 0.31641811835204037
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.3,
+      "rep": 1,
+      "polarization": 0.3683271263998721
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.35,
+      "rep": 0,
+      "polarization": 0.32794106969206316
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.35,
+      "rep": 1,
+      "polarization": 0.3864779263740573
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.4,
+      "rep": 0,
+      "polarization": 0.3375382578843035
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.4,
+      "rep": 1,
+      "polarization": 0.40255172769268066
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.45,
+      "rep": 0,
+      "polarization": 0.3469359465107023
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.45,
+      "rep": 1,
+      "polarization": 0.41768104586783533
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.5,
+      "rep": 0,
+      "polarization": 0.35658389359763004
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.5,
+      "rep": 1,
+      "polarization": 0.4327595066901167
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.55,
+      "rep": 0,
+      "polarization": 0.3655425350587858
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.55,
+      "rep": 1,
+      "polarization": 0.44337271894020974
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.6,
+      "rep": 0,
+      "polarization": 0.37604184135872004
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.6,
+      "rep": 1,
+      "polarization": 0.45116344426611554
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.65,
+      "rep": 0,
+      "polarization": 0.38718764062557115
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.65,
+      "rep": 1,
+      "polarization": 0.4602395835158827
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.7,
+      "rep": 0,
+      "polarization": 0.3981509565728629
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.7,
+      "rep": 1,
+      "polarization": 0.48033466450738566
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.75,
+      "rep": 0,
+      "polarization": 0.4102999607154349
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.75,
+      "rep": 1,
+      "polarization": 0.5228440327777387
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.8,
+      "rep": 0,
+      "polarization": 0.4194944705372497
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.8,
+      "rep": 1,
+      "polarization": 0.5270952139605825
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.85,
+      "rep": 0,
+      "polarization": 0.4311655241296067
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.85,
+      "rep": 1,
+      "polarization": 0.5338222108161933
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.9,
+      "rep": 0,
+      "polarization": 0.44053465370170386
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.9,
+      "rep": 1,
+      "polarization": 0.5379145298951423
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.95,
+      "rep": 0,
+      "polarization": 0.449911757397057
+    },
+    {
+      "platform": "similarity",
+      "lambda": 0.95,
+      "rep": 1,
+      "polarization": 0.5476705645545136
+    },
+    {
+      "platform": "similarity",
+      "lambda": 1.0,
+      "rep": 0,
+      "polarization": 0.4563243161673402
+    },
+    {
+      "platform": "similarity",
+      "lambda": 1.0,
+      "rep": 1,
+      "polarization": 0.5524280999976948
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.0,
+      "rep": 0,
+      "polarization": 0.2545075834486175
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.0,
+      "rep": 1,
+      "polarization": 0.19365176037367837
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.05,
+      "rep": 0,
+      "polarization": 0.714733528273556
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.05,
+      "rep": 1,
+      "polarization": 0.7252182721106746
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.1,
+      "rep": 0,
+      "polarization": 0.901950529960591
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.1,
+      "rep": 1,
+      "polarization": 0.8905737890103839
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.15,
+      "rep": 0,
+      "polarization": 0.8980946693326556
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.15,
+      "rep": 1,
+      "polarization": 0.905747336021112
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.2,
+      "rep": 0,
+      "polarization": 0.8993677512769814
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.2,
+      "rep": 1,
+      "polarization": 0.9329489583672855
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.25,
+      "rep": 0,
+      "polarization": 0.9001408096882894
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.25,
+      "rep": 1,
+      "polarization": 0.9370787139357937
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.3,
+      "rep": 0,
+      "polarization": 0.9701402933344613
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.3,
+      "rep": 1,
+      "polarization": 0.9408809691649989
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.35,
+      "rep": 0,
+      "polarization": 0.9832867939563189
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.35,
+      "rep": 1,
+      "polarization": 0.9489880887162297
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.4,
+      "rep": 0,
+      "polarization": 0.9908208473051086
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.4,
+      "rep": 1,
+      "polarization": 0.9550231176099107
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.45,
+      "rep": 0,
+      "polarization": 0.9937942585652138
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.45,
+      "rep": 1,
+      "polarization": 0.9657034659231188
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.5,
+      "rep": 0,
+      "polarization": 0.9961647942704543
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.5,
+      "rep": 1,
+      "polarization": 0.9716868711350121
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.55,
+      "rep": 0,
+      "polarization": 0.9985051962456133
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.55,
+      "rep": 1,
+      "polarization": 0.9760670618824326
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.6,
+      "rep": 0,
+      "polarization": 0.9991812738364314
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.6,
+      "rep": 1,
+      "polarization": 0.9761539955857256
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.65,
+      "rep": 0,
+      "polarization": 0.9992121024993785
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.65,
+      "rep": 1,
+      "polarization": 0.9772261387713567
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.7,
+      "rep": 0,
+      "polarization": 0.9995454010570803
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.7,
+      "rep": 1,
+      "polarization": 0.9782674890325116
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.75,
+      "rep": 0,
+      "polarization": 0.9996802301403185
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.75,
+      "rep": 1,
+      "polarization": 0.9792793126940732
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.8,
+      "rep": 0,
+      "polarization": 0.999869385434021
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.8,
+      "rep": 1,
+      "polarization": 0.9854715129461611
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.85,
+      "rep": 0,
+      "polarization": 0.9999684147245534
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.85,
+      "rep": 1,
+      "polarization": 0.9878079980826093
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.9,
+      "rep": 0,
+      "polarization": 0.9999765504031491
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.9,
+      "rep": 1,
+      "polarization": 0.9892536475410748
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.95,
+      "rep": 0,
+      "polarization": 0.999994262112403
+    },
+    {
+      "platform": "neutral",
+      "lambda": 0.95,
+      "rep": 1,
+      "polarization": 0.9892693886264975
+    },
+    {
+      "platform": "neutral",
+      "lambda": 1.0,
+      "rep": 0,
+      "polarization": 0.9999980689528134
+    },
+    {
+      "platform": "neutral",
+      "lambda": 1.0,
+      "rep": 1,
+      "polarization": 0.9912610919449634
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.0,
+      "rep": 0,
+      "polarization": 0.2545075834486175
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.0,
+      "rep": 1,
+      "polarization": 0.19365176037367837
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.05,
+      "rep": 0,
+      "polarization": 0.351304747809868
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.05,
+      "rep": 1,
+      "polarization": 0.6821344984948223
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.1,
+      "rep": 0,
+      "polarization": 0.3782227917139136
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.1,
+      "rep": 1,
+      "polarization": 0.7242551816350818
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.15,
+      "rep": 0,
+      "polarization": 0.4033176056205359
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.15,
+      "rep": 1,
+      "polarization": 0.7412643009750544
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.2,
+      "rep": 0,
+      "polarization": 0.4312005909308657
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.2,
+      "rep": 1,
+      "polarization": 0.7542675708651226
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.25,
+      "rep": 0,
+      "polarization": 0.46079860975613635
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.25,
+      "rep": 1,
+      "polarization": 0.7634308807217967
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.3,
+      "rep": 0,
+      "polarization": 0.8172403503795939
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.3,
+      "rep": 1,
+      "polarization": 0.7762023827073513
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.35,
+      "rep": 0,
+      "polarization": 0.8396551365509883
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.35,
+      "rep": 1,
+      "polarization": 0.7845178828563732
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.4,
+      "rep": 0,
+      "polarization": 0.855997681650913
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.4,
+      "rep": 1,
+      "polarization": 0.8035558333992935
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.45,
+      "rep": 0,
+      "polarization": 0.8665025478445557
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.45,
+      "rep": 1,
+      "polarization": 0.814169189476843
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.5,
+      "rep": 0,
+      "polarization": 0.8790774324270865
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.5,
+      "rep": 1,
+      "polarization": 0.8187548083192798
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.55,
+      "rep": 0,
+      "polarization": 0.8827594975633781
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.55,
+      "rep": 1,
+      "polarization": 0.8221835004056322
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.6,
+      "rep": 0,
+      "polarization": 0.8871720446851725
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.6,
+      "rep": 1,
+      "polarization": 0.8246590600279832
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.65,
+      "rep": 0,
+      "polarization": 0.8927009777310061
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.65,
+      "rep": 1,
+      "polarization": 0.826960122916288
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.7,
+      "rep": 0,
+      "polarization": 0.8986635675313361
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.7,
+      "rep": 1,
+      "polarization": 0.8290629147547263
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.75,
+      "rep": 0,
+      "polarization": 0.9035708441647989
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.75,
+      "rep": 1,
+      "polarization": 0.8309405968522872
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.8,
+      "rep": 0,
+      "polarization": 0.9816087283046626
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.8,
+      "rep": 1,
+      "polarization": 0.8326096422848386
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.85,
+      "rep": 0,
+      "polarization": 0.9782429967659436
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.85,
+      "rep": 1,
+      "polarization": 0.8340710254716519
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.9,
+      "rep": 0,
+      "polarization": 0.9652538644195219
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.9,
+      "rep": 1,
+      "polarization": 0.8351572442209152
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.95,
+      "rep": 0,
+      "polarization": 0.9545734282340577
+    },
+    {
+      "platform": "controversy",
+      "lambda": 0.95,
+      "rep": 1,
+      "polarization": 0.8363187176055026
+    },
+    {
+      "platform": "controversy",
+      "lambda": 1.0,
+      "rep": 0,
+      "polarization": 0.9524965398832694
+    },
+    {
+      "platform": "controversy",
+      "lambda": 1.0,
+      "rep": 1,
+      "polarization": 0.8381703514637544
+    }
+  ]
+}
