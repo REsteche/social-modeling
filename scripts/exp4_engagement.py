@@ -13,10 +13,13 @@ Outputs:
     results/exp4_engagement.json
 """
 
+import json
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from common import save_fig, save_json, plot_trajectories
+from common import save_fig, save_json, plot_trajectories, RESULTS_DIR
 from socialsim import ModelParams, run_simulation, metrics
 from socialsim.model import engagement_kernel, influence_function
 
@@ -47,7 +50,10 @@ def main():
         axes[0].plot(d, engagement_kernel(d, pk), style, label=LABELS[eng])
     axes[0].set_xlabel("opinion distance $\\Delta$")
     axes[0].set_ylabel("engagement $E(\\Delta)$")
-    axes[0].legend(frameon=False)
+    # the lower-right quadrant is the only region clear of all three curves
+    axes[0].legend(frameon=False, fontsize=6.5, loc="center right",
+                   bbox_to_anchor=(1.0, 0.35), handlelength=1.4,
+                   labelspacing=0.4)
     axes[1].plot(d, influence_function(d, p), color="#33507a")
     axes[1].axhline(0, color="gray", lw=0.5)
     axes[1].axvline(p.eps1, color="gray", lw=0.5, ls=":")
@@ -59,8 +65,11 @@ def main():
     axes[1].text(1.45, -0.3, "repel", ha="center", fontsize=7)
     save_fig(fig, "fig4b_kernels")
 
-    # --- simulations
-    rows = []
+    # --- simulations (with --replot, statistics are loaded from the saved
+    # JSON and only the three cheap example trajectories are re-simulated)
+    replot = "--replot" in sys.argv and (RESULTS_DIR / "exp4_engagement.json").exists()
+    rows = (json.loads((RESULTS_DIR / "exp4_engagement.json").read_text())
+            if replot else [])
     fig, axes = plt.subplots(1, 4, figsize=(9.5, 2.6),
                              gridspec_kw={"width_ratios": [1, 1, 1, 1.1]})
     for k, eng in enumerate(PLATFORMS):
@@ -69,13 +78,15 @@ def main():
         axes[k].set_title(LABELS[eng])
         if k == 0:
             axes[k].set_ylabel("opinion $x_i$")
-        for seed in SEEDS:
-            tr = run_simulation(make_params(eng, seed), record_edges=True)
-            m = metrics.summarize(tr.x[-1], tr.r[-1], 1.0, 0.02,
-                                  edges=tr.edges[-1])
-            m["extremism"] = float(np.mean(np.abs(tr.x[-1])))
-            rows.append({"platform": eng, "seed": seed, **m})
-    save_json(rows, "exp4_engagement")
+        if not replot:
+            for seed in SEEDS:
+                tr = run_simulation(make_params(eng, seed), record_edges=True)
+                m = metrics.summarize(tr.x[-1], tr.r[-1], 1.0, 0.02,
+                                      edges=tr.edges[-1])
+                m["extremism"] = float(np.mean(np.abs(tr.x[-1])))
+                rows.append({"platform": eng, "seed": seed, **m})
+    if not replot:
+        save_json(rows, "exp4_engagement")
 
     # summary panel: polarization and extremism per platform
     ax = axes[3]
@@ -91,7 +102,9 @@ def main():
                color=color, alpha=0.85)
     ax.set_xticks(xs)
     ax.set_xticklabels(["simil.", "neutral", "controv."])
-    ax.legend(frameon=False)
+    ax.set_ylim(0, 1.28)   # headroom so the legend sits above the bars
+    ax.legend(frameon=False, fontsize=7, loc="upper left", ncols=2,
+              columnspacing=1.0, handlelength=1.2)
     save_fig(fig, "fig4_engagement")
 
 
