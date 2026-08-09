@@ -1,45 +1,27 @@
-\documentclass[11pt]{article}
+\documentclass[aps, pre, twocolumn, superscriptaddress, longbibliography,
+               nofootinbib]{revtex4-2}
 
-\usepackage[margin=1.05in]{geometry}
-\usepackage{amsmath, amssymb, amsthm}
+\usepackage{amsmath, amssymb}
 \usepackage{graphicx}
-\usepackage{booktabs}
 \usepackage{microtype}
-\usepackage[section]{placeins}
 \usepackage{xcolor}
-
-% Keep floats close to their call-out: allow generous top/bottom fractions
-% so the many figures do not overflow the float queue and drift.
-\renewcommand{\topfraction}{0.9}
-\renewcommand{\bottomfraction}{0.8}
-\renewcommand{\textfraction}{0.05}
-\renewcommand{\floatpagefraction}{0.75}
-\setcounter{topnumber}{3}
-\setcounter{totalnumber}{5}
-
-% Flush pending floats at subsection boundaries as well (placeins already
-% handles sections), so every figure lands in the subsection that cites it.
-\let\oldsubsection\subsection
-\renewcommand{\subsection}{\FloatBarrier\oldsubsection}
 \usepackage[colorlinks=true, linkcolor=blue!50!black, citecolor=blue!50!black,
             urlcolor=blue!50!black]{hyperref}
-\usepackage[numbers, sort&compress]{natbib}
 
 \graphicspath{{figures/}}
 
 \newcommand{\rr}{\mathbf{r}}
 \newcommand{\dd}{\mathrm{d}}
 
+\begin{document}
+
 \title{Cross-Cutting Exposure as an Engine of Radicalization:\\
 Platform Design, Attention, and Geography in a\\
 Stochastic Multiplex Model of Opinion Dynamics}
 
 \author{Ruben Araujo}
+\noaffiliation
 \date{August 2026}
-
-\begin{document}
-
-\maketitle
 
 \begin{abstract}
 Do social-media platforms polarize because they hide disagreement, or
@@ -79,6 +61,8 @@ experiments in which cross-cutting exposure increased polarization, and
 implies that interventions promoting exposure diversity can backfire
 precisely when negative influence dominates.
 \end{abstract}
+
+\maketitle
 
 \section{Introduction}
 \label{sec:intro}
@@ -195,6 +179,7 @@ homophilic drift (Level 5 below; $\chi = 0$ elsewhere): the
 kernel-weighted mean of unit vectors pointing toward compatible neighbours
 ($|x_j - x_i| < \epsilon$) and away from incompatible ones. Opinions obey
 the It\^o equation
+\begin{widetext}
 \begin{equation}
   \dd x_i =
   \alpha_i \,
@@ -208,8 +193,9 @@ the It\^o equation
   \sigma_x\, \dd B_i(t),
   \label{eq:opinion}
 \end{equation}
-clipped to $[-1,1]$, where $r_{ij}$ is the minimum-image distance. The
-physical kernel is a truncated Gaussian,
+\end{widetext}
+clipped to $[-1,1]$, where $r_{ij}$ is the minimum-image distance between
+agents. The physical kernel is a truncated Gaussian,
 \begin{equation}
   K(r) = e^{-r^2 / 2\ell^2}\, \mathbf{1}(r < 3\ell),
   \label{eq:kernel}
@@ -241,9 +227,9 @@ discussed by \citet{tang2025}.
 The rates in Eq.~\eqref{eq:opinion} satisfy
 \begin{equation}
   \alpha_i = \alpha_{\mathrm{tot}}\,(1 - \lambda),
-  \qquad
+  \quad
   \beta_i = \alpha_{\mathrm{tot}}\,\lambda,
-  \qquad \lambda \in [0,1],
+  \quad \lambda \in [0,1],
   \label{eq:attention}
 \end{equation}
 so the digital attention share $\lambda$ measures how much of a finite
@@ -263,11 +249,13 @@ source $j$ with probability
 where $E$ is the platform's \emph{engagement kernel}. We compare three
 designs:
 \begin{equation}
+  \begin{gathered}
   E_{\mathrm{sim}}(\Delta) = e^{-\gamma \Delta},
   \qquad
   E_{\mathrm{neu}}(\Delta) = 1,
-  \qquad
+  \\
   E_{\mathrm{con}}(\Delta) = e^{-(\Delta - \delta)^2 / 2 s^2}.
+  \end{gathered}
   \label{eq:engagement}
 \end{equation}
 The similarity kernel models algorithmic homophily with strength $\gamma$
@@ -416,22 +404,21 @@ homophilic curation is therefore kinetic, not thermodynamic: it multiplies
 the time to reach the extremes by $p_0^{-1} \sim e^{2\gamma y_0}$, without
 changing the destination.
 
-\begin{table}[!htbp]
-  \centering
+\begin{table}[!t]
   \caption{Two-bloc rate analysis, Eqs.~\eqref{eq:p} and
   \eqref{eq:trad}--\eqref{eq:lambdac}, at the reference parameters
   ($y_0 = 0.6$, $y_f = 1$, $\eta = 0.4$, $\gamma = 4$, $\delta = 0.8$,
   $s = 0.2$, $T = 80$). No parameters are fitted.}
   \label{tab:rates}
+  \begin{ruledtabular}
   \begin{tabular}{lccc}
-    \toprule
     Platform & $p_0$ & $t_{\mathrm{rad}}(\lambda)$ & $\lambda_c(T{=}80)$ \\
-    \midrule
+    \hline
     Similarity-driven & $0.008$ & $78.2/\lambda$ & $0.98$ \\
     Neutral & $0.500$ & $1.28/\lambda$ & $0.016$ \\
     Controversy-driven & $0.998$ & $0.64/\lambda$ & $0.008$ \\
-    \bottomrule
   \end{tabular}
+  \end{ruledtabular}
 \end{table}
 
 \subsection{Mean-field limit}
@@ -441,6 +428,7 @@ In the fast-rewiring, well-mixed, $N \to \infty$ limit, the opinion
 marginal obeys a McKean--Vlasov dynamics: each agent feels the global
 bounded-confidence mean with weight $1 - \lambda$ and an
 engagement-weighted influence average with weight $\lambda$,
+\begin{widetext}
 \begin{equation}
   \dd x =
   (1-\lambda)\,
@@ -452,6 +440,7 @@ engagement-weighted influence average with weight $\lambda$,
   + \sigma_x\, \dd B,
   \label{eq:mkv}
 \end{equation}
+\end{widetext}
 where $(x', s')$ is an independent draw from the population law. We
 integrate Eq.~\eqref{eq:mkv} as a spaceless interacting-particle system
 and compare it with the spatial agent-based model in
@@ -467,7 +456,7 @@ rewiring.
 \subsection{Baselines: mobility and neutral connectivity (Levels 1--2)}
 \label{sec:baselines}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig1_mobility.pdf}
   \caption{Purely physical dynamics (Level 1). Top: opinion trajectories
@@ -478,9 +467,9 @@ rewiring.
   bounded-confidence outcome. Note the absence of spatial colour domains
   at any $D$.}
   \label{fig:mobility}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=0.85\linewidth]{fig1b_mobility_sweep.pdf}
   \caption{Level-1 sweep over the diffusion coefficient. Left: mean number
@@ -489,9 +478,9 @@ rewiring.
   between local fragmentation and mean-field behaviour while the
   spatial--opinion correlation stays at noise level throughout.}
   \label{fig:mobilitysweep}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig2_static_digital.pdf}
   \caption{Level 2: static random digital layer at low mobility
@@ -499,7 +488,7 @@ rewiring.
   digital attention share $\lambda$. Right: cluster count and polarization
   versus $\lambda$ (mean $\pm$ s.d.).}
   \label{fig:static}
-\end{figure}
+\end{figure*}
 
 Figures \ref{fig:mobility}--\ref{fig:static} establish the assimilative
 baselines. In the purely physical model, the competition between the local
@@ -522,7 +511,7 @@ about what curation and repulsion do to this baseline.
 (Level 3)}
 \label{sec:level3}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig3_adaptive.pdf}
   \caption{Level 3: adaptive digital layer with similarity-driven
@@ -532,7 +521,7 @@ about what curation and repulsion do to this baseline.
   functions of the algorithmic homophily $\gamma$ (mean $\pm$ s.d.\ over 6
   runs).}
   \label{fig:adaptive}
-\end{figure}
+\end{figure*}
 
 With similarity-driven rewiring (still purely assimilative influence), the
 feedback loop opinion $\to$ topology $\to$ exposure $\to$ opinion closes as
@@ -550,7 +539,7 @@ hide it from its participants.
 \subsection{The inversion: uncurated exposure radicalizes (Level 4)}
 \label{sec:level4}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=0.8\linewidth]{fig4b_kernels.pdf}
   \caption{Level-4 ingredients. Left: the three engagement kernels of
@@ -559,9 +548,9 @@ hide it from its participants.
   Eq.~\eqref{eq:influence} ($\epsilon_1 = 0.3$, $\epsilon_2 = 0.9$,
   $\eta = 0.4$).}
   \label{fig:kernels}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig4_engagement.pdf}
   \caption{Level 4: platform designs compared under repulsive influence
@@ -570,7 +559,7 @@ hide it from its participants.
   $\operatorname{Var}(x)$ and extremism $\langle |x| \rangle$ (mean $\pm$
   s.d.\ over 8 runs).}
   \label{fig:engagement}
-\end{figure}
+\end{figure*}
 
 Activating the repulsive branch and heavy-tailed influence strengths
 (Fig.~\ref{fig:kernels}) produces the inversion
@@ -594,7 +583,7 @@ chambers---whereas both curated platforms end almost perfectly assortative
 \subsection{Robustness: uncurated exposure is the envelope}
 \label{sec:robustness}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig6_robustness.pdf}
   \caption{Robustness of the inversion. Left: final polarization versus
@@ -605,7 +594,7 @@ chambers---whereas both curated platforms end almost perfectly assortative
   Right: controversy platform versus engagement peak $\delta$; the dotted
   line marks $\delta = \epsilon_2$. Mean $\pm$ s.d.\ over 6 runs.}
   \label{fig:robustness}
-\end{figure}
+\end{figure*}
 
 Figure~\ref{fig:robustness} tests the ordering across the repulsion and
 curation parameters. Across the full $(\eta, \epsilon_2)$ grid the order
@@ -623,14 +612,14 @@ maximisation coincide. Uncurated exposure is thus the \emph{upper
 envelope} of radicalization: a platform is exactly as dangerous as the
 amount of repulsive-zone exposure it fails to withhold.
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=0.75\linewidth]{fig6b_nscaling.pdf}
   \caption{System-size dependence of the inversion at constant density
   ($L = \sqrt{N/200}$), $\lambda = 0.6$. Polarization (left) and extremism
   (right) for the three platforms, $N = 100$--$1600$.}
   \label{fig:nscaling}
-\end{figure}
+\end{figure*}
 
 Figure~\ref{fig:nscaling} scans the system size at constant density up to
 $N = 1600$. The three platforms' polarization and extremism are
@@ -640,7 +629,7 @@ finite-size artefact.
 \subsection{The radicalization threshold and the mean-field limit}
 \label{sec:results-threshold}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig7_threshold.pdf}
   \caption{Radicalization onset in the digital attention share. Left:
@@ -652,7 +641,7 @@ finite-size artefact.
   $\operatorname{Var}(x)$--$\lambda$ curves for the neutral and similarity
   platforms.}
   \label{fig:threshold}
-\end{figure}
+\end{figure*}
 
 Figure~\ref{fig:threshold} compares the simulated
 $\operatorname{Var}(x)$--$\lambda$ curves with the theory of
@@ -676,7 +665,7 @@ controversy curves nearly quantitatively with no fitted parameters.
 \subsection{Phase diagram: attention neutralises geography}
 \label{sec:phase}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig5_phase_diagram.pdf}
   \caption{Phase diagram of the full Level-4 model (similarity-driven
@@ -686,7 +675,7 @@ controversy curves nearly quantitatively with no fitted parameters.
   $\langle|x|\rangle$, and the majority categorical state over 3
   realisations per grid point.}
   \label{fig:phase}
-\end{figure}
+\end{figure*}
 
 Figure~\ref{fig:phase} assembles the global picture in the $(D, \lambda)$
 plane. At $\lambda \approx 0$ the physical layer decides the outcome and
@@ -703,7 +692,7 @@ still owns.
 \subsection{Geography: a null result and its repair (Levels 1 and 5)}
 \label{sec:geography}
 
-\begin{figure}[!htbp]
+\begin{figure*}[!t]
   \centering
   \includegraphics[width=\linewidth]{fig8_level5.pdf}
   \caption{Level 5: homophilic mobility restores geographic opinion
@@ -714,7 +703,7 @@ still owns.
   spatial configurations at $D = 10^{-3}$ without ($\chi = 0$) and with
   ($\chi = 0.1$) homophilic mobility.}
   \label{fig:level5}
-\end{figure}
+\end{figure*}
 
 The second panel of Fig.~\ref{fig:mobilitysweep} contains a null result
 that qualifies a common intuition. Moran's $I$---and the local agreement
@@ -814,16 +803,13 @@ exposure diversity helps or harms depending on the prevalence of negative
 influence---is testable in principle by conditioning field-experiment
 outcomes on measured latitudes of acceptance.
 
-\section*{Reproducibility}
+\section*{Code and data availability}
 
-All code, figures, and animation scripts are contained in the
-accompanying repository. Each figure is produced by a single script under
-\texttt{scripts/} (the theory curves by
-\texttt{scripts/theory\_twobloc.py}); the model implementation lives in
-\texttt{src/socialsim/}; Manim animations of the coupled dynamics are in
-\texttt{visualizations/}.
+The full simulation code, the scripts that generate every figure and
+table, the raw sweep data, and animations of the coupled dynamics are
+openly available at
+\url{https://github.com/REsteche/social-modeling}.
 
-\bibliographystyle{unsrtnat}
 \bibliography{references}
 
 \end{document}
