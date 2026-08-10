@@ -11,10 +11,13 @@ Outputs:
     results/exp3_adaptive.json
 """
 
+import json
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from common import save_fig, save_json
+from common import save_fig, save_json, RESULTS_DIR
 from socialsim import ModelParams, run_simulation, metrics
 
 GAMMAS = [0.0, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0]
@@ -30,14 +33,19 @@ def make_params(gamma, seed):
 
 
 def main():
-    rows = []
-    for gamma in GAMMAS:
-        for seed in SEEDS:
-            traj = run_simulation(make_params(gamma, seed), record_edges=True)
-            m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, 0.02,
-                                  edges=traj.edges[-1])
-            rows.append({"gamma": gamma, "seed": seed, **m})
-    save_json(rows, "exp3_adaptive")
+    data_file = RESULTS_DIR / "exp3_adaptive.json"
+    if "--replot" in sys.argv and data_file.exists():
+        rows = json.loads(data_file.read_text())
+    else:
+        rows = []
+        for gamma in GAMMAS:
+            for seed in SEEDS:
+                traj = run_simulation(make_params(gamma, seed),
+                                      record_edges=True)
+                m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, 0.02,
+                                      edges=traj.edges[-1])
+                rows.append({"gamma": gamma, "seed": seed, **m})
+        save_json(rows, "exp3_adaptive")
 
     gs = np.array([r["gamma"] for r in rows])
     fig, axes = plt.subplots(1, 4, figsize=(9.5, 2.5))

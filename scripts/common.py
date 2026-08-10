@@ -27,6 +27,11 @@ plt.rcParams.update({
     "legend.fontsize": 8,
     "axes.spines.top": False,
     "axes.spines.right": False,
+    # match the paper's (REVTeX / Computer Modern) typography
+    "font.family": "serif",
+    "font.serif": ["cmr10", "STIXGeneral", "DejaVu Serif"],
+    "mathtext.fontset": "cm",
+    "axes.unicode_minus": False,
 })
 
 OPINION_CMAP = "coolwarm"

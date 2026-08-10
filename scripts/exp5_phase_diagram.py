@@ -12,14 +12,16 @@ Outputs:
     results/exp5_phase_diagram.json
 """
 
+import json
 import os
+import sys
 from concurrent.futures import ProcessPoolExecutor
 
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-from common import save_fig, save_json
+from common import save_fig, save_json, RESULTS_DIR
 from socialsim import ModelParams, run_simulation, metrics
 
 D_GRID = np.logspace(-4.5, -0.5, 9)
@@ -48,16 +50,20 @@ def run_one(args):
 
 
 def main():
-    jobs = [(D, lam, seed) for D in D_GRID for lam in LAM_GRID
-            for seed in SEEDS]
-    workers = max(1, (os.cpu_count() or 2) - 1)
-    rows = []
-    with ProcessPoolExecutor(max_workers=workers) as pool:
-        for k, row in enumerate(pool.map(run_one, jobs, chunksize=3)):
-            rows.append(row)
-            if (k + 1) % 27 == 0:
-                print(f"{k + 1}/{len(jobs)} runs done")
-    save_json(rows, "exp5_phase_diagram")
+    data_file = RESULTS_DIR / "exp5_phase_diagram.json"
+    if "--replot" in sys.argv and data_file.exists():
+        rows = json.loads(data_file.read_text())
+    else:
+        jobs = [(D, lam, seed) for D in D_GRID for lam in LAM_GRID
+                for seed in SEEDS]
+        workers = max(1, (os.cpu_count() or 2) - 1)
+        rows = []
+        with ProcessPoolExecutor(max_workers=workers) as pool:
+            for k, row in enumerate(pool.map(run_one, jobs, chunksize=3)):
+                rows.append(row)
+                if (k + 1) % 27 == 0:
+                    print(f"{k + 1}/{len(jobs)} runs done")
+        save_json(rows, "exp5_phase_diagram")
 
     def grid_of(key, reduce=np.nanmean):
         out = np.zeros((len(D_GRID), len(LAM_GRID)))

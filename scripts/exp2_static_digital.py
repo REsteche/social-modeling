@@ -11,10 +11,13 @@ Outputs:
     results/exp2_static_digital.json
 """
 
+import json
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from common import save_fig, save_json, plot_trajectories
+from common import save_fig, save_json, plot_trajectories, RESULTS_DIR
 from socialsim import ModelParams, run_simulation, metrics
 
 LAMBDAS = np.linspace(0.0, 1.0, 11)
@@ -30,16 +33,22 @@ def make_params(lam, seed):
 
 
 def main():
-    rows = []
-    for lam in LAMBDAS:
-        for seed in SEEDS:
-            traj = run_simulation(make_params(lam, seed), record_edges=True)
-            m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, 0.02,
-                                  edges=traj.edges[-1])
-            rows.append({"lambda": lam, "seed": seed,
-                         **{k: m[k] for k in ("polarization", "n_clusters",
-                                              "morans_I", "state")}})
-    save_json(rows, "exp2_static_digital")
+    data_file = RESULTS_DIR / "exp2_static_digital.json"
+    if "--replot" in sys.argv and data_file.exists():
+        rows = json.loads(data_file.read_text())
+    else:
+        rows = []
+        for lam in LAMBDAS:
+            for seed in SEEDS:
+                traj = run_simulation(make_params(lam, seed),
+                                      record_edges=True)
+                m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, 0.02,
+                                      edges=traj.edges[-1])
+                rows.append({"lambda": lam, "seed": seed,
+                             **{k: m[k] for k in ("polarization",
+                                                  "n_clusters",
+                                                  "morans_I", "state")}})
+        save_json(rows, "exp2_static_digital")
 
     lams = np.array([r["lambda"] for r in rows])
     fig = plt.figure(figsize=(9.0, 2.7))

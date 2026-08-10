@@ -10,10 +10,13 @@ Outputs:
     results/exp6_robustness.json
 """
 
+import json
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from common import save_fig, save_json, run_parallel
+from common import save_fig, save_json, run_parallel, RESULTS_DIR
 from socialsim import ModelParams, run_simulation
 
 PLATFORMS = ["similarity", "neutral", "controversy"]
@@ -59,13 +62,17 @@ def run_one(job):
 
 
 def main():
-    jobs = [("grid", (eng, eta, eps2, seed))
-            for eng in PLATFORMS for eta in ETAS for eps2 in EPS2S
-            for seed in SEEDS]
-    jobs += [("gamma", (g, seed)) for g in GAMMAS for seed in SEEDS]
-    jobs += [("delta", (d, seed)) for d in DELTAS for seed in SEEDS]
-    rows = run_parallel(run_one, jobs)
-    save_json(rows, "exp6_robustness")
+    data_file = RESULTS_DIR / "exp6_robustness.json"
+    if "--replot" in sys.argv and data_file.exists():
+        rows = json.loads(data_file.read_text())
+    else:
+        jobs = [("grid", (eng, eta, eps2, seed))
+                for eng in PLATFORMS for eta in ETAS for eps2 in EPS2S
+                for seed in SEEDS]
+        jobs += [("gamma", (g, seed)) for g in GAMMAS for seed in SEEDS]
+        jobs += [("delta", (d, seed)) for d in DELTAS for seed in SEEDS]
+        rows = run_parallel(run_one, jobs)
+        save_json(rows, "exp6_robustness")
 
     fig, axes = plt.subplots(1, 3, figsize=(10.5, 2.7), layout="constrained")
 
