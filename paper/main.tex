@@ -16,8 +16,8 @@
 \renewcommand{\dbltopfraction}{0.9}
 \renewcommand{\bottomfraction}{0.5}
 \renewcommand{\textfraction}{0.07}
-\renewcommand{\floatpagefraction}{0.75}
-\renewcommand{\dblfloatpagefraction}{0.75}
+\renewcommand{\floatpagefraction}{0.66}
+\renewcommand{\dblfloatpagefraction}{0.66}
 \setcounter{topnumber}{3}
 \setcounter{dbltopnumber}{3}
 \setcounter{totalnumber}{5}
@@ -191,32 +191,6 @@ inversion predictable rather than merely observable.
 \section{Model}
 \label{sec:model}
 
-\begin{figure*}[!t]
-  \centering
-  \includegraphics[width=\linewidth]{fig1_mobility.pdf}
-  \caption{Purely physical dynamics (Level 1). Top: opinion trajectories
-  $x_i(t)$ for increasing diffusion coefficient $D$; colours encode final
-  opinions. Bottom: final spatial configurations. Panel captions report
-  the cluster count $n_c$ and Moran's $I$ of the single realisation shown;
-  individual-run values of $I$ fluctuate around a zero ensemble mean
-  (s.d.\ $\approx 0.13$ across seeds, single-run extremes up to
-  $|I| \approx 0.35$; Fig.~\ref{fig:mobilitysweep}). Low mobility freezes many coexisting
-  clusters; high mobility recovers the mean-field bounded-confidence
-  outcome. Note the absence of spatial colour domains at any $D$.}
-  \label{fig:mobility}
-\end{figure*}
-
-\begin{figure}[!tb]
-  \centering
-  \includegraphics[width=\linewidth]{fig1b_mobility_sweep.pdf}
-  \caption{Level-1 sweep over the diffusion coefficient. Top: mean number
-  of surviving opinion clusters. Bottom: Moran's $I$ between opinion and
-  position (mean $\pm$ s.d.\ over 6 realisations). Mobility interpolates
-  between local fragmentation and mean-field behaviour while the
-  spatial--opinion correlation stays at noise level throughout.}
-  \label{fig:mobilitysweep}
-\end{figure}
-
 \subsection{State variables}
 
 Each of $N$ agents carries a position $\rr_i(t) \in [0,L)^2$ with periodic
@@ -308,16 +282,6 @@ it, alongside the hard slot constraint $\sum_j A_{ij} = k$.
 
 \subsection{The platform: engagement-driven rewiring}
 
-\begin{figure*}[!t]
-  \centering
-  \includegraphics[width=\linewidth]{fig2_static_digital.pdf}
-  \caption{Level 2: static random digital layer at low mobility
-  ($D = 10^{-4}$). Left three panels: opinion trajectories for increasing
-  digital attention share $\lambda$. Right: cluster count and polarization
-  versus $\lambda$ (mean $\pm$ s.d.).}
-  \label{fig:static}
-\end{figure*}
-
 In each interval $\dd t$, agent $i$ replaces one uniformly chosen attention
 slot with probability $\rho\,\dd t$; the platform selects the replacement
 source $j$ with probability
@@ -406,18 +370,6 @@ ordering.
 \section{Theory: two-bloc reduction and mean-field limit}
 \label{sec:theory}
 
-\begin{figure*}[!t]
-  \centering
-  \includegraphics[width=\linewidth]{fig3_adaptive.pdf}
-  \caption{Level 3: adaptive digital layer with similarity-driven
-  recommendation, $\lambda = 0.5$, $D = 10^{-3}$. From left to right:
-  opinion assortativity of the digital graph, modularity with respect to
-  opinion clusters, mean local disagreement, and cluster count as
-  functions of the algorithmic homophily $\gamma$ (mean $\pm$ s.d.\ over 6
-  runs).}
-  \label{fig:adaptive}
-\end{figure*}
-
 \subsection{Late stage: cross-bloc attention controls radicalization}
 \label{sec:twobloc}
 
@@ -485,16 +437,41 @@ of magnitude---is the rate, which we quantify next.
 \subsection{Onset: radicalization is rate-limited, not threshold-limited}
 \label{sec:threshold}
 
-\begin{figure}[!tb]
+\begin{figure*}[!tp]
   \centering
-  \includegraphics[width=\linewidth]{fig4b_kernels.pdf}
-  \caption{Level-4 ingredients. Top: the three engagement kernels of
-  Eq.~\eqref{eq:engagement} ($\gamma = 4$, $\delta = 0.8$, $w = 0.2$).
-  Bottom: the assimilation--indifference--repulsion influence function of
-  Eq.~\eqref{eq:influence} ($\epsilon_1 = 0.3$, $\epsilon_2 = 0.9$,
-  $\eta = 0.4$).}
-  \label{fig:kernels}
+  \includegraphics[width=0.88\linewidth]{fig1_mobility.pdf}
+  \caption{Purely physical dynamics (Level 1). Top: opinion trajectories
+  $x_i(t)$ for increasing diffusion coefficient $D$; colours encode final
+  opinions. Bottom: final spatial configurations. Panel captions report
+  the cluster count $n_c$ and Moran's $I$ of the single realisation shown;
+  individual-run values of $I$ fluctuate around a zero ensemble mean
+  (s.d.\ $\approx 0.13$ across seeds, single-run extremes up to
+  $|I| \approx 0.35$; Fig.~\ref{fig:mobilitysweep}). Low mobility freezes many coexisting
+  clusters; high mobility recovers the mean-field bounded-confidence
+  outcome. Note the absence of spatial colour domains at any $D$.}
+  \label{fig:mobility}
+\end{figure*}
+
+\begin{figure}[!tbp]
+  \centering
+  \includegraphics[width=\linewidth]{fig1b_mobility_sweep.pdf}
+  \caption{Level-1 sweep over the diffusion coefficient. Top: mean number
+  of surviving opinion clusters. Bottom: Moran's $I$ between opinion and
+  position (mean $\pm$ s.d.\ over 6 realisations). Mobility interpolates
+  between local fragmentation and mean-field behaviour while the
+  spatial--opinion correlation stays at noise level throughout.}
+  \label{fig:mobilitysweep}
 \end{figure}
+
+\begin{figure*}[!tp]
+  \centering
+  \includegraphics[width=\linewidth]{fig2_static_digital.pdf}
+  \caption{Level 2: static random digital layer at low mobility
+  ($D = 10^{-4}$). Left three panels: opinion trajectories for increasing
+  digital attention share $\lambda$. Right: cluster count and polarization
+  versus $\lambda$ (mean $\pm$ s.d.).}
+  \label{fig:static}
+\end{figure*}
 
 One might expect a critical attention share below which the physical
 layer's assimilative pull protects the population. A linear stability
@@ -579,16 +556,28 @@ reached on any accessible horizon.
 \subsection{Well-mixed limit}
 \label{sec:meanfield}
 
-\begin{figure*}[!t]
+\begin{figure*}[!tp]
   \centering
-  \includegraphics[width=\linewidth]{fig4_engagement.pdf}
-  \caption{Level 4: platform designs compared under repulsive influence
-  and heavy-tailed influence strengths ($\lambda = 0.6$). Left three
-  panels: representative opinion trajectories. Right: polarization
-  $\operatorname{Var}(x)$ and extremism $\langle |x| \rangle$ (mean $\pm$
-  s.d.\ over 8 runs).}
-  \label{fig:engagement}
+  \includegraphics[width=\linewidth]{fig3_adaptive.pdf}
+  \caption{Level 3: adaptive digital layer with similarity-driven
+  recommendation, $\lambda = 0.5$, $D = 10^{-3}$. From left to right:
+  opinion assortativity of the digital graph, modularity with respect to
+  opinion clusters, mean local disagreement, and cluster count as
+  functions of the algorithmic homophily $\gamma$ (mean $\pm$ s.d.\ over 6
+  runs).}
+  \label{fig:adaptive}
 \end{figure*}
+
+\begin{figure}[!tbp]
+  \centering
+  \includegraphics[width=\linewidth]{fig4b_kernels.pdf}
+  \caption{Level-4 ingredients. Top: the three engagement kernels of
+  Eq.~\eqref{eq:engagement} ($\gamma = 4$, $\delta = 0.8$, $w = 0.2$).
+  Bottom: the assimilation--indifference--repulsion influence function of
+  Eq.~\eqref{eq:influence} ($\epsilon_1 = 0.3$, $\epsilon_2 = 0.9$,
+  $\eta = 0.4$).}
+  \label{fig:kernels}
+\end{figure}
 
 In the fast-rewiring, well-mixed counterpart of the model, each agent
 feels the global bounded-confidence mean with weight $1 - \lambda$ and a
@@ -640,21 +629,19 @@ weighting, not an artefact of space or slow rewiring.
 \section{Results}
 \label{sec:results}
 
-\begin{figure*}[!t]
-  \centering
-  \includegraphics[width=\linewidth]{fig6_robustness.pdf}
-  \caption{Robustness of the inversion. Left: final polarization versus
-  the repulsion threshold $\epsilon_2$ for $\eta = 0.2/0.4/0.8$
-  (dotted/solid/dashed); colours denote platforms (blue similarity, red
-  neutral, green controversy). Centre: similarity platform versus
-  algorithmic homophily $\gamma$, with the neutral platform as reference.
-  Right: controversy platform versus engagement peak $\delta$; the dotted
-  line marks $\delta = \epsilon_2$. Mean $\pm$ s.d.\ over 6 runs.}
-  \label{fig:robustness}
-\end{figure*}
-
 \subsection{Baselines: mobility and neutral connectivity (Levels 1--2)}
 \label{sec:baselines}
+
+\begin{figure*}[!tp]
+  \centering
+  \includegraphics[width=\linewidth]{fig4_engagement.pdf}
+  \caption{Level 4: platform designs compared under repulsive influence
+  and heavy-tailed influence strengths ($\lambda = 0.6$). Left three
+  panels: representative opinion trajectories. Right: polarization
+  $\operatorname{Var}(x)$ and extremism $\langle |x| \rangle$ (mean $\pm$
+  s.d.\ over 8 runs).}
+  \label{fig:engagement}
+\end{figure*}
 
 Figures \ref{fig:mobility}--\ref{fig:static} establish the assimilative
 baselines. In the purely physical model, the competition between the local
@@ -678,7 +665,20 @@ about what curation and repulsion do to this baseline.
 (Level 3)}
 \label{sec:level3}
 
-\begin{figure}[!tb]
+\begin{figure*}[!tp]
+  \centering
+  \includegraphics[width=\linewidth]{fig6_robustness.pdf}
+  \caption{Robustness of the inversion. Left: final polarization versus
+  the repulsion threshold $\epsilon_2$ for $\eta = 0.2/0.4/0.8$
+  (dotted/solid/dashed); colours denote platforms (blue similarity, red
+  neutral, green controversy). Centre: similarity platform versus
+  algorithmic homophily $\gamma$, with the neutral platform as reference.
+  Right: controversy platform versus engagement peak $\delta$; the dotted
+  line marks $\delta = \epsilon_2$. Mean $\pm$ s.d.\ over 6 runs.}
+  \label{fig:robustness}
+\end{figure*}
+
+\begin{figure}[!tbp]
   \centering
   \includegraphics[width=\linewidth]{fig6b_nscaling.pdf}
   \caption{System-size dependence of the inversion at constant density
@@ -703,7 +703,7 @@ hide it from its participants.
 \subsection{The inversion: uncurated exposure radicalizes (Level 4)}
 \label{sec:level4}
 
-\begin{figure*}[!t]
+\begin{figure*}[!tp]
   \centering
   \includegraphics[width=\linewidth]{fig7_threshold.pdf}
   \caption{Radicalization onset in the digital attention share. Left:
@@ -740,7 +740,7 @@ chambers---whereas both curated platforms end almost perfectly assortative
 \subsection{Robustness: repulsive-zone exposure sets the ceiling}
 \label{sec:robustness}
 
-\begin{figure*}[!t]
+\begin{figure*}[!tp]
   \centering
   \includegraphics[width=\linewidth]{fig5_phase_diagram.pdf}
   \caption{Phase diagram of the full Level-4 model (similarity-driven
@@ -784,7 +784,7 @@ finite-size artefact.
 \subsection{The radicalization crossover and the well-mixed limit}
 \label{sec:results-threshold}
 
-\begin{figure*}[!t]
+\begin{figure*}[!tp]
   \centering
   \includegraphics[width=\linewidth]{fig8_level5.pdf}
   \caption{Level 5: homophilic mobility restores geographic opinion
