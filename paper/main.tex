@@ -103,11 +103,14 @@ beyond an agent's latitude of acceptance can repel rather than attract
 cross-cutting exposure can either polarize or depolarize is by now well
 established \citep{starnini2025}: attraction--repulsion models show that
 exposure can polarize intolerant populations \citep{axelrod2021,
-sabinmiller2020}; post-distribution algorithms can promote or mitigate
-polarization depending on their strategy \citep{dearruda2022,
-pansanella2022}; and, within Physical Review E itself, mild random
-``nudges'' toward out-group content depolarize an echo-chambered
-population while excessive nudging radicalizes it \citep{pal2023}. What
+sabinmiller2020}; post-distribution and recommendation algorithms can
+promote or mitigate polarization depending on their strategy
+\citep{dearruda2022, pansanella2022, cinus2022}; and, within Physical
+Review E itself, mild random ``nudges'' toward out-group content
+depolarize an echo-chambered population while excessive nudging
+radicalizes it \citep{pal2023}, and collaborative-filtering
+recommendations produce analytically tractable polarization phases
+\citep{bellina2023}. What
 these works establish qualitatively---that the sign of an exposure
 intervention is not fixed---they do not reduce to a mechanism that
 \emph{orders} platform designs quantitatively. That is the gap this paper
@@ -115,9 +118,11 @@ addresses: we show that, under a conserved attention budget, the
 stationary fraction of exposure that a platform's curation places in the
 repulsive zone becomes the kinetic control parameter for
 radicalization---by which we mean, throughout, growth of the mean absolute
-opinion $\langle|x|\rangle$ toward the boundary of opinion space---and we
-derive the rate theory that orders arbitrary curation kernels by this
-single quantity, with explicit timescales.
+opinion $\langle|x|\rangle$ toward the boundary of opinion space. The
+resulting rate theory maps any curation kernel to a state-dependent
+repulsive-exposure profile whose quadrature sets the radicalization
+timescale, and orders designs globally whenever their profiles are
+pointwise ordered.
 
 This paper builds a minimal model in which that question has a sharp
 answer. Agents carry continuous opinions and interact through two layers
@@ -197,7 +202,10 @@ coupled opinion--position dynamics \citep{djurdjevac2024, pasimeni2025}.
 Closest in spirit is the post-distribution model of \citet{dearruda2022},
 in which an algorithm's distribution strategy determines whether
 polarization is promoted or mitigated under attractive and repulsive
-interactions. The contribution here relative to that line is threefold:
+interactions; \citet{bellina2023} derive stationary polarization phases
+for collaborative-filtering recommendations, whereas our object is the
+\emph{kinetics} of attraction--repulsion dynamics under conserved
+attention. The contribution here relative to that line is threefold:
 the conserved-attention multiplex construction, in which digital exposure
 displaces physical interaction; the reduction of an arbitrary curation
 kernel to a single kinetic control parameter (its stationary
@@ -409,10 +417,16 @@ $s_i = 1$, which is therefore the natural theoretical baseline; a
 homogeneous-strength control reproduces the inversion unchanged
 (Sec.~\ref{sec:robustness}). With heavy-tailed strengths, slots are both
 sampled and weighted proportionally to $s$, and the realised cross-bloc
-weight fraction fluctuates strongly around $p$: conditional on the
-realised bloc strength totals its mean equals $p$ by slot
-exchangeability, but the totals themselves concentrate only slowly with
-$N$ for our infinite-variance law; see Sec.~\ref{sec:meanfield}.) Within-bloc content
+exposure fluctuates around the homogeneous-strength prediction: for a
+realised population the slot-sampling probability is
+$E(2y) S_{\mp} / [E(0) S_{\pm} + E(2y) S_{\mp}]$, with $S_{\pm}$ the two
+blocs' realised strength totals, which reduces to Eq.~\eqref{eq:p} as
+their ratio approaches unity---guaranteed by the finite mean of the
+strength law, though convergence with $N$ is slow for our
+infinite-variance reference distribution. Given the slot types, the
+expected $s$-weighted drift then equals the unweighted one by slot
+exchangeability, since strengths are independent of bloc membership; see
+Sec.~\ref{sec:meanfield}.) Within-bloc content
 exerts no drift ($F = 0$ at $\Delta = 0$), and
 cross-bloc content is repulsive once $2y \ge \epsilon_2$, so the bloc
 positions obey
@@ -425,12 +439,14 @@ positions obey
 with no physical restoring force: once the blocs are separated beyond the
 confidence bound, the physical layer only pulls agents toward their own
 bloc's mean. Equation~\eqref{eq:bloc} is the central statement of this
-paper in its general form: for an \emph{arbitrary} curation kernel $E$,
-the radicalization kinetics are controlled by a single functional of the
-design---the stationary fraction of exposure that curation places in the
-repulsive zone. The three named kernels of Eq.~\eqref{eq:engagement} are
-examples chosen to span the design space, not the scope of the result;
-their $p(y)$ profiles order them:
+paper in its general form: any curation kernel $E$ is mapped to a
+state-dependent cross-bloc exposure profile $p(y)$, whose quadrature sets
+the radicalization time [Eq.~\eqref{eq:tradgen} below], and a global
+ordering of designs follows whenever their $p(y)$ profiles are pointwise
+ordered over the traversed opinion range---as they are for the three
+named kernels of Eq.~\eqref{eq:engagement}, which are examples chosen to
+span the design space, not the scope of the result. Their $p(y)$
+profiles order them:
 
 \begin{itemize}
   \item \textbf{Neutral:} $p \equiv 1/2$. The drift
@@ -519,8 +535,18 @@ $2y_0 > \epsilon_2$, the fragmented state is unstable to repulsion for
 physical layer exerts no restoring force between blocs
 (Sec.~\ref{sec:twobloc}).
 
-What remains is a rate. Integrating Eq.~\eqref{eq:bloc} with
-$p(y) \approx p_0 = p(y_0)$ gives the radicalization time
+What remains is a rate. Equation~\eqref{eq:bloc} is separable, so the
+time to traverse from $y_0$ to $y_f$ follows exactly by quadrature,
+\begin{equation}
+  t(y_0 \to y_f)
+  \;=\;
+  \frac{1}{2\,\alpha_{\mathrm{tot}}\,\lambda\,\eta}
+  \int_{y_0}^{y_f} \frac{\dd y}{y\, p(y)},
+  \label{eq:tradgen}
+\end{equation}
+which maps any curation kernel to a radicalization timescale through its
+exposure profile alone. With the constant-exposure approximation
+$p(y) \approx p_0 = p(y_0)$ this gives the closed form
 \begin{equation}
   t_{\mathrm{rad}}(\lambda)
   \;=\;
@@ -551,7 +577,7 @@ changing the destination.
 Two caveats delimit Table~\ref{tab:rates}. The constant-$p_0$
 approximation is exact for the neutral kernel but conservative for the
 similarity kernel, whose $p(y)$ decays further as the blocs separate:
-integrating Eq.~\eqref{eq:bloc} with the full $p(y)$ gives radicalization
+evaluating the exact quadrature Eq.~\eqref{eq:tradgen} gives radicalization
 times severalfold longer than $78.2/\lambda$, so the true kinetic
 protection is even stronger than the tabulated crossover suggests. For
 the controversy kernel, $p(y)$ collapses as $2y \to 2$
@@ -785,7 +811,10 @@ chambers---whereas both curated platforms end almost perfectly assortative
   mobility--digital-attention plane. From left to right: polarization
   $\operatorname{Var}(x)$, cluster count $n_c$, extremism
   $\langle|x|\rangle$, and the majority categorical state over 3
-  realisations per grid point. At $\lambda = 1$ the physical layer is off
+  realisations per grid point. The panel is a coarse regime map intended
+  to reveal qualitative structure; at 3 realisations per point the
+  boundaries between regimes are not sharply resolved. At $\lambda = 1$
+  the physical layer is off
   and the dynamics is independent of $D$ by construction.}
   \label{fig:phase}
 \end{figure*}
@@ -1018,10 +1047,11 @@ polarize not by isolating users in echo chambers but by exposing them to
 interaction beyond their local bubble.
 
 \paragraph{The geography null result.} Under opinion-independent mobility
-there is no geographic opinion structure to destroy: position and opinion
-stay uncorrelated at every mobility, by symmetry at first order and
-empirically at pair level. The geographic clustering of opinion observed
-in real societies must then be produced by opinion--position coupling---%
+we detect no geographic opinion structure to destroy, within the
+resolution of our simulations: position and opinion stay uncorrelated at
+every mobility, by symmetry at first order and at pair level within the
+stated statistical power. Within this model, robust geographic opinion
+structure therefore requires an opinion--position coupling---%
 homophilic migration, socially structured mobility, or spatially
 correlated exogenous influence---and Level 5 shows the coupling need only
 exceed a modest P\'eclet threshold $\chi\ell/D \sim 1$. This sharpens,
