@@ -26,7 +26,7 @@ from socialsim.model import engagement_kernel, influence_function
 PLATFORMS = ["similarity", "neutral", "controversy"]
 LABELS = {"similarity": "similarity-driven", "neutral": "neutral",
           "controversy": "controversy-driven"}
-SEEDS = range(8)
+SEEDS = range(24)
 
 
 def make_params(engagement, seed):

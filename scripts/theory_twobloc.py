@@ -51,7 +51,7 @@ LABELS = {"similarity": "similarity-driven", "neutral": "neutral",
 EPS1, EPS2, ETA, EPS = 0.3, 0.9, 0.4, 0.3
 LAM_THEORY = np.round(np.linspace(0.0, 1.0, 21), 3)
 M = 600            # mean-field particles
-REPS = 2
+REPS = 4
 
 
 def base_params(engagement):

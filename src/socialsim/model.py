@@ -49,6 +49,7 @@ class ModelParams:
     epsilon: float = 0.30           # bounded-confidence threshold
     chi: float = 0.0                # homophilic mobility: drift toward compatible
                                     # neighbours, away from incompatible ones (Level 5)
+    boundary: str = "clip"          # opinion boundary handling: "clip" | "reflect"
     alpha_total: float = 1.0        # total social attention rate
     attention_digital: float = 0.0  # lambda: fraction of attention on digital layer
     sigma_x: float = 0.0            # opinion noise amplitude
@@ -247,7 +248,12 @@ class Simulation:
         noise = p.sigma_x * np.sqrt(p.dt) * self.rng.standard_normal(n)
         dx = drift * p.dt + noise
         dx[self.stubborn] = 0.0
-        self.x = np.clip(self.x + dx, -1.0, 1.0)
+        x_new = self.x + dx
+        if p.boundary == "reflect":
+            # single fold suffices: per-step increments are << 1
+            x_new = np.where(x_new > 1.0, 2.0 - x_new, x_new)
+            x_new = np.where(x_new < -1.0, -2.0 - x_new, x_new)
+        self.x = np.clip(x_new, -1.0, 1.0)
 
         if p.digital and p.rewire_prob > 0.0:
             self._rewire_digital()
