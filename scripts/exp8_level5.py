@@ -54,13 +54,13 @@ def main():
         rows = run_parallel(run_one, jobs)
         save_json(rows, "exp8_level5")
 
-    fig = plt.figure(figsize=(10.5, 2.9), layout="constrained")
+    fig = plt.figure(figsize=(9.0, 2.7), layout="constrained")
     gs = fig.add_gridspec(1, 4, width_ratios=[1.15, 1.15, 1, 1])
 
     # --- panels 1-2: gap vs chi, and vs Peclet number (collapse test)
     for k, (xkey, xlabel) in enumerate([
             ("chi", "mobility homophily $\\chi$"),
-            ("Pe", "P\u00e9clet number $\\chi\\ell/D$")]):
+            ("Pe", "P$\\mathrm{\\acute{e}}$clet number $\\chi\\ell/D$")]):
         ax = fig.add_subplot(gs[0, k])
         for D in DS:
             xs, means, stds = [], [], []

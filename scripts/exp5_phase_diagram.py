@@ -83,7 +83,7 @@ def main():
                 out[a, b] = np.argmax([states.count(s) for s in STATES])
         return out
 
-    fig, axes = plt.subplots(1, 4, figsize=(11.5, 2.7), layout="constrained")
+    fig, axes = plt.subplots(1, 4, figsize=(9.6, 2.4), layout="constrained")
     X, Y = np.meshgrid(LAM_GRID, D_GRID)
 
     panels = [

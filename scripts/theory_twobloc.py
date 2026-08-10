@@ -129,7 +129,7 @@ def main():
     # ---- figure: ABM sweep + mean-field prediction + thresholds + FSS
     abm = json.loads((RESULTS_DIR / "exp7_threshold.json").read_text())
 
-    fig, axes = plt.subplots(1, 3, figsize=(10.8, 2.9), layout="constrained")
+    fig, axes = plt.subplots(1, 3, figsize=(9.0, 2.7), layout="constrained")
 
     ax = axes[0]
     lams = sorted({r["lambda"] for r in abm if r["N"] == 200})

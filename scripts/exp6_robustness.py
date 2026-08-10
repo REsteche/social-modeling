@@ -74,7 +74,7 @@ def main():
         rows = run_parallel(run_one, jobs)
         save_json(rows, "exp6_robustness")
 
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 2.7), layout="constrained")
+    fig, axes = plt.subplots(1, 3, figsize=(9.0, 2.6), layout="constrained")
 
     # --- panel 1: Var(x) vs eps2 for each eta, one line style per platform
     ax = axes[0]
