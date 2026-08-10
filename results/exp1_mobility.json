@@ -5,6 +5,7 @@
     "polarization": 0.2751718525812209,
     "n_clusters": 5,
     "morans_I": -0.016852240420113213,
+    "local_agreement_gap": -0.01780481354139113,
     "state": "fragmentation"
   },
   {
@@ -13,6 +14,7 @@
     "polarization": 0.30861955813446346,
     "n_clusters": 9,
     "morans_I": -0.25892092345545503,
+    "local_agreement_gap": -0.01278518194838929,
     "state": "fragmentation"
   },
   {
@@ -21,6 +23,7 @@
     "polarization": 0.3421439695414011,
     "n_clusters": 9,
     "morans_I": 0.1215531502479224,
+    "local_agreement_gap": 0.05002333094041633,
     "state": "fragmentation"
   },
   {
@@ -29,6 +32,7 @@
     "polarization": 0.3270811873823975,
     "n_clusters": 5,
     "morans_I": -0.07314919039322965,
+    "local_agreement_gap": 0.00852284679210008,
     "state": "fragmentation"
   },
   {
@@ -37,6 +41,7 @@
     "polarization": 0.3222782696382126,
     "n_clusters": 3,
     "morans_I": 0.0859092076088394,
+    "local_agreement_gap": 0.014969710211134746,
     "state": "fragmentation"
   },
   {
@@ -45,6 +50,7 @@
     "polarization": 0.3061779023424048,
     "n_clusters": 9,
     "morans_I": 0.3417387158029059,
+    "local_agreement_gap": 0.03273510409188801,
     "state": "fragmentation"
   },
   {
@@ -53,6 +59,7 @@
     "polarization": 0.27122547399948577,
     "n_clusters": 8,
     "morans_I": 0.30783111692095555,
+    "local_agreement_gap": 0.015313095156145984,
     "state": "fragmentation"
   },
   {
@@ -61,6 +68,7 @@
     "polarization": 0.2995819748830642,
     "n_clusters": 7,
     "morans_I": -0.0656069468805397,
+    "local_agreement_gap": -0.04033509516494388,
     "state": "fragmentation"
   },
   {
@@ -69,6 +77,7 @@
     "polarization": 0.33549020890525383,
     "n_clusters": 7,
     "morans_I": 0.12761624688281203,
+    "local_agreement_gap": 0.0655042655136146,
     "state": "fragmentation"
   },
   {
@@ -77,6 +86,7 @@
     "polarization": 0.3226146856329249,
     "n_clusters": 5,
     "morans_I": -0.05601913029894327,
+    "local_agreement_gap": 0.007464360428753203,
     "state": "fragmentation"
   },
   {
@@ -85,6 +95,7 @@
     "polarization": 0.31913355837209617,
     "n_clusters": 8,
     "morans_I": 0.16299900856113805,
+    "local_agreement_gap": 0.05148241206030152,
     "state": "fragmentation"
   },
   {
@@ -93,6 +104,7 @@
     "polarization": 0.3020379174519012,
     "n_clusters": 10,
     "morans_I": 0.17872502534045462,
+    "local_agreement_gap": 0.010807697021693818,
     "state": "fragmentation"
   },
   {
@@ -101,6 +113,7 @@
     "polarization": 0.2490256432408387,
     "n_clusters": 5,
     "morans_I": -0.09488117106133619,
+    "local_agreement_gap": 0.03529047104682287,
     "state": "fragmentation"
   },
   {
@@ -109,6 +122,7 @@
     "polarization": 0.28241750216739364,
     "n_clusters": 7,
     "morans_I": -0.1866909796736066,
+    "local_agreement_gap": 0.007548978372036386,
     "state": "fragmentation"
   },
   {
@@ -117,6 +131,7 @@
     "polarization": 0.32884878366062287,
     "n_clusters": 7,
     "morans_I": 0.040076396741862544,
+    "local_agreement_gap": 0.015394730662659062,
     "state": "fragmentation"
   },
   {
@@ -125,6 +140,7 @@
     "polarization": 0.3071400290599069,
     "n_clusters": 7,
     "morans_I": -0.05974549063894257,
+    "local_agreement_gap": 0.014656468181616034,
     "state": "fragmentation"
   },
   {
@@ -133,6 +149,7 @@
     "polarization": 0.3011155072235686,
     "n_clusters": 8,
     "morans_I": 0.012688940469584915,
+    "local_agreement_gap": 0.06462558695114923,
     "state": "fragmentation"
   },
   {
@@ -141,6 +158,7 @@
     "polarization": 0.28617242253934727,
     "n_clusters": 8,
     "morans_I": 0.14947407760557863,
+    "local_agreement_gap": 0.0008916878766125347,
     "state": "fragmentation"
   },
   {
@@ -149,6 +167,7 @@
     "polarization": 0.24065136348036695,
     "n_clusters": 4,
     "morans_I": 0.07872669150256102,
+    "local_agreement_gap": 0.050952380952380916,
     "state": "fragmentation"
   },
   {
@@ -157,6 +176,7 @@
     "polarization": 0.2761315823186263,
     "n_clusters": 7,
     "morans_I": 0.012522407054821025,
+    "local_agreement_gap": 0.003869346733668344,
     "state": "fragmentation"
   },
   {
@@ -165,6 +185,7 @@
     "polarization": 0.29591110822192607,
     "n_clusters": 8,
     "morans_I": 0.003967786376221534,
+    "local_agreement_gap": 0.00540843229600918,
     "state": "fragmentation"
   },
   {
@@ -173,6 +194,7 @@
     "polarization": 0.30241527892740977,
     "n_clusters": 4,
     "morans_I": 0.061709836173405155,
+    "local_agreement_gap": 0.05609127890534926,
     "state": "fragmentation"
   },
   {
@@ -181,6 +203,7 @@
     "polarization": 0.28377672269891774,
     "n_clusters": 5,
     "morans_I": -0.20381842489493715,
+    "local_agreement_gap": -0.06324071337077547,
     "state": "fragmentation"
   },
   {
@@ -189,6 +212,7 @@
     "polarization": 0.2845053937510294,
     "n_clusters": 4,
     "morans_I": 0.16487587240032786,
+    "local_agreement_gap": 0.04394285839678741,
     "state": "fragmentation"
   },
   {
@@ -197,6 +221,7 @@
     "polarization": 0.19772382740775696,
     "n_clusters": 3,
     "morans_I": -0.09793765772422575,
+    "local_agreement_gap": -0.0571310254978597,
     "state": "fragmentation"
   },
   {
@@ -205,6 +230,7 @@
     "polarization": 0.23571365628583751,
     "n_clusters": 5,
     "morans_I": 0.2797760682434876,
+    "local_agreement_gap": 0.029932048908510145,
     "state": "fragmentation"
   },
   {
@@ -213,6 +239,7 @@
     "polarization": 0.2861317549445898,
     "n_clusters": 4,
     "morans_I": 0.0489137475397298,
+    "local_agreement_gap": 0.01007072399032194,
     "state": "fragmentation"
   },
   {
@@ -221,6 +248,7 @@
     "polarization": 0.2355604000950712,
     "n_clusters": 3,
     "morans_I": 0.18362183990922273,
+    "local_agreement_gap": -0.0007468535337236126,
     "state": "fragmentation"
   },
   {
@@ -229,6 +257,7 @@
     "polarization": 0.2655879779896997,
     "n_clusters": 3,
     "morans_I": 0.04315043752935964,
+    "local_agreement_gap": -0.0385402217700071,
     "state": "fragmentation"
   },
   {
@@ -237,6 +266,7 @@
     "polarization": 0.27720302684964737,
     "n_clusters": 4,
     "morans_I": 0.10302324017756992,
+    "local_agreement_gap": 0.051184871727056325,
     "state": "fragmentation"
   },
   {
@@ -245,6 +275,7 @@
     "polarization": 0.1707807700824781,
     "n_clusters": 3,
     "morans_I": 0.07668603574766242,
+    "local_agreement_gap": 0.013534263244473488,
     "state": "fragmentation"
   },
   {
@@ -253,6 +284,7 @@
     "polarization": 0.23371765065673003,
     "n_clusters": 4,
     "morans_I": 0.07600078628349814,
+    "local_agreement_gap": 0.04959374933740429,
     "state": "fragmentation"
   },
   {
@@ -261,6 +293,7 @@
     "polarization": 0.28723688903830796,
     "n_clusters": 3,
     "morans_I": -0.13816715090546652,
+    "local_agreement_gap": -0.011474471926733232,
     "state": "fragmentation"
   },
   {
@@ -269,6 +302,7 @@
     "polarization": 0.25739220630310977,
     "n_clusters": 3,
     "morans_I": -0.15149328420645305,
+    "local_agreement_gap": -0.016977440393456666,
     "state": "fragmentation"
   },
   {
@@ -277,6 +311,7 @@
     "polarization": 0.21244811594652258,
     "n_clusters": 3,
     "morans_I": 0.12399298893435592,
+    "local_agreement_gap": 0.02423756714607528,
     "state": "fragmentation"
   },
   {
@@ -285,6 +320,7 @@
     "polarization": 0.26712739786953227,
     "n_clusters": 3,
     "morans_I": -0.02419658248438682,
+    "local_agreement_gap": 0.04008138035309289,
     "state": "fragmentation"
   },
   {
@@ -293,6 +329,7 @@
     "polarization": 0.21979975834705828,
     "n_clusters": 3,
     "morans_I": 0.10877554420529156,
+    "local_agreement_gap": 0.03238681329352072,
     "state": "fragmentation"
   },
   {
@@ -301,6 +338,7 @@
     "polarization": 0.22348703169989484,
     "n_clusters": 3,
     "morans_I": -0.09796014375783772,
+    "local_agreement_gap": -0.021249644448658345,
     "state": "fragmentation"
   },
   {
@@ -309,6 +347,7 @@
     "polarization": 0.28485194467616387,
     "n_clusters": 3,
     "morans_I": -0.12540709586228746,
+    "local_agreement_gap": 0.0014553781566058466,
     "state": "fragmentation"
   },
   {
@@ -317,6 +356,7 @@
     "polarization": 0.2707360854499756,
     "n_clusters": 3,
     "morans_I": -0.14710749415245242,
+    "local_agreement_gap": -0.00537652419805118,
     "state": "fragmentation"
   },
   {
@@ -325,6 +365,7 @@
     "polarization": 0.23190551117333574,
     "n_clusters": 3,
     "morans_I": 0.040453050873235454,
+    "local_agreement_gap": -0.0024404631854926806,
     "state": "fragmentation"
   },
   {
@@ -333,6 +374,7 @@
     "polarization": 0.2693934759686141,
     "n_clusters": 3,
     "morans_I": 0.05169374438948029,
+    "local_agreement_gap": -0.02215912196968106,
     "state": "fragmentation"
   },
   {
@@ -341,6 +383,7 @@
     "polarization": 0.22932196888417977,
     "n_clusters": 3,
     "morans_I": -0.03939335840967822,
+    "local_agreement_gap": -0.0028600630269994265,
     "state": "fragmentation"
   },
   {
@@ -349,6 +392,7 @@
     "polarization": 0.22742384782276076,
     "n_clusters": 2,
     "morans_I": -0.010270183660061737,
+    "local_agreement_gap": 0.0331844002621805,
     "state": "polarization"
   },
   {
@@ -357,6 +401,7 @@
     "polarization": 0.2903462470073833,
     "n_clusters": 3,
     "morans_I": 0.018200592993381753,
+    "local_agreement_gap": 0.0027709978463747453,
     "state": "fragmentation"
   },
   {
@@ -365,6 +410,7 @@
     "polarization": 0.24065323189068225,
     "n_clusters": 3,
     "morans_I": -0.11257690663227946,
+    "local_agreement_gap": -0.02968732551647124,
     "state": "fragmentation"
   },
   {
@@ -373,6 +419,7 @@
     "polarization": 0.23143490403624348,
     "n_clusters": 3,
     "morans_I": -0.04554898488925648,
+    "local_agreement_gap": 0.03589113078080758,
     "state": "fragmentation"
   },
   {
@@ -381,6 +428,7 @@
     "polarization": 0.2699257186404094,
     "n_clusters": 3,
     "morans_I": -0.025123955567595755,
+    "local_agreement_gap": 0.006061056455988867,
     "state": "fragmentation"
   },
   {
@@ -389,6 +437,7 @@
     "polarization": 0.22813894545838284,
     "n_clusters": 3,
     "morans_I": -0.10917455255167313,
+    "local_agreement_gap": -0.013449828327156188,
     "state": "fragmentation"
   },
   {
@@ -397,6 +446,7 @@
     "polarization": 0.22578230157560594,
     "n_clusters": 2,
     "morans_I": 0.01509047418660012,
+    "local_agreement_gap": -0.04798670773220942,
     "state": "polarization"
   },
   {
@@ -405,6 +455,7 @@
     "polarization": 0.2923555733793268,
     "n_clusters": 3,
     "morans_I": -0.09273405845652351,
+    "local_agreement_gap": -0.03371594816186191,
     "state": "fragmentation"
   },
   {
@@ -413,6 +464,7 @@
     "polarization": 0.2718352437272395,
     "n_clusters": 3,
     "morans_I": 0.1414546964063921,
+    "local_agreement_gap": 0.05735973445207693,
     "state": "fragmentation"
   },
   {
@@ -421,6 +473,7 @@
     "polarization": 0.22018705230565605,
     "n_clusters": 2,
     "morans_I": -0.11201541272127574,
+    "local_agreement_gap": -0.014248144274672803,
     "state": "polarization"
   },
   {
@@ -429,6 +482,7 @@
     "polarization": 0.2715262695854694,
     "n_clusters": 3,
     "morans_I": 0.09595792351983601,
+    "local_agreement_gap": -0.0015410385259631565,
     "state": "fragmentation"
   },
   {
@@ -437,6 +491,7 @@
     "polarization": 0.23044228038250858,
     "n_clusters": 3,
     "morans_I": 0.11402647487186153,
+    "local_agreement_gap": 0.020471861381596734,
     "state": "fragmentation"
   },
   {
@@ -445,6 +500,7 @@
     "polarization": 0.2265151727489971,
     "n_clusters": 3,
     "morans_I": -0.17606211555146076,
+    "local_agreement_gap": -0.014506679740164286,
     "state": "fragmentation"
   },
   {
@@ -453,6 +509,7 @@
     "polarization": 0.2950758077860133,
     "n_clusters": 3,
     "morans_I": 0.049767452330475775,
+    "local_agreement_gap": 0.03450268584300814,
     "state": "fragmentation"
   },
   {
@@ -461,6 +518,7 @@
     "polarization": 0.2764019175706711,
     "n_clusters": 3,
     "morans_I": 0.016835542488454952,
+    "local_agreement_gap": -0.012122362966908273,
     "state": "fragmentation"
   },
   {
@@ -469,6 +527,7 @@
     "polarization": 0.24095065384588565,
     "n_clusters": 3,
     "morans_I": 0.0802086693088131,
+    "local_agreement_gap": 0.1178874168823918,
     "state": "fragmentation"
   },
   {
@@ -477,6 +536,7 @@
     "polarization": 0.2733638004394587,
     "n_clusters": 3,
     "morans_I": 0.09323977211888956,
+    "local_agreement_gap": 0.01692836161483746,
     "state": "fragmentation"
   },
   {
@@ -485,6 +545,7 @@
     "polarization": 0.22904633958849024,
     "n_clusters": 3,
     "morans_I": 0.16628845051499958,
+    "local_agreement_gap": -0.002495966068876476,
     "state": "fragmentation"
   },
   {
@@ -493,6 +554,7 @@
     "polarization": 0.22697933157587977,
     "n_clusters": 3,
     "morans_I": 0.02737411838798536,
+    "local_agreement_gap": -0.012590402995368954,
     "state": "fragmentation"
   },
   {
@@ -501,6 +563,7 @@
     "polarization": 0.29062535195898137,
     "n_clusters": 3,
     "morans_I": -0.18076496353027433,
+    "local_agreement_gap": -0.00995296115279598,
     "state": "fragmentation"
   },
   {
@@ -509,6 +572,7 @@
     "polarization": 0.27368569784940955,
     "n_clusters": 3,
     "morans_I": 0.2232667196125722,
+    "local_agreement_gap": 0.055248464544946974,
     "state": "fragmentation"
   },
   {
@@ -517,6 +581,7 @@
     "polarization": 0.2245020473194392,
     "n_clusters": 2,
     "morans_I": -0.06781613333046232,
+    "local_agreement_gap": 0.0009939306924231506,
     "state": "polarization"
   },
   {
@@ -525,6 +590,7 @@
     "polarization": 0.273300710450467,
     "n_clusters": 3,
     "morans_I": 0.06646689975929095,
+    "local_agreement_gap": 0.007947182722121249,
     "state": "fragmentation"
   }
 ]

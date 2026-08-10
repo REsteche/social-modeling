@@ -59,7 +59,7 @@ def main():
                 m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, ELL)
                 rows.append({"D": D, "seed": seed, **{k: m[k] for k in
                             ("polarization", "n_clusters", "morans_I",
-                             "state")}})
+                             "local_agreement_gap", "state")}})
         save_json(rows, "exp1_mobility")
 
     Ds = np.array([r["D"] for r in rows])

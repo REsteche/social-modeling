@@ -62,11 +62,11 @@ class ModelParams:
     delta: float = 0.8              # preferred ideological distance (controversy kernel)
     s_width: float = 0.2            # width of the controversy kernel
 
-    # influence function F
+    # influence function F (defaults = the paper's reference values)
     repulsion: bool = False
     eps1: float = 0.30              # attract below eps1 (defaults to epsilon)
-    eps2: float = 1.00              # repel above eps2
-    eta: float = 0.5                # repulsion strength
+    eps2: float = 0.90              # repel above eps2
+    eta: float = 0.4                # repulsion strength
 
     # heterogeneous influence / stubborn agents
     heterogeneous_influence: bool = False

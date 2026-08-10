@@ -43,10 +43,10 @@ Brownian motion while interacting through an adaptive, algorithmically
 curated digital network, under a finite attention budget that forces
 digital exposure to displace physical interaction. When social influence is
 purely assimilative (bounded confidence), the conventional picture holds:
-opinion-blind long-range exposure heals geographic fragmentation, and
+opinion-blind long-range exposure heals locality-induced fragmentation, and
 algorithmic homophily builds echo chambers. But once influence includes an
-empirically supported repulsive response to strongly opposed views, the
-ranking of platform designs inverts: the \emph{neutral}, uncurated platform
+empirically documented but contested repulsive response to strongly opposed
+views, the ranking of platform designs inverts: the \emph{neutral}, uncurated platform
 drives the population to maximal polarization with opinions pinned at the
 extremes, a controversy-seeking engagement algorithm is nearly as
 radicalizing, and strong algorithmic homophily---the standard culprit in
@@ -55,17 +55,20 @@ extremism. We derive this inversion analytically from a two-bloc reduction
 of the dynamics: the stationary fraction of attention slots pointing across
 blocs, set by the platform's engagement kernel, determines the
 radicalization rate, its arrest, and a finite-horizon crossover
-$\lambda_c(T)$ in the digital attention share---with no fitted
-parameters---that locates the simulated onset of the neutral and
-controversy-driven platforms and explains the absence of a sharp onset
-under algorithmic homophily: radicalization is rate-limited, not
-threshold-limited. Simulations across repulsion parameters, engagement
-kernels, and system sizes up to $N = 1600$ show that uncurated exposure is
-the upper envelope of radicalization, with curated platforms approaching
-that envelope exactly as their curation stops withholding repulsive-zone
-content. Two further results complete the picture. First, a phase diagram
-in the mobility--attention plane shows that once the platform owns most of
-an agent's attention, physical mobility becomes irrelevant to the outcome.
+$\lambda_c(T)$ in the digital attention share---with no parameters fitted
+to the onset data---that is consistent with the simulated onset of the
+neutral and controversy-driven platforms and explains the absence of a
+sharp onset under algorithmic homophily: radicalization is rate-limited,
+not threshold-limited. Simulations across repulsion parameters, engagement
+kernels, and system sizes up to $N = 1600$ show that uncurated exposure
+sets the saturation level of radicalization, with curated platforms
+approaching that ceiling exactly as their curation stops withholding
+repulsive-zone content---and a controversy kernel tuned past the repulsion
+threshold reaching it at an even faster rate. Two further results complete
+the picture. First, a phase diagram in the mobility--attention plane
+(computed for the slowest-radicalizing, similarity-driven design) shows
+that once the platform owns most of an agent's attention, physical
+mobility becomes irrelevant to the outcome.
 Second, under opinion-independent mobility geography never becomes a
 predictor of opinion---a null result explained at first order by
 translation symmetry and verified at pair level---and a Schelling-type
@@ -73,8 +76,9 @@ homophilic drift of strength $\chi$ restores geographic opinion structure
 only above a P\'eclet-number threshold $\chi\ell/D \sim 1$. The model
 provides a candidate mechanism for field observations in which curated
 cross-cutting exposure increased polarization, and implies that
-interventions promoting exposure diversity can backfire precisely when
-negative influence dominates.
+interventions promoting exposure diversity can have either sign depending
+on the prevalence of negative influence---consistent with the mixed
+experimental record.
 \end{abstract}
 
 \maketitle
@@ -89,13 +93,23 @@ the rest of society \citep{sirbu2019, santos2021, baumann2020}. The story
 suggests an obvious remedy---expose people to the other side. Yet the
 best-known field experiment on this intervention found the opposite of the
 intended effect: Republicans exposed for a month to a stream of liberal
-content became substantially \emph{more} conservative \citep{bail2018}.
-Social psychology offers a mechanism for such backfire: influence is not
-always assimilative, and views far beyond an agent's latitude of acceptance
-can repel rather than attract \citep{kurmyshev2011, tang2025}. What is
-missing is a quantitative understanding of how this repulsive channel
-interacts with the \emph{design} of the exposure algorithm: which platforms
-radicalize, how fast, and above which level of digital attention.
+content became substantially \emph{more} conservative \citep{bail2018}
+(the broader field record is mixed: other interventions have reduced
+polarization or left it unchanged \citep{levy2021, nyhan2023}). Social
+psychology offers a candidate mechanism for such backfire---contested, as
+we discuss below: influence is not always assimilative, and views far
+beyond an agent's latitude of acceptance can repel rather than attract
+\citep{jager2005, flache2017, tang2025}. Attraction--repulsion models have
+indeed shown that exposure can polarize intolerant populations
+\citep{axelrod2021, sabinmiller2020}. What is missing is a quantitative
+understanding of how this repulsive channel interacts with the
+\emph{design} of the exposure algorithm: which platforms radicalize---by
+which we mean, throughout, drive the growth of the mean absolute opinion
+$\langle|x|\rangle$ toward the boundary of opinion space---how
+fast, and above which level of digital attention. It is here that the
+present work goes beyond the attraction--repulsion literature: we compare
+platform designs under an attention constraint and derive the rate theory
+that orders them.
 
 This paper builds a minimal model in which that question has a sharp
 answer. Agents carry continuous opinions and interact through two layers
@@ -108,7 +122,7 @@ platform according to an \emph{engagement kernel} $E(\Delta)$: the
 probability that content at opinion distance $\Delta$ is shown. A finite
 attention budget couples the layers: the digital attention share $\lambda$
 displaces physical interaction rather than adding to it. On top of this
-multiplex substrate \citep{antonopoulos2018, holme2006} we add the two
+multiplex substrate \citep{antonopoulos2018} we add the two
 psychologically motivated ingredients: an
 assimilation--indifference--repulsion influence function
 \citep{jager2005, kurmyshev2011, tang2025} and heavy-tailed influence
@@ -123,8 +137,10 @@ population, but the ordering reverses: the neutral platform is the
 \emph{most} polarizing, the controversy-seeking platform nearly as much,
 and strong algorithmic homophily the \emph{least}, because hiding
 disagreement starves the repulsive channel. Uncurated exposure turns out to
-be the upper envelope of radicalization: curated platforms approach it
-exactly as their curation stops withholding repulsive-zone content.
+set the saturation level of radicalization: curated platforms approach that
+ceiling exactly as their curation stops withholding repulsive-zone content,
+and a controversy kernel tuned past the repulsion threshold reaches it at
+an even faster rate.
 
 The inversion is not a simulation curiosity; it follows from the structure
 of the model, and we derive it in three steps. A two-bloc reduction shows
@@ -139,10 +155,11 @@ $\lambda > 0$ radicalizes eventually---and yields a finite-horizon
 crossover $\lambda_c(T)$, with no fitted parameters, whose values span two
 orders of magnitude across designs and match the simulated onsets of the
 neutral and controversy-driven platforms while predicting the absence of
-one for the similarity-driven platform. And the fast-rewiring, well-mixed
-limit of the model is a McKean--Vlasov particle system whose integration
-reproduces the neutral and controversy $\mathrm{Var}(x)$-versus-$\lambda$
-curves of the spatial agent-based model nearly quantitatively.
+one for the similarity-driven platform. And integrating the fast-rewiring,
+well-mixed counterpart of the model reproduces the neutral
+$\mathrm{Var}(x)$-versus-$\lambda$ curve of the spatial agent-based model
+nearly quantitatively, and the controversy curve for
+$\lambda \gtrsim 0.4$.
 
 Two secondary results delimit the role of geography. First, in a phase
 diagram spanning four decades of mobility $D$ and the full attention range
@@ -237,8 +254,11 @@ the It\^o equation
   \sigma_x\, \dd B_i(t),
   \label{eq:opinion}
 \end{align}
-clipped to $[-1,1]$, where $r_{ij}$ is the minimum-image distance between
-agents. The physical kernel is a truncated Gaussian,
+clipped to $[-1,1]$ (a projected It\^o dynamics), where $r_{ij}$ is the
+minimum-image distance between agents, sums run over $j \ne i$, and the
+physical drift is set to zero for agents with no compatible neighbour
+inside the kernel cutoff---a common event in the sub-percolation regime
+studied below. The physical kernel is a truncated Gaussian,
 \begin{equation}
   K(r) = e^{-r^2 / 2\ell^2}\, \mathbf{1}(r < 3\ell),
   \label{eq:kernel}
@@ -315,7 +335,7 @@ vanishing in the mean-field limit. We compare three designs:
   \qquad
   E_{\mathrm{neu}}(\Delta) = 1,
   \\
-  E_{\mathrm{con}}(\Delta) = e^{-(\Delta - \delta)^2 / 2 s^2}.
+  E_{\mathrm{con}}(\Delta) = e^{-(\Delta - \delta)^2 / 2 w^2}.
   \end{gathered}
   \label{eq:engagement}
 \end{equation}
@@ -345,8 +365,13 @@ We measure: polarization $P = \operatorname{Var}(x)$; extremism
 $\langle |x| \rangle$; the number of opinion clusters $n_c$ (gaps larger
 than $0.05$ in sorted opinion space, groups of at least two agents); a
 categorical state (consensus / polarization / fragmentation for
-$n_c \le 1$ / $= 2$ / $\ge 3$); the spatial--opinion correlation via
-Moran's $I$ and via the \emph{local agreement gap}
+$n_c \le 1$ / $= 2$ / $\ge 3$; states with
+$\operatorname{Var}(x) < 10^{-2}$ are additionally classed as consensus,
+an override that never fires in the reported data; note the scalar $P$
+and the two-cluster categorical state share the word ``polarization'');
+the spatial--opinion correlation via
+Moran's $I$ (with Gaussian spatial weights of scale $\ell$) and via the
+\emph{local agreement gap}
 $\Pr(|x_i - x_j| < \epsilon \mid r_{ij} < 3\ell) - \Pr(|x_i - x_j| <
 \epsilon)$; opinion assortativity $\rho$ of the digital graph; modularity
 $Q$ of the digital graph with respect to opinion clusters; and mean local
@@ -359,7 +384,7 @@ Equations \eqref{eq:motion}--\eqref{eq:opinion} are integrated by
 Euler--Maruyama. Unless stated otherwise, $N = 200$, $L = 1$,
 $\dd t = 0.02$, $\alpha_{\mathrm{tot}} = 1$, $\epsilon = \epsilon_1 = 0.3$,
 $\epsilon_2 = 0.9$, $\eta = 0.4$, $\ell = 0.02$, $k = 10$, $\rho = 5$,
-$\gamma = 4$, $\delta = 0.8$, $s = 0.2$, and $\kappa = 2.5$. Opinion noise
+$\gamma = 4$, $\delta = 0.8$, $w = 0.2$, and $\kappa = 2.5$. Opinion noise
 is $\sigma_x = 0.02$ whenever the digital layer is adaptive (Levels 3--4,
 including the phase diagram) and $\sigma_x = 0$ in the purely physical and
 static-layer experiments (Levels 1, 2, and 5). Horizons are $T = 60$
@@ -373,7 +398,9 @@ contact network is spatially fragmented and locality is meaningful.
 Statistics use $6$--$12$ realisations per point ($3$ for the phase
 diagram); error bars denote the standard deviation across realisations.
 Halving $\dd t$ twice shifts the Level-4 polarization values by amounts
-comparable to that spread ($\lesssim 0.05$) without affecting the platform
+comparable to that spread ($\lesssim 0.05$, concentrated in the
+similarity platform and directed upward---i.e.\ against the inversion,
+which is therefore conservative) without affecting the platform
 ordering.
 
 \section{Theory: two-bloc reduction and mean-field limit}
@@ -395,21 +422,30 @@ ordering.
 \label{sec:twobloc}
 
 Consider the late-stage configuration observed at Level 4: two equal blocs
-at opinions $\pm y$. Under fast rewiring ($\rho \gg \alpha_{\mathrm{tot}}$),
-the stationary probability that an attention slot of a $+$-bloc agent
+at opinions $\pm y$. When attention slots renew quickly compared with the
+bloc drift (slot renewal rate $\rho/k$ against the rate
+$2\alpha_{\mathrm{tot}}\lambda\eta p$ of Eq.~\eqref{eq:bloc} below---a
+condition that is only marginally met for the neutral kernel at our
+reference parameters, so the agreement found below also attests to the
+reduction's robustness against partial slot memory), the stationary
+probability that an attention slot of a $+$-bloc agent
 points into the $-$ bloc follows from Eq.~\eqref{eq:rewire}:
 \begin{equation}
   p(y) \;=\; \frac{E(2y)}{E(0) + E(2y)}.
   \label{eq:p}
 \end{equation}
-(Slots are sampled proportionally to $E \cdot s$, but for balanced blocs
+(Slots are sampled proportionally to $E \cdot s$; for balanced blocs
 with identical strength distributions the $s$-factors cancel from
-Eq.~\eqref{eq:p}.) Within-bloc content exerts no drift ($F = 0$ at
-$\Delta = 0$), and
+Eq.~\eqref{eq:p} in the mean, by exchangeability of the slots---the
+expected cross-bloc \emph{weight} fraction equals $p$ at any $N$ and
+$k$---though individual realisations fluctuate strongly for our
+heavy-tailed strengths; see Sec.~\ref{sec:meanfield}.) Within-bloc content
+exerts no drift ($F = 0$ at $\Delta = 0$), and
 cross-bloc content is repulsive once $2y \ge \epsilon_2$, so the bloc
 positions obey
 \begin{equation}
-  \frac{\dd y}{\dd t} \;=\; 2\,\lambda\,\eta\; p(y)\; y,
+  \frac{\dd y}{\dd t} \;=\; 2\,\alpha_{\mathrm{tot}}\,\lambda\,\eta\;
+  p(y)\; y,
   \qquad 2y \ge \epsilon_2,
   \label{eq:bloc}
 \end{equation}
@@ -419,16 +455,17 @@ bloc's mean. Equation~\eqref{eq:bloc} makes the platform ordering a
 statement about the shape of $p(y)$:
 
 \begin{itemize}
-  \item \textbf{Neutral:} $p \equiv 1/2$. The drift $\lambda \eta y$ never
+  \item \textbf{Neutral:} $p \equiv 1/2$. The drift
+  $\alpha_{\mathrm{tot}}\lambda \eta y$ never
   shuts off; opinions are driven to the boundary and pinned at $\pm 1$.
-  \item \textbf{Controversy-driven:} $p(y) \approx 1$ while
-  $2y \approx \delta$ (cross-bloc content is exactly what engages), so
+  \item \textbf{Controversy-driven:} $p(y) \approx 1$ for
+  $2y \gtrsim \epsilon_2$ (cross-bloc content is exactly what engages), so
   separation is fast; but as $2y \to 2$ both $E(2y)$ and $E(0)$ are far
-  from the engagement peak and $p \to E(2)/E(0) = e^{-(2-\delta)^2/2s^2 +
-  \delta^2/2s^2}$, which for $\delta < 1$ is exponentially small. The
-  dynamics is \emph{kinetically arrested} just short of the boundary---the
-  platform stops pushing once the blocs are so far apart that neither
-  identical nor opposed content engages.
+  from the engagement peak and $p \to E(2)/[E(0) + E(2)] \approx
+  e^{2(\delta - 1)/w^2}$, which for $\delta < 1$ is exponentially small.
+  The dynamics is \emph{kinetically arrested} just short of the
+  boundary---the platform stops pushing once the blocs are so far apart
+  that neither identical nor opposed content engages.
   \item \textbf{Similarity-driven:} $p(y) = e^{-2\gamma y}/(1 +
   e^{-2\gamma y})$ is small for $\gamma y \gtrsim 1$. Radicalization
   proceeds, but at a rate suppressed by $e^{-2\gamma y}$: a slow outward
@@ -452,7 +489,7 @@ of magnitude---is the rate, which we quantify next.
   \centering
   \includegraphics[width=\linewidth]{fig4b_kernels.pdf}
   \caption{Level-4 ingredients. Top: the three engagement kernels of
-  Eq.~\eqref{eq:engagement} ($\gamma = 4$, $\delta = 0.8$, $s = 0.2$).
+  Eq.~\eqref{eq:engagement} ($\gamma = 4$, $\delta = 0.8$, $w = 0.2$).
   Bottom: the assimilation--indifference--repulsion influence function of
   Eq.~\eqref{eq:influence} ($\epsilon_1 = 0.3$, $\epsilon_2 = 0.9$,
   $\eta = 0.4$).}
@@ -483,7 +520,7 @@ $p(y) \approx p_0 = p(y_0)$ gives the radicalization time
 \begin{equation}
   t_{\mathrm{rad}}(\lambda)
   \;=\;
-  \frac{\ln (y_f / y_0)}{2\,\lambda\,\eta\, p_0},
+  \frac{\ln (y_f / y_0)}{2\,\alpha_{\mathrm{tot}}\,\lambda\,\eta\, p_0},
   \label{eq:trad}
 \end{equation}
 and the apparent onset in any finite observation window $T$ is the
@@ -491,7 +528,7 @@ crossover $t_{\mathrm{rad}} = T$:
 \begin{equation}
   \lambda_c(T)
   \;=\;
-  \frac{\ln (y_f / y_0)}{2\,\eta\, p_0\, T}.
+  \frac{\ln (y_f / y_0)}{2\,\alpha_{\mathrm{tot}}\,\eta\, p_0\, T}.
   \label{eq:lambdac}
 \end{equation}
 Table~\ref{tab:rates} evaluates Eqs.~\eqref{eq:trad}--\eqref{eq:lambdac}
@@ -502,8 +539,8 @@ $\lambda_c \approx 0.01$--$0.02$---any noticeable digital attention
 radicalizes within the horizon---while for the similarity platform
 $\lambda_c \approx 1$: even full digital attention only partially
 radicalizes the population in the same window, which is exactly the smooth
-sub-envelope growth observed in the simulations. ``Protection'' by
-homophilic curation is therefore kinetic, not thermodynamic: it multiplies
+sub-ceiling growth observed in the simulations. ``Protection'' by
+homophilic curation is therefore kinetic, not asymptotic: it multiplies
 the time to reach the extremes by $p_0^{-1} \sim e^{2\gamma y_0}$, without
 changing the destination.
 
@@ -522,7 +559,8 @@ reached on any accessible horizon.
   \caption{Two-bloc rate analysis, Eqs.~\eqref{eq:p} and
   \eqref{eq:trad}--\eqref{eq:lambdac}, at the reference parameters
   ($y_0 = 0.6$, $y_f = 1$, $\eta = 0.4$, $\gamma = 4$, $\delta = 0.8$,
-  $s = 0.2$, $T = 80$). No parameters are fitted; $y_0$ is the observed
+  $w = 0.2$, $T = 80$, $\alpha_{\mathrm{tot}} = 1$). No parameters are
+  fitted to these data; $y_0$ is the observed
   bounded-confidence cluster position. See the end of
   Sec.~\ref{sec:threshold} for the caveats attached to the similarity and
   controversy rows.}
@@ -531,14 +569,14 @@ reached on any accessible horizon.
   \begin{tabular}{lccc}
     Platform & $p_0$ & $t_{\mathrm{rad}}(\lambda)$ & $\lambda_c(T{=}80)$ \\
     \hline
-    Similarity-driven & $0.008$ & $78.2/\lambda$ & $0.98$ \\
+    Similarity-driven & $0.0082$ & $78.2/\lambda$ & $0.98$ \\
     Neutral & $0.500$ & $1.28/\lambda$ & $0.016$ \\
     Controversy-driven & $0.998$ & $0.64/\lambda$ & $0.008$ \\
   \end{tabular}
   \end{ruledtabular}
 \end{table}
 
-\subsection{Mean-field limit}
+\subsection{Well-mixed limit}
 \label{sec:meanfield}
 
 \begin{figure*}[!t]
@@ -552,10 +590,10 @@ reached on any accessible horizon.
   \label{fig:engagement}
 \end{figure*}
 
-In the fast-rewiring, well-mixed, $N \to \infty$ limit, the opinion
-marginal obeys a McKean--Vlasov dynamics: each agent feels the global
-bounded-confidence mean with weight $1 - \lambda$ and an
-engagement-weighted influence average with weight $\lambda$,
+In the fast-rewiring, well-mixed counterpart of the model, each agent
+feels the global bounded-confidence mean with weight $1 - \lambda$ and a
+population-wide engagement-weighted influence average with weight
+$\lambda$,
 \begin{align}
   \dd x =\;&
   (1-\lambda)\,
@@ -563,26 +601,41 @@ engagement-weighted influence average with weight $\lambda$,
        {\mathbb{P}\big(|x'-x|<\epsilon\big)}\, \dd t
   \nonumber\\
   &+ \lambda\,
-  \frac{\mathbb{E}\big[s'^{\,2}\,E(|x'-x|)\, F(x, x')\big]}
-       {\mathbb{E}\big[s'^{\,2}\,E(|x'-x|)\big]}\, \dd t
+  \frac{\sum_j s_j^{2}\,E(|x_j-x|)\, F(x, x_j)}
+       {\sum_j s_j^{2}\,E(|x_j-x|)}\, \dd t
   + \sigma_x\, \dd B,
   \label{eq:mkv}
 \end{align}
-where $(x', s')$ is an independent draw from the population law. The
-squared strength arises because slots are both \emph{sampled} and
-\emph{weighted} proportionally to $s$; since strengths are independent of
-opinions, the $s'^{\,2}$ factors cancel between numerator and denominator,
-so influence heterogeneity disappears from the mean-field drift entirely
-and survives only as finite-$k$ fluctuations. We integrate
-Eq.~\eqref{eq:mkv} as a spaceless interacting-particle system and compare
-it with the spatial agent-based model in
+where $x'$ is an independent draw from the population law and the digital
+sum runs over the whole population. The squared strengths arise because
+slots are both \emph{sampled} and \emph{weighted} proportionally to $s$.
+The status of Eq.~\eqref{eq:mkv} as $N \to \infty$ depends on the tail of
+the strength law. For $\kappa > 3$, $\mathbb{E}[s^2]$ is finite, the
+self-normalised digital drift self-averages, strengths drop out entirely
+(they are independent of opinions), and Eq.~\eqref{eq:mkv} converges to a
+deterministic McKean--Vlasov dynamics. At our reference $\kappa = 2.5$,
+however, $\mathbb{E}[s^2] = \infty$ and the size-biased slot-strength law
+has infinite mean, so the digital drift does \emph{not} self-average: it
+remains a random variable dominated by the few largest strengths at any
+population size---influencer fluctuations are a bulk feature of this
+model, not a finite-size correction. What survives for any $\kappa > 1$
+is the annealed statement: by exchangeability of the slots, the
+\emph{expected} drift equals the strength-free value
+$\mathbb{E}[E F]/\mathbb{E}[E]$ used in the two-bloc reduction, which is
+why Table~\ref{tab:rates} needs no reference to the strength law.
+
+We therefore compare the spatial agent-based model against a direct
+integration of Eq.~\eqref{eq:mkv} as a spaceless particle system ($M =
+600$, two realisations, same strength law), i.e.\ the model stripped of
+space and of the finite attention window, in
 Sec.~\ref{sec:results-threshold}: with no fitted parameters it reproduces
-the neutral and controversy-driven curves nearly quantitatively and tracks
-the shape of the similarity-driven curve, which it systematically
-underestimates precisely because the finite-$k$ fluctuations it discards
-are what feed the similarity platform's slow creep. The inversion is thus
-a bulk property of the opinion dynamics, not an artefact of space, finite
-degree, or slow rewiring.
+the neutral curve nearly quantitatively, the controversy-driven curve for
+$\lambda \gtrsim 0.4$, and tracks the shape of the similarity-driven
+curve, which it systematically underestimates because the slot-level
+sampling noise it discards (each spatial agent draws only $k = 10$
+sources) is what feeds the similarity platform's slow creep. The
+inversion is thus a property of the opinion dynamics and the engagement
+weighting, not an artefact of space or slow rewiring.
 
 \section{Results}
 \label{sec:results}
@@ -609,14 +662,15 @@ convergence time $\tau_{\mathrm{op}} \sim \alpha_{\mathrm{tot}}^{-1}$ and
 the neighbourhood-renewal time $\tau_\ell \sim \ell^2/D$ controls how many
 opinion clusters survive: $n_c \approx 7 \pm 2$ frozen local clusters for
 $D \lesssim 10^{-4}$, merging into the mean-field cluster set
-($n_c \approx 2$--$3$ at $\epsilon = 0.3$) for $D \gtrsim 10^{-2}$,
-consistent with mobile-agent bounded-confidence simulations
-\citep{alraddadi2024, deffuant2000}. Adding a \emph{static, opinion-blind}
+($n_c \approx 2$--$3$ at $\epsilon = 0.3$ \citep{deffuant2000}) for
+$D \gtrsim 10^{-2}$, consistent with mobile-agent simulations
+\citep{alraddadi2024}. Adding a \emph{static, opinion-blind}
 digital layer at low mobility heals this excess fragmentation: a modest
 attention share ($\lambda \approx 0.2$--$0.3$) already merges the frozen
-local clusters into the mean-field set, beyond which more digital
-attention changes nothing (Fig.~\ref{fig:static}). Opinion-blind long-range exposure
-acts like infinite-range mobility \citep{antonopoulos2018}. In the
+clusters down to $n_c \approx 3.3$--$3.5$, close to the mean-field set,
+beyond which more digital
+attention changes nothing (Fig.~\ref{fig:static}). Opinion-blind
+long-range exposure acts, in effect, like infinite-range mobility. In the
 assimilative world, connectivity is benign; everything that follows is
 about what curation and repulsion do to this baseline.
 
@@ -654,10 +708,11 @@ hide it from its participants.
   \includegraphics[width=\linewidth]{fig7_threshold.pdf}
   \caption{Radicalization onset in the digital attention share. Left:
   final polarization versus $\lambda$ for the three platforms; points are
-  the spatial ABM ($N = 200$, 12 seeds), solid lines the McKean--Vlasov
-  mean-field limit of Eq.~\eqref{eq:mkv}, dotted verticals the
-  parameter-free finite-horizon crossovers $\lambda_c(T)$ of
-  Table~\ref{tab:rates}. Centre and right: system-size dependence of the
+  the spatial ABM ($N = 200$, 12 seeds), solid lines the well-mixed
+  limit of Eq.~\eqref{eq:mkv}, dotted verticals the
+  finite-horizon crossovers $\lambda_c(T)$ of
+  Table~\ref{tab:rates} (no parameters fitted to these data). Centre and
+  right: system-size dependence of the
   $\operatorname{Var}(x)$--$\lambda$ curves for the neutral and similarity
   platforms.}
   \label{fig:threshold}
@@ -682,7 +737,7 @@ assortativity ($\rho \approx 0$)---polarization without echo
 chambers---whereas both curated platforms end almost perfectly assortative
 ($\rho \approx 0.9$--$1.0$).
 
-\subsection{Robustness: uncurated exposure is the envelope}
+\subsection{Robustness: repulsive-zone exposure sets the ceiling}
 \label{sec:robustness}
 
 \begin{figure*}[!t]
@@ -693,17 +748,18 @@ chambers---whereas both curated platforms end almost perfectly assortative
   mobility--digital-attention plane. From left to right: polarization
   $\operatorname{Var}(x)$, cluster count $n_c$, extremism
   $\langle|x|\rangle$, and the majority categorical state over 3
-  realisations per grid point.}
+  realisations per grid point. At $\lambda = 1$ the physical layer is off
+  and the dynamics is independent of $D$ by construction.}
   \label{fig:phase}
 \end{figure*}
 
 Figure~\ref{fig:robustness} tests the ordering across the repulsion and
 curation parameters. Across the full $(\eta, \epsilon_2)$ grid the order
 neutral $\ge$ controversy $>$ similarity holds in the mean at every grid
-point---resolved by up to $\sim 8$ standard deviations at strong
-repulsion, with the gaps narrowing as $\epsilon_2$ grows until the
-controversy--similarity gap falls within the seed spread at
-$\epsilon_2 = 1.3$; all platforms
+point---resolved by up to $\approx 7$ pooled standard deviations at the
+widest repulsive zone ($\epsilon_2 = 0.7$), with the gaps narrowing as
+$\epsilon_2$ grows until the controversy--similarity gap falls within the
+seed spread at $\epsilon_2 = 1.3$; all platforms
 polarize less as $\epsilon_2$ grows (repulsion becomes harder to trigger)
 and more as $\eta$ grows. The two curated platforms interpolate toward the
 neutral level in exactly the way the theory predicts. The similarity
@@ -713,16 +769,19 @@ $\gamma \gtrsim 8$. The controversy platform sits below the neutral bound
 while its engagement peak $\delta < \epsilon_2$ (much of its exposure
 lands in the indifference band) and reaches the bound once
 $\delta \ge \epsilon_2$, when engagement maximisation and repulsion
-maximisation coincide. Uncurated exposure is thus the \emph{upper
-envelope} of radicalization: a platform is exactly as dangerous as the
-amount of repulsive-zone exposure it fails to withhold.
+maximisation coincide---at which point it matches the neutral end state
+while radicalizing at twice the neutral rate
+(Table~\ref{tab:rates}). Uncurated exposure thus sets the
+\emph{saturation level} of radicalization, approached from below as
+curation stops withholding repulsive-zone content: a platform is exactly
+as dangerous as the repulsive-zone exposure it fails to withhold.
 
 Figure~\ref{fig:nscaling} scans the system size at constant density up to
 $N = 1600$. The three platforms' polarization and extremism are
 essentially flat in $N$: the inversion is a bulk property, not a
 finite-size artefact.
 
-\subsection{The radicalization threshold and the mean-field limit}
+\subsection{The radicalization crossover and the well-mixed limit}
 \label{sec:results-threshold}
 
 \begin{figure*}[!t]
@@ -740,29 +799,37 @@ finite-size artefact.
 
 Figure~\ref{fig:threshold} compares the simulated
 $\operatorname{Var}(x)$--$\lambda$ curves with the theory of
-Sec.~\ref{sec:theory}. The observations match the rate picture in every
-particular. The neutral and controversy platforms jump to their saturated
-values already at $\lambda \approx 0.05$, consistent with
-$\lambda_c \approx 0.01$--$0.02$ and inconsistent with the naive uniform-state
+Sec.~\ref{sec:theory}. The neutral and controversy platforms jump to
+their saturated values already at $\lambda = 0.05$, the finest nonzero
+attention share sampled---consistent with the predicted crossovers
+$\lambda_c \approx 0.01$--$0.02$, which lie below the grid resolution,
+and inconsistent with the naive uniform-state
 thresholds ($0.34$, $0.55$); their curves are essentially independent of
 system size (centre panel, shown for the neutral platform), as expected
 for a finite-horizon crossover
 rather than a phase transition. The similarity platform grows smoothly
 along $\lambda$ toward a partial radicalization, consistent with
-$t_{\mathrm{rad}} \approx 78/\lambda$ against the horizon $T = 80$; its
-weak downward drift with $N$ (right panel) reflects the averaging-out of
-finite-attention fluctuations---with only $k = 10$ slots, occasional
+$t_{\mathrm{rad}} \approx 78/\lambda$ against the horizon $T = 80$; a
+weak, non-monotone trend with $N$ (right panel), at the edge of
+statistical resolution, is consistent with a partial averaging-out of
+slot-level fluctuations---with only $k = 10$ slots, occasional
 high-influence cross-bloc sources produce bursts of repulsion that the
-$N \to \infty$, fast-rewiring limit smooths away, which is also why the
-mean-field curve (solid blue) sits below the ABM points while tracking
-their shape. The mean-field integration reproduces the neutral and
-controversy curves nearly quantitatively with no fitted parameters.
+population-wide weighting of Eq.~\eqref{eq:mkv} smooths away, which is
+also why the well-mixed curve (solid blue) sits below the ABM points
+while tracking their shape. The well-mixed integration reproduces the
+neutral curve nearly quantitatively at all $\lambda$ and the controversy
+curve for $\lambda \gtrsim 0.4$ (at smaller $\lambda$ it underestimates
+the controversy platform by up to $\approx 0.28$, for the same
+slot-fluctuation reason), with no parameters fitted to these data.
 
 \subsection{Phase diagram: attention neutralises geography}
 \label{sec:phase}
 
 Figure~\ref{fig:phase} assembles the global picture in the $(D, \lambda)$
-plane. At $\lambda \approx 0$ the physical layer decides the outcome and
+plane, computed for the similarity-driven design---the slowest to
+radicalize, so the boundaries below are conservative; the other designs
+saturate at far lower $\lambda$. At $\lambda \approx 0$ the physical
+layer decides the outcome and
 the Level-1 crossover is recovered: frozen local fragmentation at low $D$,
 the mean-field cluster set at high $D$. As $\lambda$ grows the platform
 captures the attention budget, the repulsive channel activates through the
@@ -785,9 +852,14 @@ with $\chi = 0$ are translation invariant, so
 $\mathbb{E}[x_i \mid \rr_i = \rr]$ is independent of $\rr$ at all
 times---no deterministic opinion map can exist. Symmetry does not forbid
 \emph{pair}-level structure (nearby agents interacted more), but the
-measured pair correlations also stay at noise level---the ensemble mean of
-Moran's $I$ is compatible with zero at every $D$, with an across-seed
-spread of $\approx 0.13$: disagreeing agents
+measured pair correlations also stay at noise level: the ensemble mean of
+Moran's $I$ is compatible with zero at every $D$ (largest excursion
+$2.2$ standard errors among eleven mobilities at $6$ seeds each, so the
+null would not detect a weak true correlation), with an across-seed
+spread of $\approx 0.13$, and the local agreement gap remains at
+$0.018 \pm 0.027$ even in the frozen regime---an order of magnitude below
+the $0.4$--$0.7$ signal that develops once opinion--position coupling is
+switched on (Fig.~\ref{fig:level5}). Disagreeing agents
 interleave at the same locations, interacting with disjoint compatible
 subsets, because nothing couples opinion to position. Locality controls
 \emph{how many} opinions survive but not \emph{where} they live. Claims
@@ -822,9 +894,9 @@ between platform design and influence psychology---not either
 alone---decides the collective outcome. With assimilative influence, the
 neutral platform is a defragmenting force and homophilic curation builds
 echo chambers; with a repulsive channel, every design radicalizes, the
-neutral platform is the upper envelope, and homophilic curation is a
-buffer. The two-bloc reduction, the parameter-free finite-horizon
-crossover $\lambda_c(T)$, and the McKean--Vlasov limit make these
+neutral platform sets the ceiling, and homophilic curation is a
+buffer. The two-bloc reduction, the finite-horizon
+crossover $\lambda_c(T)$, and the well-mixed limit make these
 statements analytical rather than merely observational, and the
 robustness and finite-size scans show they are bulk properties of the
 model. A cautionary methodological note falls out for free: the na\"ive
@@ -840,23 +912,34 @@ views made Republican participants substantially more conservative (the
 corresponding shift for Democrats was not statistically significant---an
 asymmetry that our symmetric, one-dimensional model does not address): in
 our terms, an intervention that raises cross-cutting exposure moves a
-similarity-curated population toward the neutral envelope, and when the
+similarity-curated population toward the neutral ceiling, and when the
 repulsive channel dominates, that movement increases polarization. We
 stress that this comparison is qualitative---no model parameter is
 calibrated to data---and that the repulsive channel itself is empirically
-contested (Sec.~\ref{sec:model}): longitudinal network data support it
-\citep{tang2025}, controlled experiments largely do not
-\citep{takacs2016}. Read this way, the model turns a psychological
-question into a measurable platform-policy question: whether exposure
-diversity helps or harms hinges on the prevalence of negative influence in
-the target population. When influence is assimilative, added exposure
-diversity heals fragmentation (Sec.~\ref{sec:baselines}); interventions
-on recommendation algorithms that ignore which influence regime the
-population is in can therefore backfire in either direction. At the
-collective level, our neutral-platform result provides a minimal
-dynamical realisation of the argument of \citet{tornberg2022} that
-digital media polarize not by isolating users in echo chambers but
-precisely by exposing them to interaction beyond their local bubble.
+contested (Sec.~\ref{sec:model}): the supporting longitudinal evidence
+\citep{tang2025} concerns a single non-political preference item
+(adolescents' taste in clothing style), finds little support for bounded
+confidence itself, and implies only low macro-level polarization in its
+own calibrated simulations, while controlled experiments find little
+evidence of negative shifts at all \citep{takacs2016}. The
+field-experimental record on exposure interventions is equally mixed:
+counter-attitudinal exposure has also \emph{reduced} affective
+polarization \citep{levy2021}, and large platform experiments altering
+feed composition found little attitudinal effect \citep{nyhan2023}. Read
+this way, the model turns a psychological question into a measurable
+platform-policy question: it predicts intervention effects of
+\emph{either} sign depending on the prevalence of negative influence in
+the target population---consistent with, though certainly not established
+by, the heterogeneous field record. When influence is assimilative, added
+exposure diversity heals fragmentation (Sec.~\ref{sec:baselines});
+interventions on recommendation algorithms that ignore which influence
+regime the population is in can therefore backfire in either direction.
+At the collective level, our neutral-platform result reaches, by a
+different microscopic route---negative influence on a single opinion
+dimension rather than partisan sorting across many identity
+dimensions---the same conclusion as \citet{tornberg2022}: digital media
+polarize not by isolating users in echo chambers but by exposing them to
+interaction beyond their local bubble.
 
 \paragraph{The geography null result.} Under opinion-independent mobility
 there is no geographic opinion structure to destroy: position and opinion
@@ -879,14 +962,22 @@ divergence. The inversion mechanism---the cross-bloc exposure rate
 $p(y)$---does not depend on this choice, but the saturation values
 $\operatorname{Var}(x) \approx 1$ do. The two-bloc reduction is heuristic---it assumes
 symmetric blocs and fast rewiring---and its quantitative success invites
-a rigorous analysis of the McKean--Vlasov equation \eqref{eq:mkv},
-including the metastability structure behind the finite-horizon crossover
-\citep{castellano2009, bernardo2024}. The attention budget is a fixed
+a rigorous analysis of the well-mixed dynamics \eqref{eq:mkv}---its
+McKean--Vlasov limit for $\kappa > 3$, the non-self-averaging regime at
+heavier tails, and the metastability structure behind the finite-horizon
+crossover \citep{castellano2009, bernardo2024}. The attention budget is a fixed
 split rather than a dynamic allocation; letting $\lambda$ itself be
 optimised by an engagement-maximising platform closes an obvious loop.
 Stubborn agents are implemented but unexplored; sweeping their number and
 placement against platform designs connects to opinion control
-\citep{tian2018}. Finally, the model's sharpest empirical claim---that
+\citep{tian2018}. The model also equates the engagement kernel with what
+agents attend to \emph{and are influenced by}; real engagement
+optimisation responds to behaviour rather than opinion distance, and
+exposure need not translate into influence. And the quantitative platform
+ordering holds at the explored parameters and horizons: at long enough
+horizons every design with $p > 0$ reaches the same end state---the
+kinetic point of Sec.~\ref{sec:threshold} cuts both ways. Finally, the
+model's sharpest empirical claim---that
 exposure diversity helps or harms depending on the prevalence of negative
 influence---is testable in principle by conditioning field-experiment
 outcomes on measured latitudes of acceptance.

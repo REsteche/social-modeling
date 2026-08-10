@@ -39,7 +39,9 @@ def run_one(job):
     x, r = traj.x[-1], traj.r[-1]
     return {"chi": float(chi), "D": D, "seed": seed,
             "gap": metrics.local_agreement_gap(x, r, 1.0, 3 * ELL, 0.3),
-            "morans_I": metrics.spatial_opinion_correlation(x, r, 1.0, 0.05),
+            # Gaussian Moran weights at the interaction scale ell, matching
+            # the definition used everywhere else (not plotted in the paper)
+            "morans_I": metrics.spatial_opinion_correlation(x, r, 1.0, ELL),
             "n_clusters": metrics.opinion_clusters(x, gap=0.05)[0]}
 
 
