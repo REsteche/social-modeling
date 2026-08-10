@@ -39,12 +39,13 @@ def main():
         plot_trajectories(axes[0, col], traj)
         axes[0, col].set_title(f"$D = 10^{{{int(np.log10(D))}}}$")
         if col == 0:
-            axes[0, col].set_ylabel("opinion $x_i$")
+            axes[0, col].set_ylabel("opinion $x_i$", fontsize=13)
         sc = plot_spatial(axes[1, col], traj)
         m = metrics.summarize(traj.x[-1], traj.r[-1], 1.0, ELL)
         axes[1, col].set_xlabel(
             f"$n_c={m['n_clusters']}$,  $I={m['morans_I']:.2f}$")
-    fig.colorbar(sc, ax=axes[1, :], shrink=0.8, label="opinion", pad=0.01)
+    cbar = fig.colorbar(sc, ax=axes[1, :], shrink=0.8, pad=0.01)
+    cbar.set_label("opinion", fontsize=13)
     save_fig(fig, "fig1_mobility")
 
     # --- quantitative sweep over D

@@ -109,7 +109,10 @@ def main():
     ax.set_xscale("log")
     ax.set_xlabel("algorithmic homophily $\\gamma$")
     ax.set_ylabel("polarization Var$(x)$")
-    ax.legend(frameon=False, fontsize=8.5)
+    # single row above the panel, clear of the reference line at the top
+    ax.legend(frameon=False, fontsize=8.5, loc="lower left",
+              bbox_to_anchor=(-0.02, 1.02), ncols=2, columnspacing=0.8,
+              handlelength=1.2, handletextpad=0.4)
 
     # --- panel 3: controversy platform vs delta (neutral as reference)
     ax = axes[2]

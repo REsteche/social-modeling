@@ -151,7 +151,7 @@ def main():
             ax.axvline(lc, color=COLORS[eng], lw=0.8, ls=":")
     ax.set_xlabel("digital attention $\\lambda$")
     ax.set_ylabel("polarization Var$(x)$")
-    ax.set_title("ABM (points) vs mean-field limit (lines)", fontsize=9.5)
+    ax.set_title("ABM (points) vs mean-field limit (lines)", fontsize=12)
     ax.legend(frameon=False, fontsize=8.5)
 
     # finite-size panels: neutral and similarity
@@ -172,7 +172,7 @@ def main():
             ax.text(lc + 0.02, 0.35, "$\\lambda_c(T)$", fontsize=9.5,
                     color="gray")
         ax.set_xlabel("digital attention $\\lambda$")
-        ax.set_title(f"{LABELS[eng]}: system-size dependence", fontsize=9.5)
+        ax.set_title(f"{LABELS[eng]}: system-size dependence", fontsize=12)
         ax.legend(frameon=False, fontsize=8.5)
 
     save_fig(fig, "fig7_threshold")
