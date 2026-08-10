@@ -50,10 +50,11 @@ def main():
         axes[0].plot(d, engagement_kernel(d, pk), style, label=LABELS[eng])
     axes[0].set_xlabel("opinion distance $\\Delta$")
     axes[0].set_ylabel("engagement $E(\\Delta)$")
-    # the lower-right quadrant is the only region clear of all three curves
+    # lower-right corner, tight against the right spine and with short
+    # handles, so the legend clears the controversy curve's right flank
     axes[0].legend(frameon=False, fontsize=6.5, loc="center right",
-                   bbox_to_anchor=(1.0, 0.35), handlelength=1.4,
-                   labelspacing=0.4)
+                   bbox_to_anchor=(1.04, 0.30), handlelength=1.0,
+                   handletextpad=0.4, labelspacing=0.4, borderaxespad=0.0)
     axes[1].plot(d, influence_function(d, p), color="#33507a")
     axes[1].axhline(0, color="gray", lw=0.5)
     axes[1].axvline(p.eps1, color="gray", lw=0.5, ls=":")
