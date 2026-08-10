@@ -52,8 +52,8 @@ def main():
     axes[0].set_ylabel("engagement $E(\\Delta)$")
     # lower-right corner, tight against the right spine and with short
     # handles, so the legend clears the controversy curve's right flank
-    axes[0].legend(frameon=False, fontsize=6.5, loc="center right",
-                   bbox_to_anchor=(1.04, 0.30), handlelength=1.0,
+    axes[0].legend(frameon=False, fontsize=7.5, loc="center right",
+                   bbox_to_anchor=(1.04, 0.22), handlelength=0.9,
                    handletextpad=0.4, labelspacing=0.4, borderaxespad=0.0)
     axes[1].plot(d, influence_function(d, p), color="#33507a")
     axes[1].axhline(0, color="gray", lw=0.5)
@@ -61,9 +61,11 @@ def main():
     axes[1].axvline(p.eps2, color="gray", lw=0.5, ls=":")
     axes[1].set_xlabel("opinion difference $x_j - x_i$")
     axes[1].set_ylabel("influence $F$")
-    axes[1].text(p.eps1 / 2, 0.12, "assimilate", ha="center", fontsize=7)
-    axes[1].text((p.eps1 + p.eps2) / 2, 0.12, "ignore", ha="center", fontsize=7)
-    axes[1].text(1.45, -0.3, "repel", ha="center", fontsize=7)
+    # "assimilate" sits below the axis line, clear of the rising branch
+    axes[1].text(p.eps1 / 2, -0.18, "assimilate", ha="center", fontsize=8.5)
+    axes[1].text((p.eps1 + p.eps2) / 2, 0.12, "ignore", ha="center",
+                 fontsize=8.5)
+    axes[1].text(1.45, -0.3, "repel", ha="center", fontsize=8.5)
     fig.tight_layout()
     save_fig(fig, "fig4b_kernels")
 
@@ -105,7 +107,7 @@ def main():
     ax.set_xticks(xs)
     ax.set_xticklabels(["simil.", "neutral", "controv."])
     ax.set_ylim(0, 1.28)   # headroom so the legend sits above the bars
-    ax.legend(frameon=False, fontsize=7, loc="upper left", ncols=2,
+    ax.legend(frameon=False, fontsize=8.5, loc="upper left", ncols=2,
               columnspacing=1.0, handlelength=1.2)
     save_fig(fig, "fig4_engagement")
 

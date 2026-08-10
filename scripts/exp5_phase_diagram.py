@@ -108,7 +108,7 @@ def main():
     axes[3].set_title("regime")
     cbar = fig.colorbar(pc, ax=axes[3], ticks=[0, 1, 2], shrink=0.9)
     cbar.ax.set_yticklabels(["consensus", "polariz.", "fragment."],
-                            fontsize=7)
+                            fontsize=8.5)
     save_fig(fig, "fig5_phase_diagram")
 
 

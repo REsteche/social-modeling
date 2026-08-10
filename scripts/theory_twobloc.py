@@ -151,8 +151,8 @@ def main():
             ax.axvline(lc, color=COLORS[eng], lw=0.8, ls=":")
     ax.set_xlabel("digital attention $\\lambda$")
     ax.set_ylabel("polarization Var$(x)$")
-    ax.set_title("ABM (points) vs mean-field limit (lines)", fontsize=8)
-    ax.legend(frameon=False, fontsize=7)
+    ax.set_title("ABM (points) vs mean-field limit (lines)", fontsize=9.5)
+    ax.legend(frameon=False, fontsize=8.5)
 
     # finite-size panels: neutral and similarity
     for k, eng in enumerate(["neutral", "similarity"]):
@@ -169,11 +169,11 @@ def main():
         lc = rates[eng]["lambda_c"]
         if lc <= 1.0:
             ax.axvline(lc, color="gray", lw=0.8, ls=":")
-            ax.text(lc + 0.02, 0.35, "$\\lambda_c(T)$", fontsize=8,
+            ax.text(lc + 0.02, 0.35, "$\\lambda_c(T)$", fontsize=9.5,
                     color="gray")
         ax.set_xlabel("digital attention $\\lambda$")
-        ax.set_title(f"{LABELS[eng]}: system-size dependence", fontsize=8)
-        ax.legend(frameon=False, fontsize=7)
+        ax.set_title(f"{LABELS[eng]}: system-size dependence", fontsize=9.5)
+        ax.legend(frameon=False, fontsize=8.5)
 
     save_fig(fig, "fig7_threshold")
 

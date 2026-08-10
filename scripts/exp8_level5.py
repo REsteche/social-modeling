@@ -77,7 +77,7 @@ def main():
         ax.set_xlabel(xlabel)
         if k == 0:
             ax.set_ylabel("local agreement gap")
-            ax.legend(frameon=False, fontsize=7)
+            ax.legend(frameon=False, fontsize=8.5)
         if k == 1:
             ax.axvline(1.0, color="gray", lw=0.6, ls=":")
 

@@ -91,8 +91,8 @@ def main():
                     label=LABELS[eng] if eta == 0.4 else None)
     ax.set_xlabel("repulsion threshold $\\epsilon_2$")
     ax.set_ylabel("polarization Var$(x)$")
-    ax.legend(frameon=False, fontsize=7)
-    ax.set_title("dotted/solid/dashed: $\\eta = 0.2 / 0.4 / 0.8$", fontsize=8)
+    ax.legend(frameon=False, fontsize=8.5)
+    ax.set_title("dotted/solid/dashed: $\\eta = 0.2 / 0.4 / 0.8$", fontsize=9.5)
 
     # --- panel 2: similarity platform vs gamma (neutral as reference band)
     ax = axes[1]
@@ -109,7 +109,7 @@ def main():
     ax.set_xscale("log")
     ax.set_xlabel("algorithmic homophily $\\gamma$")
     ax.set_ylabel("polarization Var$(x)$")
-    ax.legend(frameon=False, fontsize=7)
+    ax.legend(frameon=False, fontsize=8.5)
 
     # --- panel 3: controversy platform vs delta (neutral as reference)
     ax = axes[2]
@@ -122,10 +122,10 @@ def main():
     ax.errorbar(DELTAS, means, yerr=stds, fmt="o-", ms=3.5, lw=1, capsize=2,
                 color=COLORS["controversy"], label="controversy-driven")
     ax.axvline(0.9, color="gray", lw=0.6, ls=":")
-    ax.text(0.91, 0.35, "$\\epsilon_2$", fontsize=7, color="gray")
+    ax.text(0.91, 0.35, "$\\epsilon_2$", fontsize=8.5, color="gray")
     ax.set_xlabel("engagement peak $\\delta$")
     ax.set_ylabel("polarization Var$(x)$")
-    ax.legend(frameon=False, fontsize=7)
+    ax.legend(frameon=False, fontsize=8.5)
 
     save_fig(fig, "fig6_robustness")
 
