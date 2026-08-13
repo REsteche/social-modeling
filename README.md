@@ -71,13 +71,21 @@ raw sweep data are written to `results/*.json`.
 
 ## Videos
 
-Manim renders of the evolution (agents in physical space coloured by opinion,
-digital attention edges, live opinion histogram and polarization curve):
+Manim renders of the evolution: agents in physical space coloured by opinion
+(dot area tracks the heavy-tailed influence strength), digital attention
+edges coloured by influence zone (assimilate / ignore / repel), live opinion
+histogram, polarization Var(x) on a fixed axis comparable across scenes,
+and the platform's engagement kernel E(Delta) with the repulsive zone
+shaded. All labels use the paper's Computer Modern typography. Parameters
+are the paper's reference values.
 
 ```bash
-manim -qm visualizations/opinion_evolution.py SimilarityPlatformScene
-manim -qm visualizations/opinion_evolution.py ControversyPlatformScene
-manim -qm visualizations/opinion_evolution.py MobilityConsensusScene
+manim -qm visualizations/opinion_evolution.py LowMobilityScene          # Level 1, D = 1e-5 (Fig. 1)
+manim -qm visualizations/opinion_evolution.py HighMobilityScene         # Level 1, D = 1e-1 (Fig. 1)
+manim -qm visualizations/opinion_evolution.py SimilarityPlatformScene   # Level 4, lambda = 0.6
+manim -qm visualizations/opinion_evolution.py NeutralPlatformScene      # Level 4 headline (Fig. 6)
+manim -qm visualizations/opinion_evolution.py ControversyPlatformScene  # Level 4, lambda = 0.6
+manim -qm visualizations/opinion_evolution.py HomophilicMobilityScene   # Level 5, Pe = 2 (Fig. 11)
 ```
 
 Pre-rendered 720p versions are committed under `visualizations/renders/`.
