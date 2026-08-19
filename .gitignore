@@ -10,4 +10,6 @@ paper/main.log
 paper/main.out
 paper/main.bbl
 paper/main.blg
+paper/main.spl
+.DS_Store
 visualizations/.tex_cache/
