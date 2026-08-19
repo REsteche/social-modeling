@@ -1,4 +1,8 @@
 \documentclass[5p,times,twocolumn]{elsarticle}
+% T1 encoding makes the local (XeTeX/Tectonic) build use the same Type-1
+% Times shapes as arXiv/Elsevier pdfLaTeX; without it, bold and italic
+% fall back to substituted fonts (headers lose their weight).
+\usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{microtype}
@@ -986,19 +990,6 @@ renewed feeds let occasional cross-bloc links persist and act for longer.
 \subsection{The radicalization crossover and the well-mixed model}
 \label{sec:results-threshold}
 
-\begin{figure*}[!tp]
-  \centering
-  \includegraphics[width=\linewidth]{fig8_level5.pdf}
-  \caption{Level 5: homophilic mobility restores geographic opinion
-  structure. Left: local agreement gap versus the homophilic drift
-  strength $\chi$ for three mobilities. Centre-left: the same data
-  against the P\'eclet number $\chi\ell/D$; the curves approximately
-  collapse, with onset at $\mathrm{Pe} \sim 1$ (dotted). Right: final
-  spatial configurations at $D = 10^{-3}$ without ($\chi = 0$) and with
-  ($\chi = 0.1$) homophilic mobility.}
-  \label{fig:level5}
-\end{figure*}
-
 Figure~\ref{fig:threshold} compares the simulated
 $\operatorname{Var}(x)$--$\lambda$ curves with the theory of
 Sec.~\ref{sec:theory}. The neutral platform jumps to its saturated value
@@ -1100,6 +1091,19 @@ crossover in the strength of opinion-dependent mobility: it is weak below
 $\mathrm{Pe}\lesssim0.3$ and pronounced above $\mathrm{Pe}\gtrsim3$ in
 the explored range. The Brownian model of Levels 1--4 has $\chi=0$ and
 therefore provides the natural null baseline by construction.
+
+\begin{figure*}[!tp]
+  \centering
+  \includegraphics[width=\linewidth]{fig8_level5.pdf}
+  \caption{Level 5: homophilic mobility restores geographic opinion
+  structure. Left: local agreement gap versus the homophilic drift
+  strength $\chi$ for three mobilities. Centre-left: the same data
+  against the P\'eclet number $\chi\ell/D$; the curves approximately
+  collapse, with onset at $\mathrm{Pe} \sim 1$ (dotted). Right: final
+  spatial configurations at $D = 10^{-3}$ without ($\chi = 0$) and with
+  ($\chi = 0.1$) homophilic mobility.}
+  \label{fig:level5}
+\end{figure*}
 
 \section{Discussion}
 \label{sec:discussion}
